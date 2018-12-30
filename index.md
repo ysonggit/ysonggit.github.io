@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+### There's a horizontal rule below this.
+
+* * *
+
 ## Education
 
 ### [University of South Carolina](https://sc.edu/)
@@ -35,7 +40,9 @@ Jun. 2015 -- Aug. 2015, Sunnyvale, CA
 
 ### [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) Projects
 
-<iframe src="https://player.vimeo.com/video/308774614" width="450" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+#### Kidnapped Vehicle
+- Implement a 2D particle filter in C++ ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
+  <iframe src="https://player.vimeo.com/video/308774614" width="450" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Professional Experience at <a href="http://www.groupon.com"><img src="./assets/img/Groupon-logo.png" height="16"></a>
 
@@ -44,7 +51,7 @@ Mar. 2018 -- present, Dublin, Ireland
 - Enhanced service data security by leading the EMEA GDPR data migration projects across multiple databases: MySQL, Cassandra, Redis, Hive and coordinating with Enterprise Data Warehouse, Data Systems, and the business teams.
 - Delivered frontend shipping track features for EMEA merchants using AmberJS and backend APIs using Rails.
 
-### Back-end Software Engineer
+### Back-End Software Engineer
 Feb. 2016 -- Feb. 2018, Seattle, WA
 
 - One of the main contributors to built a core CRM service, Audience System, using Java Play framework to send email campaigns and mobile notifications.
@@ -65,9 +72,7 @@ Feb. 2016 -- Feb. 2018, Seattle, WA
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
 
-* * *
 
 
 ### Definition lists can be used with HTML syntax.
