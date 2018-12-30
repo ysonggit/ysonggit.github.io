@@ -3,61 +3,60 @@ layout: default
 ---
 ## Education
 
-#### [University of South Carolina](https://sc.edu/)
+### [University of South Carolina](https://sc.edu/)
 * Ph.D. Computer Science (2010 - 2015)      
 * Advisor: [Jason O'Kane](https://cse.sc.edu/~jokane/)
 * Research topics: robotics, multi-robot systems, localization, motion planning, computational geometry
   <img src="./assets/img/withadvisor_clip.jpg" width="320">
 
-#### [University of New Mexico](https://www.unm.edu/)
+### [University of New Mexico](https://www.unm.edu/)
 * M.S. Electrical Engineering (2008 - 2009)      
 * Major study: robot control systems
 
-#### [China University of Geosciences](http://www.cug.edu.cn/)
+### [China University of Geosciences](http://www.cug.edu.cn/)
 * B.S. Electrical Engineering (2003 - 2007)
 * Major study: automation and control systems
 
 
 ## Autonomous Driving Experience
 
-<iframe src="https://player.vimeo.com/video/308774614" width="480" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+### Robotics Engineer (Intern) at [Auro.ai](http://auro.ai/)
+Jun. 2015 -- Aug. 2015, Sunnyvale, CA
 
-## Professional Experience
+- Work with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed startup company.
+- Developed and tested the motion planning algorithms for the self-driving shuttle.
+- Cooperated with the technical team lead to implement a waypoint-following path planner.
+- Implemented an OMPL-based RRT* path planner using LIDAR perception with ROS (C++).
+- [Tested the autonomous driving shuttle on the Santa Clara University campus.](https://www.scu.edu/news-and-events/press-releases/2015/august-2015/driverless-shuttle-experiment-hits-the-ground-at-scu.html)
 
-> This is a blockquote following a header
+  <img src="./assets/img/auro_team.jpg" width="360">
+
+  <img src="./assets/img/auro_me.jpg" width="360">  
+
+### [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) Projects
+
+<iframe src="https://player.vimeo.com/video/308774614" width="450" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Professional Experience at <a href="http://www.groupon.com"><img src="./assets/img/Groupon-logo.png" height="16"></a>
+
+### Full-Stack Software Engineer
+Mar. 2018 -- present, Dublin, Ireland
+- Enhanced service data security by leading the EMEA GDPR data migration projects across multiple databases: MySQL, Cassandra, Redis, Hive and coordinating with Enterprise Data Warehouse, Data Systems, and the business teams.
+- Delivered frontend shipping track features for EMEA merchants using AmberJS and backend APIs using Rails.
+
+### Back-end Software Engineer
+Feb. 2016 -- Feb. 2018, Seattle, WA
+
+- One of the main contributors to built a core CRM service, Audience System, using Java Play framework to send email campaigns and mobile notifications.
+- Contributed to the system technique stack upgrade from Hive to Spark and achieved 10x performance improvement.
+- Optimized the customer data aggregation jobs using Spark and achieved 2x performance improvement compared with the old Hadoop Map-Reduce methods.
+- Designed & implemented the data integration process on the Hadoop cluster using SparkSQL and reduced 50% execution time and 80% HDFS storage compared with old HiveSQL solution.
 
 ## Research Experience
 
 
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -69,44 +68,6 @@ end
 ### There's a horizontal rule below this.
 
 * * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.
