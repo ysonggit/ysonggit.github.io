@@ -1,27 +1,34 @@
 ---
 layout: default
 ---
+## Education
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+#### [University of South Carolina](https://sc.edu/)
+* Ph.D. Computer Science (2010 - 2015)      
+* Advisor: [Jason O'Kane](https://cse.sc.edu/~jokane/)
+* Research topics: robotics, multi-robot systems, localization, motion planning, computational geometry
+  <img src="./assets/img/withadvisor_clip.jpg" width="320">
 
-[Link to another page](./another-page.html).
+#### [University of New Mexico](https://www.unm.edu/)
+* M.S. Electrical Engineering (2008 - 2009)      
+* Major study: robot control systems
 
-There should be whitespace between paragraphs.
+#### [China University of Geosciences](http://www.cug.edu.cn/)
+* B.S. Electrical Engineering (2003 - 2007)
+* Major study: automation and control systems
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+## Autonomous Driving Experience
 
 <iframe src="https://player.vimeo.com/video/308774614" width="480" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Professional Experience
 
-## Header 2
+> This is a blockquote following a header
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Research Experience
 
-### Header 3
+
 
 ```js
 // Javascript code with syntax highlighting.
