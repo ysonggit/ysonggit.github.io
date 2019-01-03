@@ -4,7 +4,7 @@ layout: default
 
 ## Education Background
 
-From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. My Ph.D. advisor was [Jason O'Kane](https://cse.sc.edu/~jokane/) (left on the picture below). My research area include robotics, multi-robot systems, localization, motion planning, and computational geometry.
+From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. My research includes robotics, multi-robot systems, localization, motion planning, and computational geometry. My Ph.D. advisor was [Dr. Jason O'Kane](https://cse.sc.edu/~jokane/) (left on the picture below). I believe many of those who work on the robotics projects are familiar with his name because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is really well written and popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book, so I strongly recommend this book to the ROS beginners :D.
 
 <img src="./assets/img/withadvisor_clip.jpg" width="320">
 
@@ -15,8 +15,6 @@ One of the coolest works I have done in my life is working with seven engineers 
 The picture of three engineers (me on the very left) and three co-founders (in white T-shirts) below was taken in an evening after we tested the autonomous driving shuttle on the [Santa Clara University](https://www.scu.edu/news-and-events/press-releases/2015/august-2015/driverless-shuttle-experiment-hits-the-ground-at-scu.html) campus.
 
 <img src="./assets/img/auro_team.jpg" width="450">
-
-My role in the team was a robotics engineer and my main achievements include (1) developed and tested the motion planning algorithms in the autopilot software, (2) implemented an OMPL-based RRT* path planner given the LIDAR perceptions, and (3) implemented a waypoint-following path planner given GPS data by cooperating with the technical team lead. All the works were done with ROS (C++).
 
 The picture of me below was taken in front of the Computer History Museum, Mountain View, California. We demonstrated our work and self-driving shuttle in the YC Demo Day Summer 2015. The [Auro](http://auro.ai) was highlighted in a [news on the VentureBeat](https://venturebeat.com/2015/08/19/11-startups-you-should-know-from-y-combinators-summer-2015-demo-day/).
 
