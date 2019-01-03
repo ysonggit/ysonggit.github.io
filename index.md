@@ -4,7 +4,7 @@ layout: default
 
 ## Education Background
 
-From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. My research includes robotics, multi-robot systems, localization, motion planning, and computational geometry. My Ph.D. advisor was [Dr. Jason O'Kane](https://cse.sc.edu/~jokane/) (left on the picture below). I believe many of those who work on the robotics projects are familiar with his name because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is really well written and popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book, so I strongly recommend this book to the ROS beginners :D.
+From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. My research includes robotics, multi-robot systems, localization, motion planning, and computational geometry. My Ph.D. advisor was [Dr. Jason O'Kane](https://cse.sc.edu/~jokane/) (left on the picture below). I believe many of those who work on the robotics projects are familiar with his name because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book, so I strongly recommend this book to the ROS beginners :D.
 
 <img src="./assets/img/withadvisor_clip.jpg" width="320">
 
