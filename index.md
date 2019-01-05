@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
+# Biography
 
-## Education Background
+* * *
 
-From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. My research includes robotics, multi-robot systems, localization, motion planning, and computational geometry. My Ph.D. advisor was [Dr. Jason M O'Kane](https://cse.sc.edu/~jokane/) (left on the picture below, many of those who work on the robotics projects are familiar with Dr. O'Kane because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book and strongly recommend this book to the ROS beginners :D).
+## Education
 
-<img src="./assets/img/withadvisor_clip.jpg" width="340">
+From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. I accomplished [research projects](#research-experience) on robotics, multi-robot systems, localization, motion planning, and computational geometry by working with my Ph.D. advisor, [Dr. Jason M O'Kane](https://cse.sc.edu/~jokane/).
+
+Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics projects are familiar with Dr. O'Kane because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book and strongly recommend this book to the ROS beginners :D.
+
+<img src="./assets/img/withadvisor_clip.jpg" width="360">
+
+
 
 ## Autonomous Driving Experience
 
