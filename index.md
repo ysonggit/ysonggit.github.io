@@ -28,22 +28,25 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 <img src="./assets/img/auro_me.jpg" width="450">
 
 My engineering achievements include implementing and testing performance of the local planner for the vehicle using ROS.
-- [the RRT\*-based planner](https://vimeo.com/136289100)
+#### RRT\*-based Path Planner
+Implemented RRT\* path planner using ROS and [OMPL](http://ompl.kavrakilab.org/) and tested with the real LIDAR dataset collected on Poplar Ave, Sunnyvale.
+
+<iframe src="https://player.vimeo.com/video/135706487" width="450" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 - [the waypoint following path planner](https://vimeo.com/136694294).
 
 ## Udacity Self-Driving Car Nanodegree Projects
 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
-#### 
+
+
+#### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
+Train, test and validate an autonomous vehicle model using LeNet and [Nvidia's CNN](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) architectures.
 
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
 
 <iframe src="https://player.vimeo.com/video/308878689"  width="450" height= "200" frameborder="0" ></iframe>
-
-#### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
-
-Train, test and validate an autonomous vehicle model using LeNet and [Nvidia's CNN](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) architectures.
 
 #### Particle Filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
 
