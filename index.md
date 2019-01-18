@@ -36,13 +36,17 @@ My engineering achievements include implementing and testing performance of the 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
-  <iframe width="450" height="200" src="https://player.vimeo.com/video/308878689" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-  
-#### 2D particle filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
-  <iframe src="https://player.vimeo.com/video/308774614" width="450" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-#### Plan Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
-  <iframe width="450" height="200" src="https://player.vimeo.com/video/311557329" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/308878689"  width="450" height= "200" frameborder="0" ></iframe>
+
+#### 2D particle filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
+
+<iframe src="https://player.vimeo.com/video/308774614" width="450" height= "200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+#### Highway Path Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
+I published a short story describing my design of this A\*-based local planner to [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
+
+<iframe src="https://player.vimeo.com/video/311557329" width="500" height= "210" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 
 ## Research Experience
