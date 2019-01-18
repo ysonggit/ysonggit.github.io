@@ -35,11 +35,17 @@ My engineering achievements include implementing and testing performance of the 
 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
+#### 
+
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
 
 <iframe src="https://player.vimeo.com/video/308878689"  width="450" height= "200" frameborder="0" ></iframe>
 
-#### 2D particle filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
+#### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
+
+Train, test and validate an autonomous vehicle model using LeNet and [Nvidia's CNN](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) architectures.
+
+#### Particle Filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
 
 <iframe src="https://player.vimeo.com/video/308774614" width="450" height= "200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
