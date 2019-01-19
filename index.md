@@ -13,8 +13,6 @@ Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics
 
 <img src="./assets/img/withadvisor_clip.jpg" width="360">
 
-
-
 ## Autonomous Driving Startup Experience
 
 One of the coolest works I have done in my life is working with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed startup company, called [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and the founders, spent days and nights working on an electrical golf car in a garage of Sunnyvale, California. Finally, we successfully made it drive itself autonomously!
@@ -27,22 +25,36 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 
 <img src="./assets/img/auro_me.jpg" width="450">
 
+#### Motion Planning Work
+
 My engineering achievements include implementing and testing performance of the local planner for the vehicle using ROS.
-#### RRT\*-based Path Planner
-Implemented RRT\* path planner using ROS and [OMPL](http://ompl.kavrakilab.org/) and tested with the real LIDAR dataset collected on Poplar Ave, Sunnyvale.
 
-<iframe src="https://player.vimeo.com/video/135706487" width="450" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+I implemented a RRT\*-based path planner using ROS and [OMPL](http://ompl.kavrakilab.org/) and tested it with the real LIDAR dataset collected on Poplar Ave, Sunnyvale. Here is one of the simulations:
 
-- [the waypoint following path planner](https://vimeo.com/136694294).
+<iframe src="https://player.vimeo.com/video/135706487" width="450" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray Chowdhury](https://www.linkedin.com/in/jitrc/) and I worked out a local path planner by following and interpolating GPS waypoints.
+
+<iframe src="https://player.vimeo.com/video/136694294" width="450" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Udacity Self-Driving Car Nanodegree Projects
 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
+#### Lane Lines Detection ([Github](https://github.com/ysonggit/CarND-LaneLines-P1))
 
+<iframe width="450" height="260" src="https://player.vimeo.com/video/312253583" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+#### Advanced Lane Lines Detection ([Github](https://github.com/ysonggit/CarND-Advanced-Lane-Lines))
+
+<iframe src="https://player.vimeo.com/video/312251605" width="450" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+#### Traffic Sign Classifier ([Github](https://github.com/ysonggit/CarND-Traffic-Sign-Classifier-Project))
+
+Train and validate a model to classify traffic sign images from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) using [LeNet](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) on **Tensorflow**. Predict the signs given new images and analyze their Softmax probabilities with the trained model.
 
 #### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
-Train, test and validate an autonomous vehicle model using LeNet and [Nvidia's CNN](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) architectures.
+Train, test and validate an autonomous vehicle model with [Nvidia's CNN architectures](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) on **Keras**. The model successfully drives the car around in the simulation environment.
 
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
 
@@ -56,6 +68,7 @@ Train, test and validate an autonomous vehicle model using LeNet and [Nvidia's C
 I published a short story describing my design of this A\*-based local planner to [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
 
 <iframe src="https://player.vimeo.com/video/311557329" width="500" height= "210" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
 
 
 ## Research Experience

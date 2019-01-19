@@ -16,7 +16,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Yang Song" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/","headline":"Yang Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/me_owl.jpg"}},"description":"Software Engineer","name":"Yang Song","@type":"WebSite","@context":"http://schema.org"}</script>
+{"name":"Yang Song","description":"Software Engineer","@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/me_owl.jpg"}},"headline":"Yang Song","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -67,22 +67,36 @@
 
 <p><img src="./assets/img/auro_me.jpg" width="450" /></p>
 
+<h4 id="motion-planning-work">Motion Planning Work</h4>
+
 <p>My engineering achievements include implementing and testing performance of the local planner for the vehicle using ROS.</p>
-<h4 id="rrt-based-path-planner">RRT*-based Path Planner</h4>
-<p>Implemented RRT* path planner using ROS and <a href="http://ompl.kavrakilab.org/">OMPL</a> and tested with the real LIDAR dataset collected on Poplar Ave, Sunnyvale.</p>
 
-<iframe src="https://player.vimeo.com/video/135706487" width="450" height="400" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p>I implemented a RRT*-based path planner using ROS and <a href="http://ompl.kavrakilab.org/">OMPL</a> and tested it with the real LIDAR dataset collected on Poplar Ave, Sunnyvale. Here is one of the simulations:</p>
 
-<ul>
-  <li><a href="https://vimeo.com/136694294">the waypoint following path planner</a>.</li>
-</ul>
+<iframe src="https://player.vimeo.com/video/135706487" width="450" height="280" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p>Also, <a href="https://www.crunchbase.com/person/srinivas-reddy-2">Srinivas</a>, <a href="https://www.linkedin.com/in/jitrc/">Jit Ray Chowdhury</a> and I worked out a local path planner by following and interpolating GPS waypoints.</p>
+
+<iframe src="https://player.vimeo.com/video/136694294" width="450" height="260" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <h2 id="udacity-self-driving-car-nanodegree-projects">Udacity Self-Driving Car Nanodegree Projects</h2>
 
 <p>My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP">Deep Learning Specialization on Coursera</a>. Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the <a href="https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013">Udacity Self-Driving Car Nanodegree</a>.</p>
 
+<h4 id="lane-lines-detection-github">Lane Lines Detection (<a href="https://github.com/ysonggit/CarND-LaneLines-P1">Github</a>)</h4>
+
+<iframe width="450" height="260" src="https://player.vimeo.com/video/312253583" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+
+<h4 id="advanced-lane-lines-detection-github">Advanced Lane Lines Detection (<a href="https://github.com/ysonggit/CarND-Advanced-Lane-Lines">Github</a>)</h4>
+
+<iframe src="https://player.vimeo.com/video/312251605" width="450" height="260" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<h4 id="traffic-sign-classifier-github">Traffic Sign Classifier (<a href="https://github.com/ysonggit/CarND-Traffic-Sign-Classifier-Project">Github</a>)</h4>
+
+<p>Train and validate a model to classify traffic sign images from the <a href="http://benchmark.ini.rub.de/?section=gtsrb&amp;subsection=dataset">German Traffic Sign Dataset</a> using <a href="http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf">LeNet</a> on <strong>Tensorflow</strong>. Predict the signs given new images and analyze their Softmax probabilities with the trained model.</p>
+
 <h4 id="behavior-cloning-github">Behavior Cloning (<a href="https://github.com/ysonggit/CarND-Behavioral-Cloning-P3">Github</a>)</h4>
-<p>Train, test and validate an autonomous vehicle model using LeNet and <a href="https://devblogs.nvidia.com/deep-learning-self-driving-cars/">Nvidia’s CNN</a> architectures.</p>
+<p>Train, test and validate an autonomous vehicle model with <a href="https://devblogs.nvidia.com/deep-learning-self-driving-cars/">Nvidia’s CNN architectures</a> on <strong>Keras</strong>. The model successfully drives the car around in the simulation environment.</p>
 
 <h4 id="extended-kalman-filter-github">Extended Kalman Filter (<a href="https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project">Github</a>)</h4>
 
