@@ -27,9 +27,9 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 
 ### Motion Planning Work
 
-My engineering achievements include implementing and testing performance of the local planner for the vehicle using ROS.
+My engineering achievements include implementing and testing performance of the local planner for the vehicle using **ROS**.
 
-I implemented a RRT\*-based path planner using ROS and [OMPL](http://ompl.kavrakilab.org/) and tested it with the real LIDAR dataset collected on Poplar Ave, Sunnyvale. Here is one of the simulations:
+I implemented a RRT\* path planner based on ROS and [OMPL](http://ompl.kavrakilab.org/) and tested it with the real LIDAR dataset collected on Poplar Ave, Sunnyvale. Here is one of the simulations:
 
 <iframe src="https://player.vimeo.com/video/135706487" width="450" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -39,7 +39,7 @@ Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray C
 
 ## Udacity Self-Driving Car Nanodegree Projects
 
-My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
+My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Moreover, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
 The projects cover the topics of perception, deep learning, localization, motion planning and control systems.
 
@@ -86,7 +86,7 @@ A short story describing my design of this A\*-based local planner at [Medium](h
 
 ## Research Experience
 
-I worked with Dr. O'Kane published two papers on ICRA 2014 and IROS 2016 about two novel decentralized algorithms for a large number of robots to form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. Robots can autonomously organize themselves to form desired patterns by performing task assignments.
+I worked with Dr. O'Kane published two papers at **IROS 2016** and **ICRA 2014** about two novel decentralized algorithms for a large number of robots to form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. Robots can autonomously organize themselves to form desired patterns by performing task assignments.
 
 The simulations of two algorithms below are implemented with ROS.
 
@@ -97,7 +97,7 @@ Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot latt
 
 <iframe width="450" height="450" src="https://player.vimeo.com/video/120422876" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-I also presented a computation-geometry based method to approximate a robot's information space with Dr. O'Kane at ICRA in 2012. 
+I also presented a computation-geometry based method to approximate a robot's information space with Dr. O'Kane at **ICRA in 2012**.
 
 Yang Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
 
