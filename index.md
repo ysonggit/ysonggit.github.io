@@ -60,7 +60,10 @@ The projects cover the topics of perception, deep learning, localization, motion
 Train and validate a model to classify traffic sign images from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) using [LeNet](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) on **Tensorflow**. Predict the signs given new images and analyze their Softmax probabilities with the trained model.
 
 #### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
-Train, test and validate an autonomous vehicle model with [Nvidia's CNN architectures](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) on **Keras**. The model successfully drives the car around in the simulation environment.
+
+Implement LeNet and [Nvidia's CNN architectures](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) on **Keras**. Train, test and validate an autonomous vehicle model and successfully drives the car around with this model in the simulation environment.
+
+<iframe width="450" height="300" src="https://player.vimeo.com/video/312311053" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### Localization
 
@@ -97,7 +100,7 @@ Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot latt
 
 <iframe width="450" height="450" src="https://player.vimeo.com/video/120422876" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-I also presented a computation-geometry based method to approximate a robot's information space with Dr. O'Kane at **ICRA in 2012**.
+I also presented a computation-geometry based method to approximate a robot's information space at **ICRA in 2012**.
 
 Yang Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
 
