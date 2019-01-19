@@ -63,7 +63,7 @@ Train and validate a model to classify traffic sign images from the [German Traf
 
 Implement LeNet and [Nvidia's CNN architectures](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) on **Keras**. Train, test and validate an autonomous vehicle model and successfully drives the car around with this model in the simulation environment.
 
-<iframe width="450" height="300" src="https://player.vimeo.com/video/312311053" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="450" height="250" src="https://player.vimeo.com/video/312311053" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### Localization
 
