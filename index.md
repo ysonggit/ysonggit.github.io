@@ -25,7 +25,7 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 
 <img src="./assets/img/auro_me.jpg" width="450">
 
-#### Motion Planning Work
+### Motion Planning Work
 
 My engineering achievements include implementing and testing performance of the local planner for the vehicle using ROS.
 
@@ -41,6 +41,10 @@ Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray C
 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Morever, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
+The projects cover the topics of perception, deep learning, localization, motion planning and control systems.
+
+### Perception
+
 #### Lane Lines Detection ([Github](https://github.com/ysonggit/CarND-LaneLines-P1))
 
 <iframe width="450" height="260" src="https://player.vimeo.com/video/312253583" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
@@ -49,12 +53,16 @@ My research and technical strength are in the motion planning area. However, I n
 
 <iframe src="https://player.vimeo.com/video/312251605" width="450" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+### Convolutional Neural Networks
+
 #### Traffic Sign Classifier ([Github](https://github.com/ysonggit/CarND-Traffic-Sign-Classifier-Project))
 
 Train and validate a model to classify traffic sign images from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) using [LeNet](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) on **Tensorflow**. Predict the signs given new images and analyze their Softmax probabilities with the trained model.
 
 #### Behavior Cloning ([Github](https://github.com/ysonggit/CarND-Behavioral-Cloning-P3))
 Train, test and validate an autonomous vehicle model with [Nvidia's CNN architectures](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) on **Keras**. The model successfully drives the car around in the simulation environment.
+
+### Localization
 
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
 
@@ -64,10 +72,33 @@ Train, test and validate an autonomous vehicle model with [Nvidia's CNN architec
 
 <iframe src="https://player.vimeo.com/video/308774614" width="450" height= "200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+### Motion Planning
+
 #### Highway Path Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
-I published a short story describing my design of this A\*-based local planner to [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
+A short story describing my design of this A\*-based local planner at [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
 
 <iframe src="https://player.vimeo.com/video/311557329" width="450" height= "240" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
+### Control Systems
+
+#### PID Controller ([Github](https://github.com/ysonggit/CarND-PID-Control-Project))
+
 
 ## Research Experience
+
+I worked with Dr. O'Kane published two papers on ICRA 2014 and IROS 2016 about two novel decentralized algorithms for a large number of robots to form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. Robots can autonomously organize themselves to form desired patterns by performing task assignments.
+
+The simulations of two algorithms below are implemented with ROS.
+
+Y. Song and J. M. O'Kane, "Forming repeating patterns of mobile robots: A provably correct decentralized algorithm," IROS, Daejeon, 2016. [URL](https://ieeexplore.ieee.org/abstract/document/7759844)
+<iframe width="450" height="400" src="https://player.vimeo.com/video/130678443" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot lattices," ICRA, Hong Kong, 2014.[URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6906994&isnumber=6906581)
+
+<iframe width="450" height="450" src="https://player.vimeo.com/video/120422876" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+I also presented a computation-geometry based method to approximate a robot's information space with Dr. O'Kane at ICRA in 2012. 
+
+Yang Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
+
+<iframe width="450" height="250" src="https://player.vimeo.com/video/120422874" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
