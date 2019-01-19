@@ -67,8 +67,7 @@ Train, test and validate an autonomous vehicle model with [Nvidia's CNN architec
 #### Highway Path Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
 I published a short story describing my design of this A\*-based local planner to [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
 
-<iframe src="https://player.vimeo.com/video/311557329" width="500" height= "210" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
+<iframe src="https://player.vimeo.com/video/311557329" width="450" height= "240" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 
 ## Research Experience
