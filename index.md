@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Biography
+# Portfolio
 
 * * *
 
@@ -68,18 +68,15 @@ Implement LeNet and [Nvidia's CNN architectures](https://devblogs.nvidia.com/dee
 ### Localization
 
 #### Extended Kalman Filter ([Github](https://github.com/ysonggit/CarND-Extended-Kalman-Filter-Project))
-
 <iframe src="https://player.vimeo.com/video/308878689"  width="450" height= "200" frameborder="0" ></iframe>
 
 #### Particle Filter ([Github](https://github.com/ysonggit/CarND-Kidnapped-Vehicle-Project))
-
 <iframe src="https://player.vimeo.com/video/308774614" width="450" height= "200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Motion Planning
 
 #### Highway Path Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
 A short story describing my design of this A\*-based local planner at [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
-
 <iframe src="https://player.vimeo.com/video/311557329" width="450" height= "240" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### Control Systems
@@ -91,17 +88,15 @@ A short story describing my design of this A\*-based local planner at [Medium](h
 
 I worked with Dr. O'Kane published two papers at **IROS 2016** and **ICRA 2014** about two novel decentralized algorithms for a large number of robots to form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. Robots can autonomously organize themselves to form desired patterns by performing task assignments.
 
-The simulations of two algorithms below are implemented with ROS.
+The simulations of two algorithms are implemented with ROS.
 
 Y. Song and J. M. O'Kane, "Forming repeating patterns of mobile robots: A provably correct decentralized algorithm," IROS, Daejeon, 2016. [URL](https://ieeexplore.ieee.org/abstract/document/7759844)
 <iframe width="450" height="400" src="https://player.vimeo.com/video/130678443" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot lattices," ICRA, Hong Kong, 2014.[URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6906994&isnumber=6906581)
-
 <iframe width="450" height="450" src="https://player.vimeo.com/video/120422876" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 I also presented a computation-geometry based method to approximate a robot's information space at **ICRA in 2012**.
 
 Yang Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
-
 <iframe width="450" height="250" src="https://player.vimeo.com/video/120422874" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
