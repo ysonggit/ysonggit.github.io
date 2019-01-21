@@ -37,9 +37,9 @@ Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray C
 
 <iframe src="https://player.vimeo.com/video/136694294" width="450" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## Udacity Self-Driving Car Nanodegree Projects
+## Udacity Self-Driving Car Engineer Nanodegree
 
-My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my knowledge of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Moreover, I refresh my theory and hands-on development experience of the autonomous driving by working on the coding projects of the [Udacity Self-Driving Car Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
+My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my understanding of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Moreover, I refresh my knowledge and hands-on development experience of the autonomous driving by working on the projects of the [Udacity Self-Driving Car Engineer Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
 The projects cover the topics of perception, deep learning, localization, motion planning and control systems.
 
