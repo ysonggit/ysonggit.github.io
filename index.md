@@ -76,7 +76,7 @@ Implement LeNet and [Nvidia's CNN architectures](https://devblogs.nvidia.com/dee
 ### Motion Planning
 
 #### Highway Path Planning using A\* ([Github](https://github.com/ysonggit/CarND-Path-Planning-Project))
-A short story describing my design of this A\*-based local planner at [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
+Build a path planner that generates a safe trajectory to navigate a vehicle through traffic on a highway based on the A\* search algorithm using C++. I publish a short story to describe my design of this local planner at [Medium](https://medium.com/@ysong.sc/a-highway-path-planner-using-a-search-ac26a9caeb63).
 <iframe src="https://player.vimeo.com/video/311557329" width="450" height= "240" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 ### Control Systems
