@@ -15,7 +15,7 @@ Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics
 
 ## Autonomous Driving Startup Experience
 
-One of the coolest works I have done in my life is working with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed **startup** company, called [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and the founders, spent days and nights working on an electrical golf car in a garage of Sunnyvale, California. Finally, we successfully made it drive itself autonomously!
+One of the coolest works I have done in my life is working with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed **startup** company, called [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and the founders, spent days and nights working on an electric golf car in a garage of Sunnyvale, California. Finally, we successfully made it drive itself autonomously!
 
 The picture of three engineers (me on the very left) and three co-founders (in white T-shirts) below was taken in an evening after we tested the autonomous driving shuttle on the [Santa Clara University](https://www.scu.edu/news-and-events/press-releases/2015/august-2015/driverless-shuttle-experiment-hits-the-ground-at-scu.html) campus ([Youtube video](https://youtu.be/5wIv-CZRwSU)).
 
@@ -27,7 +27,7 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 
 ### Motion Planning Work
 
-My engineering achievements include implementing and testing performance of the local planner for the vehicle using **ROS**.
+My engineering achievements include implementing and testing the performance of the local planner for the vehicle using **ROS**.
 
 I implemented a RRT\* path planner based on ROS and [OMPL](http://ompl.kavrakilab.org/) and tested it with the real LIDAR dataset collected on Poplar Ave, Sunnyvale. Here is one of the simulations:
 
@@ -41,7 +41,7 @@ Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray C
 
 My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my understanding of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Moreover, I refresh my knowledge and hands-on development experience of the autonomous driving by working on the projects of the [Udacity Self-Driving Car Engineer Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
-The projects cover the topics of perception, deep learning, localization, motion planning and control systems.
+The projects cover the topics of perception, deep learning, localization, motion planning, and control systems.
 
 ### Perception
 
@@ -50,7 +50,7 @@ The projects cover the topics of perception, deep learning, localization, motion
 <iframe width="450" height="260" src="https://player.vimeo.com/video/312253583" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 #### Advanced Lane Lines Detection ([Github](https://github.com/ysonggit/CarND-Advanced-Lane-Lines))
-Construct a complete perception pipeline using Python and **OpenCV** to detect lanes from video, including the camera calibration, image distortion correction, color transfrom, perspective transform, lane boundary detection, curve fitting, and curvature estimation.
+Construct a complete perception pipeline using Python and **OpenCV** to detect lanes from video, including the camera calibration, image distortion correction, color transform, perspective transform, lane boundary detection, curve fitting, and curvature estimation.
 <iframe src="https://player.vimeo.com/video/312251605" width="450" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Convolutional Neural Networks
