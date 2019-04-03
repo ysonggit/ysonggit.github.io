@@ -39,7 +39,7 @@ Also, [Srinivas](https://www.crunchbase.com/person/srinivas-reddy-2), [Jit Ray C
 
 ## Udacity Self-Driving Car Engineer Nanodegree
 
-My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. I deepen my understanding of neural networks by completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP). Moreover, I refresh my knowledge and hands-on development experience of the autonomous driving by working on the projects of the [Udacity Self-Driving Car Engineer Nanodegree](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
+My research and technical strength are in the motion planning area. However, I never want to stop expanding my skills of the autonomous driving. By completing the [Deep Learning Specialization on Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP), I understand the deep neural networks in theory. Moreover, I refresh my knowledge and hands-on development experience of the autonomous driving car by accomplishing the [Udacity Self-Driving Car Engineer Nanodegree](https://graduation.udacity.com/confirm/KRNP7Q2R) from August 2018 to March 2019.
 
 The projects cover the topics of perception, deep learning, localization, motion planning, and control systems.
 
