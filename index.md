@@ -98,5 +98,10 @@ Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot latt
 
 I also presented a computation-geometry based method to approximate a robot's information space at **ICRA in 2012**.
 
-Yang Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
+Y. Song and J. M. O'Kane, "Comparison of constrained geometric approximation strategies for planar information states," Saint Paul, MN, 2012. [URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6225286&isnumber=6224548)
 <iframe width="450" height="250" src="https://player.vimeo.com/video/120422874" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
+Turn back the clock to 10 years ago, 2009, I accomplished my first autonomous mobile robot project in the real world, by working with [Dr. Damjan Miklic](https://www.linkedin.com/in/damjan-miklic-42a2b93/). The work was to dynamically maintaining and updating a safe, collision-free formation of multiple autonomous vehicles using a leader-follower control strategy.
+
+D. Miklic, S. Bogdan, R. Fierro, Y. Song, "A grid-based approach to formation reconfiguration for a class of robots with non-holonomic constraints," European journal of control, 2012. [URL](https://www.sciencedirect.com/science/article/pii/S0947358012705423)
+<iframe width="450" height="400" src="https://player.vimeo.com/video/120422875" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
