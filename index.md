@@ -15,7 +15,7 @@ Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics
 
 ## Autonomous Driving Startup Experience
 
-One of the coolest works I have done in my life is working with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed **startup** company, called [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and the founders, spent days and nights working on an electric golf car in a garage of Sunnyvale, California. Finally, we successfully made it drive itself autonomously!
+Before joining [Aptiv](http://www.aptiv.com), the coolest engineering work I have done in my life is working with seven engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed **startup** company, called [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and the founders, spent days and nights working on an electric golf car in a garage of Sunnyvale, California. Finally, we successfully made it drive itself autonomously!
 
 The picture of three engineers (me on the very left) and three co-founders (in white T-shirts) below was taken in an evening after we tested the autonomous driving shuttle on the [Santa Clara University](https://www.scu.edu/news-and-events/press-releases/2015/august-2015/driverless-shuttle-experiment-hits-the-ground-at-scu.html) campus ([Youtube video](https://youtu.be/5wIv-CZRwSU)).
 
