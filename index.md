@@ -16,7 +16,7 @@ This one was shot when I was attending the Spark Summit 2017 with the team.
 
 <img src="./assets/img/me_spark.jpg" width="360">
 
-In Dublin, I moved to the goods team to support the EMEA merchandise platform. Although the “realtime” performance was not mandatory for this application, meanwhile, the traffic was much lower compared to the previous web services I had worked on, I still got plenty of new challenges when developing front-end features with a JavaScript framework and the back-end features with Rails. Yes, kind of “full-stack” experience.
+In Dublin, I moved to the goods team to support the EMEA merchandise platform. Although the “realtime” performance was not the feature of strength for this application, meanwhile, the traffic was much lower compared to the previous web services I had worked on, I still got plenty of new challenges when developing front-end features with a JavaScript framework and the back-end features with Rails. Yes, kind of “full-stack” experience.
 
 By the way, before [CircleCI](https://wwww.circleci.com) came into vogue, my favorite continuous integration (CI) tool was [DotCI](https://github.com/groupon/DotCi), an open-source tool developed by Groupon engineers. It is a good minimal design of integrating Github, Docker, and Jenkins into one!
 
