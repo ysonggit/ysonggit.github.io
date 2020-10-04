@@ -30,11 +30,11 @@ Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics
 
 My research proposed novel algorithms for multi-agent systems. Robots can form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. by autonomously organizing themselves in a distributed or decentralized manner. (There are some similarities between the communication model of multi-agent systems and [V2V communication](https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication)) 
 
-Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot lattices," ICRA, Hong Kong, 2014.URL
+Y. Song and J. M. O'Kane, "Decentralized formation of arbitrary multi-robot lattices," ICRA, Hong Kong, 2014.[URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6906994&isnumber=6906581)
 
 <iframe width="450" height="450" src="https://player.vimeo.com/video/120422876" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-Y. Song and J. M. O'Kane, "Forming repeating patterns of mobile robots: A provably correct decentralized algorithm," IROS, Daejeon, 2016. URL
+Y. Song and J. M. O'Kane, "Forming repeating patterns of mobile robots: A provably correct decentralized algorithm," IROS, Daejeon, 2016. [URL](https://ieeexplore.ieee.org/abstract/document/7759844)
 
 <iframe width="450" height="400" src="https://player.vimeo.com/video/130678443" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
