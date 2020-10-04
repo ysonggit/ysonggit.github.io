@@ -14,7 +14,7 @@ In Seattle, I was with the marketing team. For the online e-commerce marketplace
 
 This one was shot when I was attending the Spark Summit 2017 with the team.
 
-<img src="./assets/img/me_spark.jpg" width="360">
+<img src="./assets/img/me_spark.jpg" width="450">
 
 In Dublin, I moved to the goods team to support the EMEA merchandise platform. Although the “realtime” performance was not the feature of strength for this application, meanwhile, the traffic was much lower compared to the previous web services I had worked on, I still got plenty of new challenges when developing front-end features with a JavaScript framework and the back-end features with Rails. Yes, kind of “full-stack” experience.
 
@@ -26,7 +26,7 @@ From 2010 to 2015, I studied at the [University of South Carolina](https://sc.ed
 
 Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics projects are familiar with Dr. O'Kane because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book and strongly recommend this book to the ROS beginners :D.
 
-<img src="./assets/img/withadvisor_clip.jpg" width="360">
+<img src="./assets/img/withadvisor_clip.jpg" width="450">
 
 My research proposed novel algorithms for multi-agent systems. Robots can form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. by autonomously organizing themselves in a distributed or decentralized manner. (There are some similarities between the communication model of multi-agent systems and [V2V communication](https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication)) 
 
