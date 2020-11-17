@@ -18,8 +18,6 @@ This one was shot when I was attending the Spark Summit 2017 with the team.
 
 In Dublin, I moved to the goods team to support the EMEA merchandise platform. Although the “realtime” performance was not the feature of strength for this application, meanwhile, the traffic was much lower compared to the previous web services I had worked on, I still got plenty of new challenges when developing front-end features with a JavaScript framework and the back-end features with Rails. Yes, kind of “full-stack” experience.
 
-By the way, before [CircleCI](https://wwww.circleci.com) came into vogue, my favorite continuous integration (CI) tool was [DotCI](https://github.com/groupon/DotCi), an open-source tool developed by Groupon engineers. It is a good minimal design of integrating Github, Docker, and Jenkins into one!
-
 ## Education
 
 From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. I accomplished [research projects](#research-experience) on robotics, multi-robot systems, localization, motion planning, and computational geometry by working with my Ph.D. advisor, [Dr. Jason M O'Kane](https://cse.sc.edu/~jokane/).
