@@ -6,7 +6,7 @@ layout: default
 * * *
 
 
-I am a senior algorithm developer at [Aptiv](http://www.aptiv.com) since Aug. 2019. My job mainly focuses on developing motion prediction algorithms for various advanced driver-assistance systems (ADAS) using Machine Learning technologies.
+I am a senior algorithm developer at [Aptiv](http://www.aptiv.com) since Aug. 2019. I am currently working on a L4 autonomous driving project for [Motional](http://www.motional.com) focusing on the radar processing and perception software development.
 
 Before joining Aptiv, I worked for [Groupon](http://www.groupon.com) for 3.5 years as a back-end software engineer in Seattle, USA, and Dublin, Ireland.
 
