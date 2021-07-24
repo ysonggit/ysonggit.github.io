@@ -5,10 +5,9 @@ layout: default
 
 * * *
 
+Being with [Aptiv](http://www.aptiv.com) as senior algorithm developer since 2019, I currently work on a L4 autonomous driving project for [Motional](http://www.motional.com) focusing on the radar processing and perception software development.
 
-Being with [Aptiv](http://www.aptiv.com) as senior algorithm developer since 2019, I am currently working on a L4 autonomous driving project for [Motional](http://www.motional.com) focusing on the radar processing and perception software development.
-
-Before joining Aptiv, I worked for [Groupon](http://www.groupon.com) for 3.5 years as a back-end software engineer in Seattle, USA, and Dublin, Ireland.
+Before moving to Germany, I worked for [Groupon](http://www.groupon.com) for 3.5 years as a back-end software engineer in Seattle, USA, and Dublin, Ireland.
 
 In Seattle, I was with the marketing team. For the online e-commerce marketplace companies like Groupon, the Customer Relationship Management (CRM) platform is de facto, a key tool to drive the sales growth. There I have gained valuable experience in developing web services in a modern, agile software engineering manner. More importantly, I have grown myself by ownerships and collaborating with my team, cross-functional teams, and product managers to deliver impactful features to production. My team owned several scalable, highly available systems to handle millions of traffic per day. My hands-on engineering experience was in two categories: 1) the back-end REST service development with Java and 2) the data engineering work on the Hadoop ecosystem (HDFS, YARN, Hive, Spark) with Scala.
 
@@ -22,9 +21,9 @@ In Dublin, I moved to the goods team to support the EMEA merchandise platform. A
 
 From 2010 to 2015, I studied at the [University of South Carolina](https://sc.edu/) and obtained my Ph.D. degree in Computer Science. I accomplished [research projects](#research-experience) on robotics, multi-robot systems, localization, motion planning, and computational geometry by working with my Ph.D. advisor, [Dr. Jason M O'Kane](https://cse.sc.edu/~jokane/).
 
-Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics projects are familiar with Dr. O'Kane because one of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros), is popular among the ROS users. I quickly mastered how to use ROS for my research projects by reading this book and strongly recommend this book to the ROS beginners :D.
+Below is a picture of me with Dr. O'Kane. Many of those who work on the robotics are familiar with Dr. O'Kane because of his books, ["A Gentle Introduction to ROS"](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros).
 
-<img src="./assets/img/withadvisor_clip.jpg" width="450">
+<img src="./assets/img/me_graduation.jpg" width="450">
 
 My research proposed novel algorithms for multi-agent systems. Robots can form various repeated lattice patterns, including squares, hexagons, octagon-squares, etc. by autonomously organizing themselves in a distributed or decentralized manner. (There are some similarities between the communication model of multi-agent systems and [V2V communication](https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication)) 
 
