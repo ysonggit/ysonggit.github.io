@@ -46,3 +46,7 @@ The picture of three engineers (me on the very left) and three co-founders (in w
 The picture of me below was taken in front of the Computer History Museum, Mountain View, California. We demonstrated our self-driving shuttle in the YC Demo Day Summer 2015. The [Auro](http://auro.ai) was highlighted in the news on the [Tech Crunch](https://techcrunch.com/2015/08/18/hardware-demo-day/) and [Venture Beat](https://venturebeat.com/2015/08/19/11-startups-you-should-know-from-y-combinators-summer-2015-demo-day/), etc.
 
 <img src="./assets/img/auro_me.jpg" width="450">
+
+I also took a photograph for Sam Altman and the co-founders of Auro Robotics: Nalin Gupta, Jit Ray Chowdhury, and Srinivas Reddy.
+
+<img src="./assets/img/samaltman.jpg" width="450">
