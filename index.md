@@ -5,7 +5,15 @@ layout: default
 
 * * *
 
-Being with [Aptiv](http://www.aptiv.com) as senior algorithm developer since 2019, I currently work on a L4 autonomous driving project for [Motional](http://www.motional.com) focusing on the radar processing and perception software development.
+I joined [Lotus Cars](https://www.lotuscars.com/de-DE) as a senior algorithm engineer since 2022. At Lotus, I am responsible for the SAAS platform on AWS which processes the collected test data to support the ADAS function improvement. 
+
+My actual role is close to the cloud architect. My work scope spans from cloud infrastructure, SAAS application development and depolyment, data close loop and compliance, as well as project planning.
+
+The picture below was taken in Shanghai Lotus store, I and the "Lotus x Hope" bicycle, which will be the bike used by the British Cycling team in Olympics 2024, Paris.
+
+<img src="./assets/img/lotus_bike.jpg" width="450">
+
+My first job in Germany was in 2019, when I worked at [Aptiv](http://www.aptiv.com) as senior algorithm enigneer. I worked on ADAS function development for BMW and PSA projects. My major contribution was leading the software development of radar processing and perception on L4 autonomous driving robotaxi of [Motional](http://www.motional.com).
 
 Before moving to Germany, I worked for [Groupon](http://www.groupon.com) for 3.5 years as a back-end software engineer in Seattle, USA, and Dublin, Ireland.
 
