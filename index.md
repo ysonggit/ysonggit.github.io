@@ -47,6 +47,6 @@ The picture of me below was taken in front of the Computer History Museum, Mount
 
 <img src="./assets/img/auro_me.jpg" width="450">
 
-I also took a photograph for Sam Altman and the co-founders of Auro Robotics: Nalin Gupta, Jit Ray Chowdhury, and Srinivas Reddy.
+I also took a photograph for Sam Altman and the co-founders of Auro: Srinivas Reddy, Nalin Gupta, and Jit Ray Chowdhury.
 
-<img src="./assets/img/samaltman.jpg" width="450">
+<img src="./assets/img/samaltman.jpeg" width="450">
