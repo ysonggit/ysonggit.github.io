@@ -7,13 +7,11 @@ layout: default
 
 I have been with [Lotus Cars](https://www.lotuscars.com/de-DE) as a Senior Algorithm Engineer since 2022. At Lotus, I manage the SaaS platform on AWS, which processes collected test data to enhance ADAS functionalities.
 
-My role closely aligns with that of a cloud architect. My responsibilities encompass cloud infrastructure, SaaS application development and deployment, data privacy and lifecycle management and compliance, as well as project planning.
+My role closely aligns with that of a cloud architect. My responsibilities encompass cloud infrastructure, SaaS application development and DevOps, data privacy and lifecycle management and compliance, as well as project planning.
 
 The photo below was taken at the Lotus store in Shanghai, featuring me and the 'Lotus x Hope' bicycle, which will be used by the British Cycling team in the 2024 Paris Olympics.
 
 <img src="./assets/img/lotus_bike.jpg" width="450">
-
-My first job in Germany was in 2019, when I worked at [Aptiv](http://www.aptiv.com) as senior algorithm enigneer. I worked on ADAS function development for BMW and PSA projects. My major contribution was leading the software development of radar processing and perception on L4 autonomous driving robotaxi of [Motional](http://www.motional.com).
 
 My first job in Germany began in 2019 at [Aptiv](http://www.aptiv.com), where I served as a Senior Algorithm Engineer. I contributed to ADAS function development for BMW and PSA projects, leading the software development for radar processing and perception on [Motional](http://www.motional.com)'s Level 4 autonomous driving [robotaxi based on IONIQ 5](https://motional.com/news/motional-and-lyft-deliver-first-rides-motionals-new-all-electric-ioniq-5-autonomous-vehicle).
 
