@@ -5,25 +5,27 @@ layout: default
 
 * * *
 
-I joined [Lotus Cars](https://www.lotuscars.com/de-DE) as a senior algorithm engineer since 2022. At Lotus, I am responsible for the SAAS platform on AWS which processes the collected test data to support the ADAS function improvement. 
+I have been with [Lotus Cars](https://www.lotuscars.com/de-DE) as a Senior Algorithm Engineer since 2022. At Lotus, I manage the SaaS platform on AWS, which processes collected test data to enhance ADAS functionalities.
 
-My actual role is close to the cloud architect. My work scope spans from cloud infrastructure, SAAS application development and depolyment, data close loop and compliance, as well as project planning.
+My role closely aligns with that of a cloud architect. My responsibilities encompass cloud infrastructure, SaaS application development and deployment, data privacy and lifecycle management and compliance, as well as project planning.
 
-The picture below was taken in Shanghai Lotus store, I and the "Lotus x Hope" bicycle, which will be the bike used by the British Cycling team in Olympics 2024, Paris.
+The photo below was taken at the Lotus store in Shanghai, featuring me and the 'Lotus x Hope' bicycle, which will be used by the British Cycling team in the 2024 Paris Olympics.
 
 <img src="./assets/img/lotus_bike.jpg" width="450">
 
 My first job in Germany was in 2019, when I worked at [Aptiv](http://www.aptiv.com) as senior algorithm enigneer. I worked on ADAS function development for BMW and PSA projects. My major contribution was leading the software development of radar processing and perception on L4 autonomous driving robotaxi of [Motional](http://www.motional.com).
 
-Before moving to Germany, I worked for [Groupon](http://www.groupon.com) for 3.5 years as a back-end software engineer in Seattle, USA, and Dublin, Ireland.
+My first job in Germany began in 2019 at [Aptiv](http://www.aptiv.com), where I served as a Senior Algorithm Engineer. I contributed to ADAS function development for BMW and PSA projects, leading the software development for radar processing and perception on [Motional](http://www.motional.com)'s Level 4 autonomous driving [robotaxi based on IONIQ 5](https://motional.com/news/motional-and-lyft-deliver-first-rides-motionals-new-all-electric-ioniq-5-autonomous-vehicle).
 
-In Seattle, I was with the marketing team. For the online e-commerce marketplace companies like Groupon, the Customer Relationship Management (CRM) platform is de facto, a key tool to drive the sales growth. There I have gained valuable experience in developing web services in a modern, agile software engineering manner. More importantly, I have grown myself by ownerships and collaborating with my team, cross-functional teams, and product managers to deliver impactful features to production. My team owned several scalable, highly available systems to handle millions of traffic per day. My hands-on engineering experience was in two categories: 1) the back-end REST service development with Java and 2) the data engineering work on the Hadoop ecosystem (HDFS, YARN, Hive, Spark) with Scala.
+Prior to my move to Germany, I worked for [Groupon](http://www.groupon.com) as a back-end software engineer for 3.5 years, based in Seattle, USA, and Dublin, Ireland.
+
+In Seattle, I was part of the marketing team. At an online e-commerce marketplace like Groupon, the Customer Relationship Management (CRM) platform is a crucial tool for driving sales growth. During this time, I gained valuable experience in developing web services using modern, agile software engineering practices. I also developed a strong sense of ownership and honed my skills in collaborating with team members, cross-functional teams, and product managers to deliver impactful features. My team was responsible for several scalable, highly available systems that handled millions of requests per day. My hands-on engineering experience included: 1) back-end REST service development with Java and 2) data engineering within the Hadoop ecosystem (HDFS, YARN, Hive, Spark) using Scala.
 
 This one was shot when I was attending the Spark Summit 2017 with the team.
 
 <img src="./assets/img/me_spark.jpg" width="450">
 
-In Dublin, I moved to the goods team to support the EMEA merchandise platform. Although the “realtime” performance was not the feature of strength for this application, meanwhile, the traffic was much lower compared to the previous web services I had worked on, I still got plenty of new challenges when developing front-end features with a JavaScript framework and the back-end features with Rails. Yes, kind of “full-stack” experience.
+In Dublin, I transitioned to the goods team to support the EMEA merchandise platform. Although this application did not require "realtime" performance and handled lower traffic compared to my previous projects, I faced new challenges in developing front-end features with a JavaScript framework and back-end features with Rails, providing me with valuable "full-stack" experience.
 
 ## Education
 
@@ -45,9 +47,9 @@ Y. Song and J. M. O'Kane, "Forming repeating patterns of mobile robots: A provab
 
 ## YCombinator Startup Experience
 
-The coolest engineering work I have done in my life is working with 7 engineers to build a self-driving shuttle in a [Y Combinator](https://www.ycombinator.com/)-backed **startup** company, [Auro.ai](http://auro.ai/), in 2015. The three months of that summer became my proudest memory. I, together with the engineers and 3 founders, spent days and nights working on an electric golf car in a garage at Sunnyvale, California. Finally, we successfully made it drive autonomously!
+The most exciting engineering project of my career was in 2015, when I worked with seven engineers at [Auro.ai](http://auro.ai/), a [Y Combinator](https://www.ycombinator.com/)-backed startup, to build a self-driving shuttle. That summer, I shared unforgettable experiences with the team and three founders, working tirelessly on an electric golf cart in a Sunnyvale, California garage. Our hard work paid off when we successfully achieved autonomous driving!
 
-The picture of three engineers (me on the very left) and three co-founders (in white T-shirts) below was taken in an evening after we tested the autonomous driving shuttle on the [Santa Clara University](https://www.scu.edu/news-and-events/press-releases/2015/august-2015/driverless-shuttle-experiment-hits-the-ground-at-scu.html) campus ([Youtube video](https://youtu.be/5wIv-CZRwSU)).
+The photo below shows three engineers, including me on the far left, and the three co-founders (in white T-shirts) after testing the autonomous shuttle on the Santa Clara University campus ([Youtube video](https://youtu.be/5wIv-CZRwSU)).
 
 <img src="./assets/img/auro_team.jpg" width="450">
 
