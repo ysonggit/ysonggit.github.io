@@ -21,11 +21,68 @@ body {
   font-size: 20px; /* Slightly larger for readability */
   margin: 0;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
+  font-size: 12px; /* Explicitly set to 16px as requested */
+  line-height: 1; /* Reset line-height to default (around 16px) for better alignment */
+}
+.language-selector {
+  position: relative;
+  margin-left: 20px;
+}
+.flag-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 18px; /* Slightly smaller than the container to fit well */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+}
+.flag-icon:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow on hover */
+}
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.language-selector:hover .language-dropdown {
+  display: block;
+}
+.flag-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 18px; /* Match flag-icon size */
+  margin: 5px;
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
+}
+.flag-option:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  background-color: #f0f0f0; /* Light gray background on hover */
 }
 .intro-section {
   display: flex;
