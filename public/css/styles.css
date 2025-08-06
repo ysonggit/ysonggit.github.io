@@ -257,6 +257,21 @@ body {
   fill: #333;
 }
 
+/* Claude Credit Styling */
+.claude-credit {
+  font-size: 11px;
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.claude-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 /* Work detail page styles */
 .work-detail {
   margin-bottom: 40px;

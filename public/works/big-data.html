@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yang Song - Portfolio</title>
+  <title>Big Data - Yang Song</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap">
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -13,9 +13,9 @@
     <div class="header">
       <h1>Yang Song, Ph.D.</h1>
       <div class="nav">
-        <a href="#work" data-i18n="nav-work">Work</a>
-        <a href="#info" data-i18n="nav-info">Info</a>
-        <a href="#connect" data-i18n="nav-connect">Connect</a>
+        <a href="/#work" data-i18n="nav-work">Work</a>
+        <a href="/#info" data-i18n="nav-info">Info</a>
+        <a href="/#connect" data-i18n="nav-connect">Connect</a>
         <div class="language-selector">
           <span class="flag-icon" id="current-flag">🇬🇧</span>
           <div class="language-dropdown">
@@ -28,14 +28,13 @@
 
     <div class="intro-section" id="info">
       <div class="intro-text">
-        <h2 data-i18n="info-title">INFO</h2>
+        <h2 data-i18n="info-title">BIG DATA!</h2>
         <p data-i18n="info-description">
-          Senior Algorithm Engineer @LotusTech focusing on ADAS development, specializing in AWS-based ADAS cloud architecture, data closed-loop management, and vehicle-cloud SaaS development. Specialised on developing scalable, efficient, and reliable cloud solutions to advance autonomous driving systems. Proficient in C++ (ROS) and Python, with expertise in cloud-native architecture, DevOps practices, and vehicle-cloud integration. Accelerated ADAS development iteration cycles with data-driven toolchains and workflows.
+          Extensive experience in big data processing and analytics across multiple domains. At Groupon, I migrated critical data pipelines from Hive to Spark, achieving 10x performance improvements and reducing runtime by 50%+. Currently at Lotus Tech, I architect scalable AWS-based data platforms handling massive volumes of vehicle data using technologies like MSK, Glue, S3, Lambda, SQS, and Redshift. My work enables data-driven decision making for autonomous driving development, supporting real-time processing and analytics for millions of data points.
         </p>
-        <a href="https://ysonggit.github.io/resume/" target="_blank" rel="noopener noreferrer" class="resume-btn" data-i18n="download-resume">Download Resume</a>
       </div>
       <div class="intro-image">
-        <img src="/assets/img/lotus_bike.jpg" alt="Joey Bon with Lotus x Hope bicycle">
+        <img src="/assets/img/big_data.jpg" alt="Big Data">
       </div>
     </div>
 
@@ -61,7 +60,7 @@
         </tr>
         <tr class="experience-details">
           <td colspan="4">
-            <p data-i18n="experience-aptiv-description">Developed radar processing algorithms for Motional’s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA’s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.</p>
+            <p data-i18n="experience-aptiv-description">Developed radar processing algorithms for Motional's Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA's ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.</p>
           </td>
         </tr>
         <tr>
@@ -92,25 +91,25 @@
     <div class="work-section" id="work">
       <h2 data-i18n="work-title">ALL WORK</h2>
       <div class="work-gallery">
-        <a href="/public/works/autonomous-driving.html" class="work-item-link">
+        <a href="/works/autonomous-driving.html" class="work-item-link">
           <div class="work-item">
             <img src="/assets/img/iaa.jpg" alt="Autonomous Driving" data-hover="/assets/img/techAD.jpg" class="hover-image">
             <p data-i18n="work-autonomous">Autonomous Driving</p>
           </div>
         </a>
-        <a href="/public/works/startup-experience.html" class="work-item-link">
+        <a href="/works/startup-experience.html" class="work-item-link">
           <div class="work-item">
             <img src="/assets/img/samaltman.jpg" alt="Startup Experience" data-hover="/assets/img/auro.jpg" class="hover-image">
             <p data-i18n="work-startup">Startup Experience</p>
           </div>
         </a>
-        <a href="/public/works/robotic-research.html" class="work-item-link">
+        <a href="/works/robotic-research.html" class="work-item-link">
           <div class="work-item">
             <img src="/assets/img/robotic_research.jpg" alt="Robotic Research" data-hover="/assets/img/nao_robot.jpg" class="hover-image">
             <p data-i18n="work-robotic">Robotic Research</p>
           </div>
         </a>
-        <a href="/public/works/big-data.html" class="work-item-link">
+        <a href="/works/big-data.html" class="work-item-link">
           <div class="work-item">
             <img src="/assets/img/big_data.jpg" alt="Big Data!">
             <p data-i18n="work-bigdata">Big Data!</p>
@@ -148,8 +147,11 @@
         </div>
         <div class="connect-details">
           <p><strong data-i18n="connect-mail-label">Mail:</strong> ysong.sc@gmail.com</p>
-          <p><strong data-i18n="connect-phone-label">Phone:</strong> +49 0173 725 0812</p>
           <p><strong data-i18n="connect-location-label">Location:</strong> <span data-i18n="connect-location">Frankfurt, Germany</span></p>
+          <p class="claude-credit">
+            <img src="/assets/img/claude-icon-8x.png" alt="Claude AI" class="claude-icon">
+            <span data-i18n="claude-credit">Website developed with Claude Code</span>
+          </p>
         </div>
       </div>
     </div>
@@ -163,14 +165,13 @@
         'nav-work': 'Work',
         'nav-info': 'Info',
         'nav-connect': 'Connect',
-        'info-title': 'INFO',
-        'info-description': 'Senior Algorithm Engineer @LotusTech focusing on ADAS development, specializing in AWS-based ADAS cloud architecture, data closed-loop management, and vehicle-cloud SaaS development. Specialised on developing scalable, efficient, and reliable cloud solutions to advance autonomous driving systems. Proficient in C++ (ROS) and Python, with expertise in cloud-native architecture, DevOps practices, and vehicle-cloud integration. Accelerated ADAS development iteration cycles with data-driven toolchains and workflows.',
-        'download-resume': 'Download Resume',
+        'info-title': 'BIG DATA!',
+        'info-description': 'Extensive experience in big data processing and analytics across multiple domains. At Groupon, I migrated critical data pipelines from Hive to Spark, achieving 10x performance improvements and reducing runtime by 50%+. Currently at Lotus Tech, I architect scalable AWS-based data platforms handling massive volumes of vehicle data using technologies like MSK, Glue, S3, Lambda, SQS, and Redshift. My work enables data-driven decision making for autonomous driving development, supporting real-time processing and analytics for millions of data points.',
         'experience-title': 'EXPERIENCE',
         'experience-lotustech-title': 'Senior Algorithm Engineer',
         'experience-lotustech-description': 'Led ADAS cloud architecture for Lotus Eletre and Emeya, building scalable AWS-based data platform to do data management, labeling and processing with Kubernets, Java, Python, MSK, Glue, S3, Lambda, SQS and Redshift. Ensured data compliance and slashed AWS costs by 50% through serverless design. Manage collaborative data projects with external partners (Momenta, Wayve) for data-driven autonomous driving developments.',
         'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Developed radar processing algorithms for Motional’s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA’s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
+        'experience-aptiv-description': 'Developed radar processing algorithms for Motional\'s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA\'s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
         'experience-groupon-title': 'Software Engineer',
         'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+.',
         'experience-auro-title': 'Robotics Engineer Intern',
@@ -182,22 +183,21 @@
         'work-bigdata': 'Big Data!',
         'connect-title': "LET'S CONNECT",
         'connect-mail-label': 'Mail:',
-        'connect-phone-label': 'Phone:',
         'connect-location-label': 'Location:',
-        'connect-location': 'Frankfurt, Germany'
+        'connect-location': 'Frankfurt, Germany',
+        'claude-credit': 'Website developed with Claude Code'
       },
       de: {
         'nav-work': 'Arbeit',
         'nav-info': 'Info',
         'nav-connect': 'Kontakt',
-        'info-title': 'INFO',
-        'info-description': 'Senior Algorithm Engineer @LotusTech, fokussiert auf ADAS-Entwicklung, spezialisiert auf AWS-basierte ADAS-Cloud-Architektur, Datenmanagement in geschlossenen Kreisläufen und Fahrzeug-Cloud-SaaS-Entwicklung. Spezialisiert auf die Entwicklung skalierbarer, effizienter und zuverlässiger Cloud-Lösungen zur Weiterentwicklung autonomer Fahrsysteme. Versiert in C++ (ROS) und Python, mit Expertise in cloud-nativer Architektur, DevOps-Praktiken und Fahrzeug-Cloud-Integration. Beschleunigte ADAS-Entwicklungsiterationszyklen mit datengetriebenen Toolchains und Workflows.',
-        'download-resume': 'Lebenslauf herunterladen',
+        'info-title': 'BIG DATA!',
+        'info-description': 'Umfangreiche Erfahrung in der Big-Data-Verarbeitung und -Analyse in verschiedenen Bereichen. Bei Groupon migrierte ich kritische Datenpipelines von Hive zu Spark und erzielte 10-fache Leistungsverbesserungen bei einer Reduzierung der Laufzeit um über 50%. Derzeit bei Lotus Tech entwerfe ich skalierbare AWS-basierte Datenplattformen, die massive Mengen von Fahrzeugdaten mit Technologien wie MSK, Glue, S3, Lambda, SQS und Redshift verarbeiten. Meine Arbeit ermöglicht datengetriebene Entscheidungsfindung für die Entwicklung autonomer Fahrzeuge und unterstützt Echtzeit-Verarbeitung und -Analyse für Millionen von Datenpunkten.',
         'experience-title': 'ERFAHRUNG',
         'experience-lotustech-title': 'Senior Algorithm Engineer',
         'experience-lotustech-description': 'Leitung der ADAS-Cloud-Architektur für Lotus Eletre und Emeya, Aufbau einer skalierbaren AWS-basierten Datenplattform für Datenmanagement, -kennzeichnung und -verarbeitung mit Kubernetes, Java, Python, MSK, Glue, S3, Lambda, SQS und Redshift. Sicherstellung der Datenkonformität und Reduzierung der AWS-Kosten um 50% durch serverloses Design. Management von kollaborativen Datenprojekten mit externen Partnern (Momenta, Wayve) für datengetriebene Entwicklungen im autonomen Fahren.',
         'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Entwicklung von Radarverarbeitungsalgorithmen für Motional’s Robotaxi, Verbesserung der MRR-Bibliothek mit Python und C++. Leitung der Entwicklung der Spurwechselvorhersagefunktion für BMW- und PSA-ADAS-Projekte, Aufbau robuster Datenpipelines. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
+        'experience-aptiv-description': 'Entwicklung von Radarverarbeitungsalgorithmen für Motional\'s Robotaxi, Verbesserung der MRR-Bibliothek mit Python und C++. Leitung der Entwicklung der Spurwechselvorhersagefunktion für BMW- und PSA-ADAS-Projekte, Aufbau robuster Datenpipelines. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
         'experience-groupon-title': 'Software Engineer',
         'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
         'experience-auro-title': 'Robotics Engineer Intern',
@@ -209,9 +209,9 @@
         'work-bigdata': 'Big Data!',
         'connect-title': 'LASS UNS VERBINDEN',
         'connect-mail-label': 'E-Mail:',
-        'connect-phone-label': 'Telefon:',
         'connect-location-label': 'Standort:',
-        'connect-location': 'Frankfurt, Deutschland'
+        'connect-location': 'Frankfurt, Deutschland',
+        'claude-credit': 'Website entwickelt mit Claude Code'
       }
     };
 
