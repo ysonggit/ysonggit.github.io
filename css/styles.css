@@ -110,6 +110,7 @@ body {
 }
 .intro-image {
   width: 30%; /* Revert to original width */
+  margin-top: 48px; /* Align top image with first line of paragraph text */
 }
 .intro-image img {
   width: 100%;
