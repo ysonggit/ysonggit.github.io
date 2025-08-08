@@ -110,10 +110,18 @@ body {
 }
 .intro-image {
   width: 30%; /* Revert to original width */
+  margin-top: 48px; /* Align top image with first line of paragraph text */
 }
 .intro-image img {
   width: 100%;
   border-radius: 8px;
+}
+.stacked-image {
+  display: block;
+  margin-bottom: 15px;
+}
+.stacked-image:last-child {
+  margin-bottom: 0;
 }
 .resume-btn {
   display: inline-block;
