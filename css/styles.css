@@ -115,6 +115,13 @@ body {
   width: 100%;
   border-radius: 8px;
 }
+.stacked-image {
+  display: block;
+  margin-bottom: 15px;
+}
+.stacked-image:last-child {
+  margin-bottom: 0;
+}
 .resume-btn {
   display: inline-block;
   margin-top: 20px;
