@@ -7,10 +7,11 @@ A professional portfolio website showcasing Yang Song's experience in autonomous
 - **Responsive Design**: Modern, clean interface that works on all devices
 - **Multilingual Support**: English and German language options
 - **Interactive Navigation**: Smooth scrolling and hover effects
+- **Dual Image Layout**: Stacked images on subpages matching hover effects
 - **Professional Sections**: 
-  - Autonomous Driving experience
+  - Autonomous Driving experience (featuring TechAD Europe 2025 speaking engagement)
   - Robotic Research publications
-  - Startup Experience (Auro Robotics)
+  - Startup Experience (Auro Robotics with Y Combinator details)
   - Big Data engineering work
 
 ## 🛠️ Technology Stack
@@ -56,16 +57,17 @@ Visit the live portfolio at: [https://ysonggit.github.io](https://ysonggit.githu
 ## 👥 Contributors
 
 - **Yang Song** - Portfolio owner and content creator
-- **ChatGPT/OpenAI** - Development assistance and code optimization
+- **Claude Code** - AI development assistance and website optimization
 
 ### 🤖 AI Contribution
 
-This project benefited from AI assistance through ChatGPT/OpenAI for:
-- Code structure optimization
-- Responsive design implementation
-- Navigation functionality
-- Content organization and presentation
-- Multilingual support implementation
+This project was developed with AI assistance through **Claude Code** for:
+- Website structure design and implementation
+- Responsive design and dual image layouts
+- Navigation functionality and user experience
+- Content organization and multilingual support
+- TechAD Europe 2025 integration and professional content enhancement
+- GitHub Pages deployment optimization
 
 ## 📄 License
 
@@ -73,4 +75,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Built with modern web technologies and AI assistance*
+*Built with modern web technologies and **Claude Code** AI assistance*
+
+## 🔄 Development History
+
+- **2025**: Major website overhaul with Claude Code assistance
+  - Added TechAD Europe 2025 speaking engagement
+  - Implemented dual image layouts for enhanced visual appeal
+  - Enhanced Startup Experience section with Y Combinator details
+  - Improved navigation and responsive design
+  - Added Claude Code attribution and professional polish
