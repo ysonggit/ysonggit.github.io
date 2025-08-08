@@ -58,10 +58,11 @@ Visit the live portfolio at: [https://ysonggit.github.io](https://ysonggit.githu
 
 - **Yang Song** - Portfolio owner and content creator
 - **Claude Code** - AI development assistance and website optimization
+- **ChatGPT-5** - Website content optimization
 
 ### 🤖 AI Contribution
 
-This project was developed with AI assistance through **Claude Code** for:
+This project was developed with AI assistance through **Claude Code** and **ChatGPT** for:
 - Website structure design and implementation
 - Responsive design and dual image layouts
 - Navigation functionality and user experience
