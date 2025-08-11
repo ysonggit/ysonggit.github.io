@@ -56,7 +56,7 @@
         </tr>
         <tr class="experience-details">
           <td colspan="4">
-            <p data-i18n="experience-lotustech-description">Led ADAS cloud architecture for Lotus Eletre and Emeya, building scalable AWS-based data platform to do data management, labeling and processing with Kubernets, Java, Python, MSK, Glue, S3, Lambda, SQS and Redshift. Ensured data compliance and slashed AWS costs by 50% through serverless design. Manage collaborative data projects with external partners (Momenta, Wayve) for data-driven autonomous driving developments.</p>
+            <p data-i18n="experience-lotustech-description">Architected and manage a cloud-native SaaS platform on AWS supporting ADAS data processing and data-closed loops for autonomous automotive systems. Oversaw compliance, data lifecycle, infrastructure reliability, and performance optimization for ADAS workloads across hybrid cloud architectures. Built Kubernetes-based data platforms that process 10M+ daily sensor data points using MSK, Lambda, S3, and Redshift, implementing automated ML workflows for ADAS model training. Drive business development initiatives with external automotive clients—gathering requirements, shaping technical proposals, and delivering POCs to win projects and expand partnerships.</p>
           </td>
         </tr>
         <tr>
@@ -67,7 +67,7 @@
         </tr>
         <tr class="experience-details">
           <td colspan="4">
-            <p data-i18n="experience-aptiv-description">Developed radar processing algorithms for Motional's Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA's ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.</p>
+            <p data-i18n="experience-aptiv-description">Led radar processing algorithms for Motional's Robotaxi, enhancing sensor fusion libraries with Python, C++, and in-house cloud-based toolchains. Led POC development of lane change prediction and ADAS features for BMW and PSA clients. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.</p>
           </td>
         </tr>
         <tr>
@@ -78,7 +78,7 @@
         </tr>
         <tr class="experience-details">
           <td colspan="4">
-            <p data-i18n="experience-groupon-description">Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+.</p>
+            <p data-i18n="experience-groupon-description">Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+. Designed and implemented scalable data processing architectures using Apache Spark, Kafka, and cloud-based data warehouses for real-time analytics and customer insights.</p>
           </td>
         </tr>
         <tr>
@@ -89,7 +89,7 @@
         </tr>
         <tr class="experience-details">
           <td colspan="4">
-            <p data-i18n="experience-auro-description">Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment.</p>
+            <p data-i18n="experience-auro-description">Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.</p>
           </td>
         </tr>
       </table>
@@ -164,90 +164,38 @@
     </div>
   </div>
 
+  <!-- Shared JavaScript files -->
+  <script src="/js/shared-data.js"></script>
+  <script src="/js/shared-components.js"></script>
+  <script src="/js/shared-init.js"></script>
   <script src="/js/scripts.js"></script>
   <script>
-    // Language translations
-    const translations = {
+    // Page-specific translations
+    const pageTranslations = {
       en: {
-        'nav-work': 'Work',
-        'nav-info': 'Info',
-        'nav-connect': 'Connect',
         'info-title': 'ROBOTIC RESEARCH',
         'info-description': 'My doctoral research focused on decentralized multi-robot coordination and formation control, spanning from 2012 to 2016. I developed provably correct algorithms for scalable multi-robot systems that eliminate the need for central coordination, enabling robots to autonomously form complex patterns and adapt to dynamic environments.',
         'research-publications': 'My key contributions include: "Repeating Patterns of Mobile Robots: A Provably Correct Decentralized Algorithm" (IROS 2016), which established mathematical foundations for decentralized pattern formation; "Decentralized formation of arbitrary multi-robot lattices" (ICRA 2014), enabling flexible formation control for any desired lattice structure; "Comparison of constrained geometric approximation strategies for planar information states" (ICRA 2012), providing theoretical frameworks for efficient state representation; and "A grid-based approach to formation reconfiguration for robots with non-holonomic constraints" (European Journal of Control 2012), bridging theoretical control with practical robot constraints.',
-        'research-impact': 'This research laid the foundation for modern autonomous vehicle technologies by developing scalable coordination algorithms, robust formation control methods, and practical solutions for real-world robot constraints. The theoretical rigor and practical implementation considerations directly influenced my subsequent work in autonomous driving systems and algorithm development at companies like Lotus Tech and Aptiv.',
-        'experience-title': 'EXPERIENCE',
-        'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Led ADAS cloud architecture for Lotus Eletre and Emeya, building scalable AWS-based data platform to do data management, labeling and processing with Kubernets, Java, Python, MSK, Glue, S3, Lambda, SQS and Redshift. Ensured data compliance and slashed AWS costs by 50% through serverless design. Manage collaborative data projects with external partners (Momenta, Wayve) for data-driven autonomous driving developments.',
-        'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Developed radar processing algorithms for Motional\'s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA\'s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
-        'experience-groupon-title': 'Software Engineer',
-        'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+.',
-        'experience-auro-title': 'Robotics Engineer Intern',
-        'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment.',
-        'work-title': 'ALL WORK',
-        'work-autonomous': 'Autonomous Driving',
-        'work-startup': 'Startup Experience',
-        'work-robotic': 'Robotic Research',
-        'work-bigdata': 'Big Data!',
-        'connect-title': "LET'S CONNECT",
-        'connect-mail-label': 'Mail:',
-        'connect-location-label': 'Location:',
-        'connect-location': 'Frankfurt, Germany',
-        'claude-credit': 'Website developed with Claude Code'
+        'research-impact': 'This research laid the foundation for modern autonomous vehicle technologies by developing scalable coordination algorithms, robust formation control methods, and practical solutions for real-world robot constraints. The theoretical rigor and practical implementation considerations directly influenced my subsequent work in autonomous driving systems and algorithm development at companies like Lotus Tech and Aptiv.'
       },
       de: {
-        'nav-work': 'Arbeit',
-        'nav-info': 'Info',
-        'nav-connect': 'Kontakt',
         'info-title': 'ROBOTIKFORSCHUNG',
         'info-description': 'Meine Doktorarbeit konzentrierte sich auf dezentrale Multi-Roboter-Koordination und Formationskontrolle von 2012 bis 2016. Ich entwickelte mathematisch nachweisbare Algorithmen für skalierbare Multi-Roboter-Systeme, die die Notwendigkeit zentraler Koordination eliminieren und es Robotern ermöglichen, autonom komplexe Muster zu bilden und sich an dynamische Umgebungen anzupassen.',
         'research-publications': 'Meine wichtigsten Beiträge umfassen: "Repeating Patterns of Mobile Robots: A Provably Correct Decentralized Algorithm" (IROS 2016), das mathematische Grundlagen für dezentrale Musterbildung etablierte; "Decentralized formation of arbitrary multi-robot lattices" (ICRA 2014), das flexible Formationskontrolle für beliebige Gitterstrukturen ermöglicht; "Comparison of constrained geometric approximation strategies for planar information states" (ICRA 2012), das theoretische Rahmen für effiziente Zustandsdarstellung bereitstellt; und "A grid-based approach to formation reconfiguration for robots with non-holonomic constraints" (European Journal of Control 2012), das theoretische Kontrolle mit praktischen Roboterbeschränkungen verbindet.',
-        'research-impact': 'Diese Forschung bildete die Grundlage für moderne autonome Fahrzeugtechnologien durch die Entwicklung skalierbarer Koordinationsalgorithmen, robuster Formationskontrollmethoden und praktischer Lösungen für reale Roboterbeschränkungen. Die theoretische Strenge und praktischen Implementierungsüberlegungen beeinflussten direkt meine nachfolgende Arbeit in autonomen Fahrsystemen und Algorithmusentwicklung bei Unternehmen wie Lotus Tech und Aptiv.',
-        'experience-title': 'ERFAHRUNG',
-        'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Leitung der ADAS-Cloud-Architektur für Lotus Eletre und Emeya, Aufbau einer skalierbaren AWS-basierten Datenplattform für Datenmanagement, -kennzeichnung und -verarbeitung mit Kubernetes, Java, Python, MSK, Glue, S3, Lambda, SQS und Redshift. Sicherstellung der Datenkonformität und Reduzierung der AWS-Kosten um 50% durch serverloses Design. Management von kollaborativen Datenprojekten mit externen Partnern (Momenta, Wayve) für datengetriebene Entwicklungen im autonomen Fahren.',
-        'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Entwicklung von Radarverarbeitungsalgorithmen für Motional\'s Robotaxi, Verbesserung der MRR-Bibliothek mit Python und C++. Leitung der Entwicklung der Spurwechselvorhersagefunktion für BMW- und PSA-ADAS-Projekte, Aufbau robuster Datenpipelines. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
-        'experience-groupon-title': 'Software Engineer',
-        'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
-        'experience-auro-title': 'Robotics Engineer Intern',
-        'experience-auro-description': 'Entwicklung eines selbstfahrenden Shuttles bei Auro Robotics, Implementierung von ROS-basierten Pfadplanern mit GPS und LiDAR. Optimierung der Navigation durch Simulationen, was Anerkennung am YC Demo Day und eine Investition von $2,1M einbrachte.',
-        'work-title': 'ALLE ARBEITEN',
-        'work-autonomous': 'Autonomes Fahren',
-        'work-startup': 'Startup-Erfahrung',
-        'work-robotic': 'Robotikforschung',
-        'work-bigdata': 'Big Data!',
-        'connect-title': 'LASS UNS VERBINDEN',
-        'connect-mail-label': 'E-Mail:',
-        'connect-location-label': 'Standort:',
-        'connect-location': 'Frankfurt, Deutschland',
-        'claude-credit': 'Website entwickelt mit Claude Code'
+        'research-impact': 'Diese Forschung bildete die Grundlage für moderne autonome Fahrzeugtechnologien durch die Entwicklung skalierbarer Koordinationsalgorithmen, robuster Formationskontrollmethoden und praktischer Lösungen für reale Roboterbeschränkungen. Die theoretische Strenge und praktischen Implementierungsüberlegungen beeinflussten direkt meine nachfolgende Arbeit in autonomen Fahrsystemen und Algorithmusentwicklung bei Unternehmen wie Lotus Tech und Aptiv.'
       }
     };
 
-    // Function to update page content based on language
-    function setLanguage(lang) {
-      document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        element.textContent = translations[lang][key];
-      });
-      // Update the current flag emoji
-      document.getElementById('current-flag').textContent = lang === 'en' ? '🇬🇧' : '🇩🇪';
-      // Update the html lang attribute
-      document.documentElement.lang = lang;
-    }
-
-    // Set default language to English
-    setLanguage('en');
-
-    // Add event listeners to flag options
-    document.querySelectorAll('.flag-option').forEach(flag => {
-      flag.addEventListener('click', () => {
-        const lang = flag.getAttribute('data-lang');
-        setLanguage(lang);
-      });
+    // Merge page-specific translations with shared translations
+    Object.keys(pageTranslations).forEach(lang => {
+      SharedData.translations[lang] = {
+        ...SharedData.translations[lang],
+        ...pageTranslations[lang]
+      };
     });
+
+    // Initialize all shared functionality
+    SharedInit.initializeAll();
   </script>
 </body>
 </html>

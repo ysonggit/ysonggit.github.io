@@ -168,92 +168,37 @@
     </div>
   </div>
 
+  <!-- Shared JavaScript files -->
+  <script src="/js/shared-data.js"></script>
+  <script src="/js/shared-components.js"></script>
+  <script src="/js/shared-init.js"></script>
   <script src="/js/scripts.js"></script>
   <script>
-    // Language translations
-    const translations = {
+    // Page-specific translations (only the unique ones for this page)
+    const pageTranslations = {
       en: {
-        'nav-work': 'Work',
-        'nav-info': 'Info',
-        'nav-connect': 'Connect',
         'info-title': 'AUTONOMOUS DRIVING',
-        'info-description': 'Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive data solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures, real-time data pipelines, and scalable processing systems that have been validated in global production vehicles.',
+        'info-description': 'Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive cloud infrastructure and data pipeline solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, real-time data processing pipelines, and scalable ML training infrastructure that have been validated in global production vehicles.',
         'speaking-title': '🎤 TechAD Europe 2025 Speaker',
         'speaking-description': 'Presented groundbreaking work on the Lotus Robotics Toolchain at TechAD Europe 2025, showcasing our comprehensive end-to-end solution for ADAS development. Demonstrated how our RoboLogger data collection device and RoboGalaxy SAAS platform addresses critical data bottlenecks in autonomous driving development.',
-        'speaking-details': 'The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.',
-        'experience-title': 'EXPERIENCE',
-        'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Led ADAS cloud architecture for Lotus Eletre and Emeya, building scalable AWS-based data platform to do data management, labeling and processing with Kubernets, Java, Python, MSK, Glue, S3, Lambda, SQS and Redshift. Ensured data compliance and slashed AWS costs by 50% through serverless design. Manage collaborative data projects with external partners (Momenta, Wayve) for data-driven autonomous driving developments.',
-        'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Developed radar processing algorithms for Motional\'s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA\'s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
-        'experience-groupon-title': 'Software Engineer',
-        'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+.',
-        'experience-auro-title': 'Robotics Engineer Intern',
-        'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment.',
-        'work-title': 'ALL WORK',
-        'work-autonomous': 'Autonomous Driving',
-        'work-startup': 'Startup Experience',
-        'work-robotic': 'Robotic Research',
-        'work-bigdata': 'Big Data!',
-        'connect-title': "LET'S CONNECT",
-        'connect-mail-label': 'Mail:',
-        'connect-location-label': 'Location:',
-        'connect-location': 'Frankfurt, Germany',
-        'claude-credit': 'Website developed with Claude Code'
+        'speaking-details': 'The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.'
       },
       de: {
-        'nav-work': 'Arbeit',
-        'nav-info': 'Info',
-        'nav-connect': 'Kontakt',
         'info-title': 'AUTONOMES FAHREN',
-        'info-description': 'Leitung der Entwicklung fortschrittlicher Fahrerassistenzsysteme (ADAS) im Lotus Tech Innovation Centre, Architektur umfassender Datenlösungen zur Beseitigung kritischer Engpässe in der Entwicklung autonomer Fahrsysteme. Aufbau der Lotus Robotics Toolchain mit RoboLogger Datenerfassungsgeräten und RoboGalaxy SAAS-Plattform, Entwicklung transparenter "Whitebox"-Lösungen für globale Automobilpartner. Spezialisiert auf cloud-native AWS-Architekturen, Echtzeit-Datenpipelines und skalierbare Verarbeitungssysteme, die in globalen Produktionsfahrzeugen validiert wurden.',
+        'info-description': 'Leitung der Entwicklung fortschrittlicher Fahrerassistenzsysteme (ADAS) im Lotus Tech Innovation Centre, Architektur umfassender Cloud-Infrastruktur und Datenpipeline-Lösungen zur Beseitigung kritischer Engpässe in der Entwicklung autonomer Fahrsysteme. Aufbau der Lotus Robotics Toolchain mit RoboLogger Datenerfassungsgeräten und RoboGalaxy SAAS-Plattform, Entwicklung transparenter "Whitebox"-Lösungen für globale Automobilpartner. Spezialisiert auf cloud-native AWS-Architekturen (ECS, Lambda, S3, MSK, Redshift), Kubernetes-Orchestrierung, Echtzeit-Datenpipelines und skalierbare ML-Trainingsinfrastruktur, die in globalen Produktionsfahrzeugen validiert wurden.',
         'speaking-title': '🎤 TechAD Europe 2025 Referent',
         'speaking-description': 'Präsentierte bahnbrechende Arbeit zur Lotus Robotics Toolchain auf der TechAD Europe 2025 und zeigte unsere umfassende End-to-End-Lösung für die ADAS-Entwicklung. Demonstrierte, wie unser RoboLogger Datenerfassungsgerät und die RoboGalaxy SAAS-Plattform kritische Datenengpässe in der Entwicklung autonomer Fahrsysteme adressieren.',
-        'speaking-details': 'Die Session behandelte cloud-native Architektur, anpassbare "Whitebox"-Datenverarbeitungsansätze und wie unsere transparenten Lösungen AV-Entwicklungszyklen beschleunigen und gleichzeitig globale Datenkonformität gewährleisten. Unsere Toolchain, bereits in globalen Produktionsfahrzeugen validiert, befähigt Automotive-Engineering-Teams, ihr ADAS-Potenzial durch datengetriebene Strategien zu entfesseln.',
-        'experience-title': 'ERFAHRUNG',
-        'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Leitung der ADAS-Cloud-Architektur für Lotus Eletre und Emeya, Aufbau einer skalierbaren AWS-basierten Datenplattform für Datenmanagement, -kennzeichnung und -verarbeitung mit Kubernetes, Java, Python, MSK, Glue, S3, Lambda, SQS und Redshift. Sicherstellung der Datenkonformität und Reduzierung der AWS-Kosten um 50% durch serverloses Design. Management von kollaborativen Datenprojekten mit externen Partnern (Momenta, Wayve) für datengetriebene Entwicklungen im autonomen Fahren.',
-        'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Entwicklung von Radarverarbeitungsalgorithmen für Motional\'s Robotaxi, Verbesserung der MRR-Bibliothek mit Python und C++. Leitung der Entwicklung der Spurwechselvorhersagefunktion für BMW- und PSA-ADAS-Projekte, Aufbau robuster Datenpipelines. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
-        'experience-groupon-title': 'Software Engineer',
-        'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
-        'experience-auro-title': 'Robotics Engineer Intern',
-        'experience-auro-description': 'Entwicklung eines selbstfahrenden Shuttles bei Auro Robotics, Implementierung von ROS-basierten Pfadplanern mit GPS und LiDAR. Optimierung der Navigation durch Simulationen, was Anerkennung am YC Demo Day und eine Investition von $2,1M einbrachte.',
-        'work-title': 'ALLE ARBEITEN',
-        'work-autonomous': 'Autonomes Fahren',
-        'work-startup': 'Startup-Erfahrung',
-        'work-robotic': 'Robotikforschung',
-        'work-bigdata': 'Big Data!',
-        'connect-title': 'LASS UNS VERBINDEN',
-        'connect-mail-label': 'E-Mail:',
-        'connect-location-label': 'Standort:',
-        'connect-location': 'Frankfurt, Deutschland',
-        'claude-credit': 'Website entwickelt mit Claude Code'
+        'speaking-details': 'Die Session behandelte cloud-native Architektur, anpassbare "Whitebox"-Datenverarbeitungsansätze und wie unsere transparenten Lösungen AV-Entwicklungszyklen beschleunigen und gleichzeitig globale Datenkonformität gewährleisten. Unsere Toolchain, bereits in globalen Produktionsfahrzeugen validiert, befähigt Automotive-Engineering-Teams, ihr ADAS-Potenzial durch datengetriebene Strategien zu entfesseln.'
       }
     };
 
-    // Function to update page content based on language
-    function setLanguage(lang) {
-      document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        element.textContent = translations[lang][key];
-      });
-      // Update the current flag emoji
-      document.getElementById('current-flag').textContent = lang === 'en' ? '🇬🇧' : '🇩🇪';
-      // Update the html lang attribute
-      document.documentElement.lang = lang;
-    }
-
-    // Set default language to English
-    setLanguage('en');
-
-    // Add event listeners to flag options
-    document.querySelectorAll('.flag-option').forEach(flag => {
-      flag.addEventListener('click', () => {
-        const lang = flag.getAttribute('data-lang');
-        setLanguage(lang);
-      });
+    // Merge page-specific translations with shared translations
+    Object.keys(pageTranslations).forEach(lang => {
+      Object.assign(SharedData.translations[lang], pageTranslations[lang]);
     });
+
+    // Initialize all shared functionality
+    SharedInit.initializeAll();
   </script>
 </body>
 </html>
