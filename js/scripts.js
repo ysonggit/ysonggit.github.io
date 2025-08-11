@@ -42,28 +42,21 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   function toggleRow(toggleIcon) {
-    console.log("toggleRow called, toggleIcon:", toggleIcon); // Debug log
-  
     // Find the parent <td class="toggle">
     const toggleCell = toggleIcon.parentElement;
-    console.log("toggleCell:", toggleCell); // Debug log
-  
+
     // Find the parent row (<tr>) of the toggle cell
     const row = toggleCell.parentElement;
-    console.log("row:", row); // Debug log
-  
+
     // Find the next row, which is the details row
     const detailsRow = row.nextElementSibling;
-    console.log("detailsRow:", detailsRow); // Debug log
   
     // Toggle the display of the details row and update the icon
     if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
       detailsRow.style.display = "table-row";
       toggleIcon.textContent = "–";
-      console.log("Row unfolded, icon set to –");
     } else {
       detailsRow.style.display = "none";
       toggleIcon.textContent = "+";
-      console.log("Row folded, icon set to +");
     }
   }
