@@ -1,8 +1,6 @@
 body {
-  font-family: 'Inter', 'Satoshi', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
+  font-family: 'Spline Sans Mono', monospace, Arial, sans-serif;
+  font-size: 12px;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
@@ -20,10 +18,7 @@ body {
   margin-bottom: 40px;
 }
 .header h1 {
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
+  font-size: 20px;
   margin: 0;
 }
 .nav {
@@ -34,9 +29,9 @@ body {
   margin-left: 20px;
   text-decoration: none;
   color: #007bff;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1;
 }
 .language-selector {
   position: relative;
@@ -96,26 +91,22 @@ body {
 }
 .intro-text {
   width: 60%;
-  font-family: 'Inter', 'Satoshi', sans-serif;
-  font-size: 16px;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 12px;
   font-weight: 400;
   color: rgb(8, 8, 33);
-  line-height: 1.5;
+  line-height: 28px;
   text-align: start;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 .intro-text h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .intro-text p {
-  line-height: 1.5;
+  line-height: 28px;
   color: rgb(8, 8, 33);
-  font-size: 16px;
 }
 .intro-image {
   width: 30%; /* Revert to original width */
@@ -140,9 +131,7 @@ body {
   border-radius: 20px;
   text-decoration: none;
   color: #333;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
+  font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .resume-btn:hover {
@@ -150,10 +139,7 @@ body {
   color: #fff; /* White text on hover */
 }
 .experience-section h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .experience-table {
@@ -202,18 +188,14 @@ body {
 }
 .experience-details p {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #555;
-  font-size: 16px;
 }
 .work-section {
   margin-top: 40px;
 }
 .work-section h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .work-gallery {
@@ -233,8 +215,7 @@ body {
 .work-item p {
   margin: 5px 0 0;
   text-align: center;
-  line-height: 1.5;
-  font-size: 16px;
+  line-height: 1.6;
 }
 .connect-section {
   margin-top: 40px;
@@ -256,10 +237,7 @@ body {
   margin-right: 5%; /* Add some spacing between columns */
 }
 .connect-title h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
+  font-size: 16px;
   margin: 0;
 }
 .connect-details {
@@ -267,9 +245,8 @@ body {
   text-align: right; /* Align text to the right */
 }
 .connect-details p {
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 5px 0;
-  font-size: 16px;
 }
 .social-links {
   margin-top: 10px;
@@ -325,9 +302,9 @@ body {
 }
 
 .work-detail p {
-  line-height: 1.5;
+  line-height: 28px;
   color: rgb(8, 8, 33);
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /* Work item links */
@@ -363,9 +340,7 @@ body {
   }
   
   .header h1 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 18px;
   }
   
   .nav {
@@ -376,8 +351,7 @@ body {
   .nav a {
     margin-left: 0;
     margin-right: 15px;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 11px;
   }
   
   .language-selector {
@@ -402,15 +376,13 @@ body {
   }
   
   .intro-text h2 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   
   .intro-text p {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 24px;
   }
   
   .intro-image {
@@ -424,14 +396,12 @@ body {
   }
   
   .experience-section h2 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   
   .experience-table {
-    font-size: 14px;
+    font-size: 10px;
   }
   
   .experience-table th, .experience-table td {
@@ -439,19 +409,18 @@ body {
   }
   
   .experience-table th {
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 11px;
     width: 35%;
   }
   
   .experience-table .years {
     width: 25%;
-    font-size: 12px;
+    font-size: 9px;
   }
   
   .experience-table .company {
     width: 25%;
-    font-size: 13px;
+    font-size: 10px;
   }
   
   .experience-table .toggle {
@@ -459,8 +428,8 @@ body {
   }
   
   .experience-details p {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 20px;
     padding: 5px 0;
   }
   
@@ -470,16 +439,13 @@ body {
   }
   
   .work-section h2 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   
   .work-item p {
-    font-size: 14px;
+    font-size: 10px;
     margin: 8px 0 0;
-    line-height: 1.5;
   }
   
   /* Connect section mobile optimization */
@@ -498,9 +464,7 @@ body {
   }
   
   .connect-title h2 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 14px;
   }
   
   .connect-details {
@@ -509,9 +473,9 @@ body {
   }
   
   .connect-details p {
-    font-size: 14px;
+    font-size: 11px;
     margin: 8px 0;
-    line-height: 1.5;
+    line-height: 20px;
   }
   
   /* Social links mobile optimization */
@@ -540,7 +504,7 @@ body {
   .resume-btn {
     margin-top: 15px;
     padding: 8px 16px;
-    font-size: 14px;
+    font-size: 11px;
     border-radius: 16px;
   }
 }
@@ -553,15 +517,12 @@ body {
   }
   
   .header h1 {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-size: 16px;
   }
   
   .nav a {
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 12px;
-    font-weight: 400;
   }
   
   .work-gallery {
