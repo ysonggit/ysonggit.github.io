@@ -87,7 +87,7 @@ window.SharedData = {
     },
     {
       href: '/works/startup-experience.html',
-      img: '/assets/img/samaltman.jpg',
+      img: '/assets/img/yc2015.jpg',
       hoverImg: '/assets/img/auro.jpg',
       alt: 'Startup Experience',
       titleKey: 'work-startup'

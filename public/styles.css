@@ -1,6 +1,8 @@
 body {
-  font-family: 'Spline Sans Mono', monospace, Arial, sans-serif;
-  font-size: 12px;
+  font-family: 'Inter', 'Satoshi', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
@@ -18,7 +20,10 @@ body {
   margin-bottom: 40px;
 }
 .header h1 {
-  font-size: 20px; /* Slightly larger for readability */
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
   margin: 0;
 }
 .nav {
@@ -29,9 +34,9 @@ body {
   margin-left: 20px;
   text-decoration: none;
   color: #007bff;
-  font-weight: bold;
-  font-size: 12px; /* Explicitly set to 16px as requested */
-  line-height: 1; /* Reset line-height to default (around 16px) for better alignment */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
 }
 .language-selector {
   position: relative;
@@ -90,23 +95,27 @@ body {
   margin-bottom: 40px;
 }
 .intro-text {
-  width: 60%; /* Revert to original width */
-  font-family: 'Spline Sans Mono', monospace;
-  font-size: 12px;
+  width: 60%;
+  font-family: 'Inter', 'Satoshi', sans-serif;
+  font-size: 16px;
   font-weight: 400;
   color: rgb(8, 8, 33);
-  line-height: 28px; /* Increase space between lines as per sample */
+  line-height: 1.5;
   text-align: start;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 .intro-text h2 {
-  font-size: 16px; /* Slightly larger for readability */
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
 .intro-text p {
-  line-height: 28px; /* Ensure paragraph inherits the line-height */
+  line-height: 1.5;
   color: rgb(8, 8, 33);
+  font-size: 16px;
 }
 .intro-image {
   width: 30%; /* Revert to original width */
@@ -131,15 +140,20 @@ body {
   border-radius: 20px;
   text-decoration: none;
   color: #333;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .resume-btn:hover {
   background-color: #000; /* Black background on hover */
   color: #fff; /* White text on hover */
 }
 .experience-section h2 {
-  font-size: 16px; /* Slightly larger for readability */
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
 .experience-table {
@@ -188,14 +202,18 @@ body {
 }
 .experience-details p {
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #555;
+  font-size: 16px;
 }
 .work-section {
   margin-top: 40px;
 }
 .work-section h2 {
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
 .work-gallery {
@@ -215,7 +233,8 @@ body {
 .work-item p {
   margin: 5px 0 0;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .connect-section {
   margin-top: 40px;
@@ -237,7 +256,10 @@ body {
   margin-right: 5%; /* Add some spacing between columns */
 }
 .connect-title h2 {
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
   margin: 0;
 }
 .connect-details {
@@ -245,8 +267,9 @@ body {
   text-align: right; /* Align text to the right */
 }
 .connect-details p {
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 5px 0;
+  font-size: 16px;
 }
 .social-links {
   margin-top: 10px;
@@ -302,9 +325,9 @@ body {
 }
 
 .work-detail p {
-  line-height: 28px;
+  line-height: 1.5;
   color: rgb(8, 8, 33);
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* Work item links */
@@ -340,7 +363,9 @@ body {
   }
   
   .header h1 {
-    font-size: 18px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
   }
   
   .nav {
@@ -351,7 +376,8 @@ body {
   .nav a {
     margin-left: 0;
     margin-right: 15px;
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 400;
   }
   
   .language-selector {
@@ -376,13 +402,15 @@ body {
   }
   
   .intro-text h2 {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
     margin-bottom: 15px;
   }
   
   .intro-text p {
-    font-size: 11px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 1.5;
   }
   
   .intro-image {
@@ -396,12 +424,14 @@ body {
   }
   
   .experience-section h2 {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
     margin-bottom: 15px;
   }
   
   .experience-table {
-    font-size: 10px;
+    font-size: 14px;
   }
   
   .experience-table th, .experience-table td {
@@ -409,18 +439,19 @@ body {
   }
   
   .experience-table th {
-    font-size: 11px;
+    font-size: 15px;
+    font-weight: 700;
     width: 35%;
   }
   
   .experience-table .years {
     width: 25%;
-    font-size: 9px;
+    font-size: 12px;
   }
   
   .experience-table .company {
     width: 25%;
-    font-size: 10px;
+    font-size: 13px;
   }
   
   .experience-table .toggle {
@@ -428,8 +459,8 @@ body {
   }
   
   .experience-details p {
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.5;
     padding: 5px 0;
   }
   
@@ -439,13 +470,16 @@ body {
   }
   
   .work-section h2 {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
     margin-bottom: 15px;
   }
   
   .work-item p {
-    font-size: 10px;
+    font-size: 14px;
     margin: 8px 0 0;
+    line-height: 1.5;
   }
   
   /* Connect section mobile optimization */
@@ -464,7 +498,9 @@ body {
   }
   
   .connect-title h2 {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
   }
   
   .connect-details {
@@ -473,9 +509,9 @@ body {
   }
   
   .connect-details p {
-    font-size: 11px;
+    font-size: 14px;
     margin: 8px 0;
-    line-height: 20px;
+    line-height: 1.5;
   }
   
   /* Social links mobile optimization */
@@ -504,7 +540,7 @@ body {
   .resume-btn {
     margin-top: 15px;
     padding: 8px 16px;
-    font-size: 11px;
+    font-size: 14px;
     border-radius: 16px;
   }
 }
@@ -517,17 +553,20 @@ body {
   }
   
   .header h1 {
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
   }
   
   .nav a {
-    font-size: 10px;
+    font-size: 12px;
     margin-right: 12px;
+    font-weight: 400;
   }
   
   .work-gallery {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   
   .experience-table th, .experience-table td {
