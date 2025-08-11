@@ -1,5 +1,5 @@
 body {
-  font-family: 'Spline Sans Mono', monospace, Arial, sans-serif;
+  font-family: 'Spline Sans Mono', 'Courier New', monospace, Arial, sans-serif;
   font-size: 12px;
   margin: 0;
   padding: 0;
@@ -91,7 +91,7 @@ body {
 }
 .intro-text {
   width: 60%;
-  font-family: 'Spline Sans Mono', monospace;
+  font-family: 'Spline Sans Mono', 'Courier New', monospace;
   font-size: 12px;
   font-weight: 400;
   color: rgb(8, 8, 33);
