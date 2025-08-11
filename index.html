@@ -190,7 +190,13 @@
   <script src="/js/scripts.js"></script>
   <script>
     // Initialize all shared functionality when DOM is ready
-    SharedInit.initializeAll();
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.SharedInit) {
+        SharedInit.initializeLanguage();
+        SharedInit.initializeExperienceToggles();
+        SharedInit.initializeWorkGallery();
+      }
+    });
   </script>
 </body>
 </html><!-- Force rebuild Fri Aug  8 10:30:00 CEST 2025 -->
