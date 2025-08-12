@@ -6,15 +6,37 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('.nav a').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+  // Smooth navigation for anchors
+  document.querySelectorAll('.nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (event) {
+        const href = this.getAttribute('href') || '';
+
+        // In-page anchors like '#info'
+        if (href.startsWith('#')) {
+          event.preventDefault();
+          const targetId = href.slice(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+          return;
         }
+
+        // Cross-page anchors to index like '/#info'
+        if (href.startsWith('/#')) {
+          const targetId = href.slice(2);
+          // If already on index, smooth scroll; else allow default navigation
+          if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+            event.preventDefault();
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+          return;
+        }
+
+        // For other links, allow default navigation
       });
     });
   
