@@ -40,16 +40,15 @@ body {
   margin-left: 20px;
 }
 .flag-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   width: 24px;
-  height: 24px;
-  font-size: 18px; /* Slightly smaller than the container to fit well */
-  border: 1px solid #ddd; /* Subtle border */
-  border-radius: 50%; /* Circular shape */
+  height: 16px;
+  border: 1px solid #ddd;
+  border-radius: 2px; /* Rectangular (no circle) */
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  object-fit: cover;
+  vertical-align: middle; /* align with nav text */
 }
 .flag-icon:hover {
   transform: scale(1.1); /* Slight zoom on hover */
@@ -70,17 +69,16 @@ body {
   display: block;
 }
 .flag-option {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   width: 24px;
-  height: 24px;
-  font-size: 18px; /* Match flag-icon size */
+  height: 16px;
   margin: 5px;
-  border: 1px solid #ddd; /* Subtle border */
-  border-radius: 50%; /* Circular shape */
+  border: 1px solid #ddd;
+  border-radius: 2px; /* Rectangular */
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  object-fit: cover;
+  vertical-align: middle;
 }
 .flag-option:hover {
   transform: scale(1.1); /* Slight zoom on hover */

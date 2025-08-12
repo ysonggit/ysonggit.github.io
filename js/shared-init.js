@@ -69,10 +69,23 @@ window.SharedInit = {
           element.textContent = SharedData.translations[lang][key];
         }
       });
-      // Update the current flag emoji
+      // Update the current flag (supports emoji <span> or image <img>)
       const currentFlag = document.getElementById('current-flag');
       if (currentFlag) {
-        currentFlag.textContent = lang === 'en' ? '🇬🇧' : '🇩🇪';
+        const isImage = currentFlag.tagName && currentFlag.tagName.toLowerCase() === 'img';
+        if (isImage) {
+          const assetBase = '/assets/img';
+          if (lang === 'en') {
+            currentFlag.setAttribute('src', assetBase + '/flag-usa.png');
+            currentFlag.setAttribute('alt', 'English');
+          } else {
+            currentFlag.setAttribute('src', assetBase + '/flag-germany.png');
+            currentFlag.setAttribute('alt', 'Deutsch');
+          }
+        } else {
+          // Default to country emoji
+          currentFlag.textContent = lang === 'en' ? '🇺🇸' : '🇩🇪';
+        }
       }
       // Update the html lang attribute
       document.documentElement.lang = lang;
@@ -93,6 +106,8 @@ window.SharedInit = {
         const lang = flag.getAttribute('data-lang');
         console.log('Flag clicked, switching to:', lang); // Debug log
         setLanguage(lang);
+        const dropdown = document.querySelector('.language-dropdown');
+        if (dropdown) dropdown.style.display = 'none';
       });
     });
 
@@ -150,12 +165,37 @@ window.SharedInit = {
     });
   },
 
+  // Try to fix broken absolute asset paths when running locally
+  initializeImageFallbacks: function() {
+    const candidatesFor = (path) => [
+      path,
+      path.startsWith('/assets/') ? '.' + path : path,
+      path.startsWith('/assets/') ? '..' + path : path
+    ];
+
+    document.querySelectorAll('img').forEach((img) => {
+      const originalSrc = img.getAttribute('src');
+      if (!originalSrc) return;
+      let tried = 0;
+      const candidates = candidatesFor(originalSrc);
+      img.addEventListener('error', function onError() {
+        tried += 1;
+        if (tried >= candidates.length) {
+          img.removeEventListener('error', onError);
+          return;
+        }
+        img.setAttribute('src', candidates[tried]);
+      });
+    });
+  },
+
   // Initialize all shared functionality
   initializeAll: function() {
     const runInit = () => {
       this.initializeLanguage();
       this.initializeExperienceToggles();
       this.initializeWorkGallery();
+      this.initializeImageFallbacks();
     };
 
     const start = () => this.ensureSharedScripts(runInit);
