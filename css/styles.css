@@ -40,16 +40,14 @@ body {
   margin-left: 20px;
 }
 .flag-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 24px;
-  height: 24px;
+  height: 16px; /* Better aspect ratio for flags */
   border: 1px solid #ddd; /* Subtle border */
-  border-radius: 50%; /* Circular shape */
+  border-radius: 3px; /* Slightly rounded corners instead of circle */
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
   object-fit: cover; /* Ensure image fits properly */
+  display: block; /* Proper display for images */
 }
 .flag-icon:hover {
   transform: scale(1.1); /* Slight zoom on hover */
@@ -70,17 +68,15 @@ body {
   display: block;
 }
 .flag-option {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 24px;
-  height: 24px;
+  height: 16px; /* Better aspect ratio for flags */
   margin: 5px;
   border: 1px solid #ddd; /* Subtle border */
-  border-radius: 50%; /* Circular shape */
+  border-radius: 3px; /* Slightly rounded corners instead of circle */
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
   object-fit: cover; /* Ensure image fits properly */
+  display: block; /* Proper display for images */
 }
 .flag-option:hover {
   transform: scale(1.1); /* Slight zoom on hover */
