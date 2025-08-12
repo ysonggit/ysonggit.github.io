@@ -45,11 +45,11 @@ body {
   justify-content: center;
   width: 24px;
   height: 24px;
-  font-size: 18px; /* Slightly smaller than the container to fit well */
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 50%; /* Circular shape */
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+  object-fit: cover; /* Ensure image fits properly */
 }
 .flag-icon:hover {
   transform: scale(1.1); /* Slight zoom on hover */
@@ -75,12 +75,12 @@ body {
   justify-content: center;
   width: 24px;
   height: 24px;
-  font-size: 18px; /* Match flag-icon size */
   margin: 5px;
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 50%; /* Circular shape */
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
+  object-fit: cover; /* Ensure image fits properly */
 }
 .flag-option:hover {
   transform: scale(1.1); /* Slight zoom on hover */
