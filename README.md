@@ -25,12 +25,10 @@ A professional portfolio website showcasing Yang Song's experience in autonomous
 
 ```
 ysonggit.github.io/
-├── public/           # Static files served by Express
-│   ├── works/       # Individual work pages
-│   ├── css/         # Stylesheets
-│   ├── js/          # JavaScript files
-│   └── assets/      # Images and media
-├── works/           # Source files for work pages
+├── works/           # Individual work pages
+├── css/             # Stylesheets
+├── js/              # JavaScript files
+├── assets/          # Images and media
 ├── server.js        # Express server for local development
 └── package.json     # Node.js dependencies
 ```

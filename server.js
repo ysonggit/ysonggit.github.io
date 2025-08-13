@@ -3,10 +3,15 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from root directory but exclude sensitive files
+app.use(express.static(__dirname, {
+  dotfiles: 'deny',
+  index: false,
+  redirect: false
+}));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(port, () => {
