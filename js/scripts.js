@@ -72,13 +72,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Find the next row, which is the details row
     const detailsRow = row.nextElementSibling;
-  
-    // Toggle the display of the details row and update the icon
-    if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
-      detailsRow.style.display = "table-row";
+
+    // Toggle the expanded class and update the icon with smooth animation
+    if (!detailsRow.classList.contains('expanded')) {
+      detailsRow.classList.add('expanded');
       toggleIcon.textContent = "–";
+      toggleIcon.classList.add('active');
     } else {
-      detailsRow.style.display = "none";
+      detailsRow.classList.remove('expanded');
       toggleIcon.textContent = "+";
+      toggleIcon.classList.remove('active');
     }
   }

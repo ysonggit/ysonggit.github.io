@@ -12,21 +12,8 @@
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <h1>Yang Song, Ph.D.</h1>
-      <div class="nav">
-        <a href="/#work" data-i18n="nav-work">Work</a>
-        <a href="/#info" data-i18n="nav-info">Info</a>
-        <a href="/#connect" data-i18n="nav-connect">Connect</a>
-        <div class="language-selector">
-          <img src="/assets/img/flag-usa.png" alt="English" class="flag-icon" id="current-flag">
-          <div class="language-dropdown">
-            <img src="/assets/img/flag-usa.png" alt="English" class="flag-option" data-lang="en">
-            <img src="/assets/img/flag-germany.png" alt="Deutsch" class="flag-option" data-lang="de">
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Header template will be loaded here -->
+    <div data-template="header"></div>
 
     <div class="intro-section" id="info">
       <div class="intro-text">
@@ -40,130 +27,23 @@
       </div>
     </div>
 
-    <div class="experience-section">
-      <h2 data-i18n="experience-title">Experience</h2>
-      <table class="experience-table">
-        <tr>
-          <th data-i18n="experience-lotustech-title">Senior Algorithm Engineer</th>
-          <td class="years">2022 – Current</td>
-          <td class="company">Lotus Tech</td>
-          <td class="toggle"><span class="toggle-icon">+</span></td>
-        </tr>
-        <tr class="experience-details">
-          <td colspan="4">
-            <p data-i18n="experience-lotustech-description">Architected and manage a cloud-native SaaS platform on AWS supporting ADAS data processing and data-closed loops for autonomous automotive systems. Oversaw compliance, data lifecycle, infrastructure reliability, and performance optimization for ADAS workloads across hybrid cloud architectures. Built Kubernetes-based data platforms that process 10M+ daily sensor data points using MSK, Lambda, S3, and Redshift, implementing automated ML workflows for ADAS model training. Drive business development initiatives with external automotive clients—gathering requirements, shaping technical proposals, and delivering POCs to win projects and expand partnerships.</p>
-          </td>
-        </tr>
-        <tr>
-          <th data-i18n="experience-aptiv-title">Senior Algorithm Engineer</th>
-          <td class="years">2019 –2022</td>
-          <td class="company">Aptiv</td>
-          <td class="toggle"><span class="toggle-icon">+</span></td>
-        </tr>
-        <tr class="experience-details">
-          <td colspan="4">
-            <p data-i18n="experience-aptiv-description">Led radar processing algorithms for Motional's Robotaxi, enhancing sensor fusion libraries with Python, C++, and in-house cloud-based toolchains. Led POC development of lane change prediction and ADAS features for BMW and PSA clients. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.</p>
-          </td>
-        </tr>
-        <tr>
-          <th data-i18n="experience-groupon-title">Software Engineer</th>
-          <td class="years">2016 – 2019</td>
-          <td class="company">Groupon</td>
-          <td class="toggle"><span class="toggle-icon">+</span></td>
-        </tr>
-        <tr class="experience-details">
-          <td colspan="4">
-            <p data-i18n="experience-groupon-description">Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+. Designed and implemented scalable data processing architectures using Apache Spark, Kafka, and cloud-based data warehouses for real-time analytics and customer insights.</p>
-          </td>
-        </tr>
-        <tr>
-          <th data-i18n="experience-auro-title">Robotics Engineer Intern</th>
-          <td class="years">2015 – 2015</td>
-          <td class="company">Auro Robotics</td>
-          <td class="toggle"><span class="toggle-icon">+</span></td>
-        </tr>
-        <tr class="experience-details">
-          <td colspan="4">
-            <p data-i18n="experience-auro-description">Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
+    <!-- Experience section template will be loaded here -->
+    <div data-template="experience-section"></div>
 
-    <div class="work-section" id="work">
-      <h2 data-i18n="work-title">All Work</h2>
-      <div class="work-gallery">
-        <a href="/works/autonomous-driving.html" class="work-item-link">
-          <div class="work-item">
-            <img src="/assets/img/iaa.jpg" alt="Autonomous Driving" data-hover="/assets/img/techAD.jpg" class="hover-image">
-            <p data-i18n="work-autonomous">Autonomous Driving</p>
-          </div>
-        </a>
-        <a href="/works/startup-experience.html" class="work-item-link">
-          <div class="work-item">
-            <img src="/assets/img/yc2015.jpg" alt="Startup Experience" data-hover="/assets/img/auro.jpg" class="hover-image">
-            <p data-i18n="work-startup">Startup Experience</p>
-          </div>
-        </a>
-        <a href="/works/robotic-research.html" class="work-item-link">
-          <div class="work-item">
-            <img src="/assets/img/robotic_research.jpg" alt="Robotic Research" data-hover="/assets/img/nao_robot.jpg" class="hover-image">
-            <p data-i18n="work-robotic">Robotic Research</p>
-          </div>
-        </a>
-        <a href="/works/big-data.html" class="work-item-link">
-          <div class="work-item">
-            <img src="/assets/img/big_data.jpg" alt="Big Data!">
-            <p data-i18n="work-bigdata">Big Data!</p>
-          </div>
-        </a>
-      </div>
-    </div>
+    <!-- Work gallery template will be loaded here -->
+    <div data-template="work-gallery"></div>
 
-    <div class="connect-section" id="connect">
-      <div class="connect-banner">
-        <img src="/assets/img/IMG_2829.jpg" alt="Connect Banner">
-      </div>
-      <div class="connect-content">
-        <div class="connect-title">
-          <h2 data-i18n="connect-title">Let's Connect</h2>
-          <div class="social-links-static">
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/song24/" target="_blank" class="social-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19 0H5C2.239 0 0 2.239 0 5V19C0 21.761 2.239 24 5 24H19C21.761 24 24 21.761 24 19V5C24 2.239 21.761 0 19 0ZM8 19H5V8H8V19ZM6.5 6.732C5.534 6.732 4.75 5.942 4.75 4.968C4.75 3.994 5.534 3.204 6.5 3.204C7.466 3.204 8.25 3.994 8.25 4.968C8.25 5.942 7.466 6.732 6.5 6.732ZM20 19H17V13.396C17 11.028 15.396 10.204 14.094 10.204C12.792 10.204 11 11.028 11 13.396V19H8V8H11V9.765C12.396 7.179 15.604 7.056 16.894 9.411C17.604 10.716 17 12.525 17 13.396V19H20Z" fill="#333"/>
-                </svg>
-              </a>
-              <a href="https://github.com/ysonggit" target="_blank" class="social-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 0C5.373 0 0 5.373 0 12C0 17.627 3.432 22.346 8.206 23.981C8.806 24.094 9.026 23.73 9.026 23.416C9.026 23.137 9.015 22.338 9.009 21.297C5.672 22.045 4.968 19.614 4.968 19.614C4.422 18.217 3.633 17.853 3.633 17.853C2.546 17.083 3.714 17.097 3.714 17.097C4.914 17.182 5.548 18.342 5.548 18.342C6.602 20.149 8.287 19.672 9.051 19.37C9.168 18.567 9.489 17.998 9.843 17.657C7.128 17.316 4.263 16.249 4.263 11.621C4.263 10.291 4.722 9.174 5.463 8.287C5.334 7.943 4.923 6.676 5.559 4.986C5.559 4.986 6.601 4.621 9.001 6.146C9.937 5.879 10.961 5.745 11.985 5.74C13.009 5.745 14.033 5.879 14.969 6.146C17.369 4.621 18.411 4.986 18.411 4.986C19.047 6.676 18.636 7.943 18.507 8.287C19.248 9.174 19.707 10.291 19.707 11.621C19.707 16.259 16.837 17.311 14.117 17.647C14.552 18.057 14.952 18.867 14.952 20.092C14.952 21.791 14.937 22.996 14.937 23.416C14.937 23.733 15.157 24.101 15.762 23.981C20.568 22.346 24 17.627 24 12C24 5.373 18.627 0 12 0Z" fill="#333"/>
-                </svg>
-              </a>
-              <a href="https://x.com/ysongtwitt" target="_blank" class="social-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M18.244 2.25H21.552L14.325 10.51L22.827 21.75H16.171L10.956 14.933L4.991 21.75H1.681L9.41 12.92L1.254 2.25H8.08L12.793 8.481L18.244 2.25ZM17.083 19.77H19.025L6.953 4.126H4.911L17.083 19.77Z" fill="#333"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="connect-details">
-          <p><strong data-i18n="connect-mail-label">Mail:</strong> info@ysong.dev</p>
-          <p><strong data-i18n="connect-location-label">Location:</strong> <span data-i18n="connect-location">Frankfurt, Germany</span></p>
-          <p class="claude-credit">
-            <img src="/assets/img/claude-icon-8x.png" alt="Claude AI" class="claude-icon">
-            <span data-i18n="claude-credit">Website developed with Claude Code</span>
-          </p>
-        </div>
-      </div>
-    </div>
+    <!-- Connect section template will be loaded here -->
+    <div data-template="connect-section"></div>
   </div>
 
-  <!-- Shared JavaScript files -->
-  <script src="/js/shared-data.js"></script>
+  <!-- Scripts template will be loaded here -->
+  <div data-template="scripts"></div>
+  
+  <!-- Template loader script -->
   <script src="/js/shared-components.js"></script>
-  <script src="/js/shared-init.js"></script>
-  <script src="/js/scripts.js"></script>
+  <script src="/js/template-loader.js"></script>
+  
   <script>
     // Page-specific translations (only the unique ones for this page)
     const pageTranslations = {
@@ -177,13 +57,20 @@
       }
     };
 
-    // Merge page-specific translations with shared translations
-    Object.keys(pageTranslations).forEach(lang => {
-      Object.assign(SharedData.translations[lang], pageTranslations[lang]);
-    });
+    // Wait for templates to load, then initialize
+    document.addEventListener('DOMContentLoaded', function() {
+      // Merge page-specific translations with shared translations
+      if (window.SharedData && window.SharedData.translations) {
+        Object.keys(pageTranslations).forEach(lang => {
+          Object.assign(SharedData.translations[lang], pageTranslations[lang]);
+        });
+      }
 
-    // Initialize all shared functionality
-    SharedInit.initializeAll();
+      // Initialize all shared functionality after templates are loaded
+      if (window.SharedInit) {
+        SharedInit.initializeAll();
+      }
+    });
   </script>
 </body>
 </html>

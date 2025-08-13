@@ -128,6 +128,15 @@ window.SharedInit = {
 
   // Initialize experience section toggle functionality
   initializeExperienceToggles: function() {
+    // On page load, ensure all details are hidden and all icons are +
+    document.querySelectorAll('.experience-table .experience-details').forEach(row => {
+      row.classList.remove('expanded');
+    });
+    document.querySelectorAll('.experience-table .toggle-icon').forEach(icon => {
+      icon.textContent = '+';
+      icon.classList.remove('active');
+    });
+
     // Add click handlers for experience toggles
     document.querySelectorAll('.experience-table .toggle').forEach(toggle => {
       toggle.addEventListener('click', function() {
@@ -135,12 +144,14 @@ window.SharedInit = {
         const icon = this.querySelector('.toggle-icon');
         
         if (detailsRow && detailsRow.classList.contains('experience-details')) {
-          if (detailsRow.style.display === 'table-row') {
-            detailsRow.style.display = 'none';
+          if (detailsRow.classList.contains('expanded')) {
+            detailsRow.classList.remove('expanded');
             icon.textContent = '+';
+            icon.classList.remove('active');
           } else {
-            detailsRow.style.display = 'table-row';
+            detailsRow.classList.add('expanded');
             icon.textContent = '–';
+            icon.classList.add('active');
           }
         }
       });

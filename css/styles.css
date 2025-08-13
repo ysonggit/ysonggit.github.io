@@ -152,6 +152,7 @@ body {
   text-transform: none;
   margin-bottom: 20px;
 }
+/* Experience table styles with smooth transitions */
 .experience-table {
   width: 100%;
   border-collapse: collapse;
@@ -185,16 +186,30 @@ body {
   text-align: center;
   position: relative;
   z-index: 1;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  user-select: none;
 }
 .experience-table .toggle-icon:hover {
   background-color: #d3d3d3; /* Light grey circle */
   border-radius: 50%;
 }
+.experience-table .toggle-icon.active {
+  transform: rotate(45deg);
+}
 .experience-details {
   display: none;
-  padding: 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 15px;
   background-color: #f5f5f5; /* Match body background for flat design */
   border-bottom: 1px solid #ddd;
+  will-change: max-height, padding;
+}
+.experience-details.expanded {
+  display: table-row;
+  max-height: 500px; /* Adjust based on your content */
+  padding: 15px;
 }
 .experience-details p {
   margin: 0;
@@ -233,16 +248,21 @@ body {
   text-align: center;
   line-height: 1.6;
 }
+/* Connect section and banner styling */
 .connect-section {
   margin-top: 40px;
 }
 .connect-banner {
   margin-bottom: 20px;
+  display: block;
+  width: 100%;
 }
 .connect-banner img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  max-width: 100%;
 }
 .connect-content {
   display: flex;
