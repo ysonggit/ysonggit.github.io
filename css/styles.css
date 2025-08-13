@@ -146,11 +146,11 @@ body {
   font-family: "Spline Sans Mono", monospace;
   font-weight: 500;
   letter-spacing: -0.04em;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
   color: #080708;
   text-transform: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 /* Experience table styles with smooth transitions */
 .experience-table {
@@ -158,7 +158,7 @@ body {
   border-collapse: collapse;
 }
 .experience-table th, .experience-table td {
-  padding: 15px;
+  padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
@@ -180,9 +180,9 @@ body {
 }
 .experience-table .toggle-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -192,6 +192,7 @@ body {
   user-select: none;
   cursor: pointer;
   border-radius: 50%;
+  font-size: 14px;
 }
 .experience-table .toggle-icon:hover {
   background-color: #e0e0e0;
@@ -211,22 +212,23 @@ body {
   border-bottom: 1px solid #ddd;
   will-change: max-height, padding;
   opacity: 0;
-  transform: translateY(-10px);
-  transition: max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
-              padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translateY(-5px);
+  transition: max-height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+              padding 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .experience-details.expanded {
-  max-height: 600px;
-  padding: 15px;
+  max-height: 120px;
+  padding: 8px 15px;
   opacity: 1;
   transform: translateY(0);
 }
 .experience-details p {
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #555;
+  font-size: 11px;
 }
 .work-section {
   margin-top: 40px;
@@ -448,7 +450,7 @@ body {
   
   /* Experience table mobile optimization */
   .experience-section {
-    margin-bottom: 30px;
+    margin-top: 30px;
   }
   
   .experience-section h2 {
@@ -601,5 +603,22 @@ body {
   .experience-table .years,
   .experience-table .company {
     font-size: 8px;
+  }
+  
+  .experience-details.expanded {
+    max-height: 100px;
+    padding: 6px 5px;
+  }
+  
+  .experience-details p {
+    font-size: 9px;
+    line-height: 1.3;
+  }
+  
+  .experience-table .toggle-icon {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
   }
 }
