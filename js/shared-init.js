@@ -130,11 +130,10 @@ window.SharedInit = {
   initializeExperienceToggles: function() {
     // On page load, ensure all details are hidden and all icons are +
     document.querySelectorAll('.experience-table .experience-details').forEach(row => {
-      row.classList.remove('expanded');
+      row.style.display = 'none';
     });
     document.querySelectorAll('.experience-table .toggle-icon').forEach(icon => {
       icon.textContent = '+';
-      icon.classList.remove('active');
     });
 
     // Add click handlers for experience toggles
@@ -144,16 +143,13 @@ window.SharedInit = {
         const icon = this.querySelector('.toggle-icon');
         
         if (detailsRow && detailsRow.classList.contains('experience-details')) {
-          if (detailsRow.classList.contains('expanded')) {
-            // Collapse: remove expanded class to trigger CSS transition
-            detailsRow.classList.remove('expanded');
-            icon.textContent = '+';
-            icon.classList.remove('active');
+          // Toggle the display of the details row and update the icon
+          if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
+            detailsRow.style.display = "table-row";
+            icon.textContent = "–";
           } else {
-            // Expand: add expanded class to trigger CSS transition
-            detailsRow.classList.add('expanded');
-            icon.textContent = '–';
-            icon.classList.add('active');
+            detailsRow.style.display = "none";
+            icon.textContent = "+";
           }
         }
       });
