@@ -1,2 +1,1 @@
 - yes to all git operations
-- always sync files in the root dir with files in the ./public dir
