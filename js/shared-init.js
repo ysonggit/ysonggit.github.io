@@ -145,10 +145,12 @@ window.SharedInit = {
         
         if (detailsRow && detailsRow.classList.contains('experience-details')) {
           if (detailsRow.classList.contains('expanded')) {
+            // Collapse: remove expanded class to trigger CSS transition
             detailsRow.classList.remove('expanded');
             icon.textContent = '+';
             icon.classList.remove('active');
           } else {
+            // Expand: add expanded class to trigger CSS transition
             detailsRow.classList.add('expanded');
             icon.textContent = '–';
             icon.classList.add('active');
