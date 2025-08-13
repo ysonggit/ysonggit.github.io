@@ -126,25 +126,32 @@ window.SharedInit = {
     window.setLanguage = setLanguage;
   },
 
-  // Initialize experience section toggle functionality
+  // Initialize experience section toggle functionality (joeybon branch approach)
   initializeExperienceToggles: function() {
-    // Add click handlers for experience toggles
-    document.querySelectorAll('.experience-table .toggle').forEach(toggle => {
-      toggle.addEventListener('click', function() {
-        const detailsRow = this.parentElement.nextElementSibling;
-        const icon = this.querySelector('.toggle-icon');
-        
-        if (detailsRow && detailsRow.classList.contains('experience-details')) {
-          if (detailsRow.style.display === 'table-row') {
-            detailsRow.style.display = 'none';
-            icon.textContent = '+';
-          } else {
-            detailsRow.style.display = 'table-row';
-            icon.textContent = '–';
+    // Event delegation for toggle icons - joeybon approach
+    const experienceTable = document.querySelector('.experience-table');
+    if (experienceTable) {
+      experienceTable.addEventListener('click', function (event) {
+        if (event.target.classList.contains('toggle-icon')) {
+          // Inline the toggle logic to avoid scope issues
+          const toggleIcon = event.target;
+          const toggleCell = toggleIcon.parentElement;
+          const row = toggleCell.parentElement;
+          const detailsRow = row.nextElementSibling;
+          
+          // Toggle the display of the details row and update the icon
+          if (detailsRow && detailsRow.classList.contains('experience-details')) {
+            if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
+              detailsRow.style.display = "table-row";
+              toggleIcon.textContent = "–";
+            } else {
+              detailsRow.style.display = "none";
+              toggleIcon.textContent = "+";
+            }
           }
         }
       });
-    });
+    }
   },
 
   // Initialize hover effects for work gallery

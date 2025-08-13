@@ -143,13 +143,7 @@ body {
   color: #fff; /* White text on hover */
 }
 .experience-section h2 {
-  font-family: "Spline Sans Mono", monospace;
-  font-weight: 500;
-  letter-spacing: -0.04em;
-  font-size: 24px;
-  line-height: 28px;
-  color: #080708;
-  text-transform: none;
+  font-size: 16px; /* Slightly larger for readability */
   margin-bottom: 20px;
 }
 .experience-table {
@@ -233,16 +227,21 @@ body {
   text-align: center;
   line-height: 1.6;
 }
+/* Connect section and banner styling */
 .connect-section {
   margin-top: 40px;
 }
 .connect-banner {
   margin-bottom: 20px;
+  display: block;
+  width: 100%;
 }
 .connect-banner img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  max-width: 100%;
 }
 .connect-content {
   display: flex;
@@ -416,7 +415,7 @@ body {
   
   /* Experience table mobile optimization */
   .experience-section {
-    margin-bottom: 30px;
+    margin-top: 30px;
   }
   
   .experience-section h2 {
@@ -569,5 +568,17 @@ body {
   .experience-table .years,
   .experience-table .company {
     font-size: 8px;
+  }
+  
+  .experience-details p {
+    font-size: 9px;
+    line-height: 1.3;
+  }
+  
+  .experience-table .toggle-icon {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
   }
 }
