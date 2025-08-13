@@ -9,12 +9,12 @@ window.SharedData = {
       'nav-connect': 'Connect',
       
       // Info section (for index page)
-      'info-title': 'Info',
-      'info-description': 'Senior Algorithm Engineer @LotusTech specializing in AWS cloud infrastructure, data closed-loop engineering, and ADAS development for autonomous driving systems. I build scalable cloud-native architectures with deep experience in AWS services, Kubernetes orchestration, and real-time V2X data processing pipelines. My expertise spans distributed systems, AI infrastructure, data engineering toolchains, compliance frameworks (data governance, GDPR), and agile project management—all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud architecture solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.',
+      'info-title': 'INFO',
+      'info-description': 'Senior Algorithm Engineer @LotusTech specializing in cloud infrastructure, data pipeline engineering, and ADAS development. Expert in building scalable cloud-native architectures for autonomous driving systems, with deep experience in AWS services (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, and real-time data processing pipelines. My expertise spans distributed systems, AI infra, data toolchains, compliance frameworks (e.g., data governance, GDPR), and project management -- all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.',
       'download-resume': 'Download Resume',
       
       // Experience section
-      'experience-title': 'Experience',
+      'experience-title': 'EXPERIENCE',
       'experience-lotustech-title': 'Senior Algorithm Engineer',
       'experience-lotustech-description': 'Architected and manage a cloud-native SaaS platform on AWS supporting ADAS data processing and data-closed loops for autonomous automotive systems. Oversaw compliance, data lifecycle, infrastructure reliability, and performance optimization for ADAS workloads across hybrid cloud architectures. Built Kubernetes-based data platforms that process 10M+ daily sensor data points using MSK, Lambda, S3, and Redshift, implementing automated ML workflows for ADAS model training. Drive business development initiatives with external automotive clients—gathering requirements, shaping technical proposals, and delivering POCs to win projects and expand partnerships.',
       'experience-aptiv-title': 'Senior Algorithm Engineer',
@@ -25,14 +25,14 @@ window.SharedData = {
       'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.',
       
       // Work section
-      'work-title': 'All Work',
+      'work-title': 'ALL WORK',
       'work-autonomous': 'Autonomous Driving',
       'work-startup': 'Startup Experience',
       'work-robotic': 'Robotic Research',
       'work-bigdata': 'Big Data!',
       
       // Connect section
-      'connect-title': "Let's Connect",
+      'connect-title': "LET'S CONNECT",
       'connect-mail-label': 'Mail:',
       'connect-location-label': 'Location:',
       'connect-location': 'Frankfurt, Germany',
@@ -45,12 +45,12 @@ window.SharedData = {
       'nav-connect': 'Kontakt',
       
       // Info section (for index page)
-      'info-title': 'Info',
-      'info-description': 'Senior Algorithm Engineer @LotusTech, spezialisiert auf AWS Cloud-Infrastruktur, geschlossene Datenschleifen-Engineering und ADAS-Entwicklung für autonome Fahrsysteme. Ich baue skalierbare cloud-native Architekturen mit umfassender Erfahrung in AWS-Services, Kubernetes-Orchestrierung und Echtzeit-V2X-Datenverarbeitungspipelines. Meine Expertise umfasst verteilte Systeme, KI-Infrastruktur, Daten-Engineering-Toolchains, Compliance-Frameworks (Data Governance, GDPR) und agiles Projektmanagement—alles entscheidend für skalierbare KI- und autonome Fahranwendungen. Leidenschaftlich darin, Geschäftsanforderungen mit technischen Innovationen zu verbinden, liefere ich maßgeschneiderte Cloud-Architekturlösungen, die Effizienz und Skalierbarkeit vorantreiben. Versiert in Python, Java, C++ (ROS) und Cloud-DevOps-Praktiken. Leitete Entwicklung unternehmensweiter Datenplattformen, die täglich Millionen von Sensordatenpunkten verarbeiten und schnelle ADAS-Iterationszyklen durch datengetriebene Workflows und automatisierte ML-Pipelines ermöglichen.',
+      'info-title': 'INFO',
+      'info-description': 'Senior Algorithm Engineer @LotusTech, spezialisiert auf Cloud-Infrastruktur, Datenverarbeitungs-Engineering und ADAS-Entwicklung. Experte im Aufbau skalierbarer cloud-nativer Architekturen für autonome Fahrsysteme, mit umfassender Erfahrung in AWS-Services (ECS, Lambda, S3, MSK, Redshift), Kubernetes-Orchestrierung und Echtzeit-Datenverarbeitungspipelines. Meine Expertise umfasst verteilte Systeme, KI-Infrastruktur, Daten-Toolchains, Compliance-Frameworks (z.B. Data Governance, GDPR) und Projektmanagement -- alles entscheidend für skalierbare KI- und autonome Fahranwendungen. Leidenschaftlich darin, Geschäftsanforderungen mit technischen Innovationen zu verbinden, liefere ich maßgeschneiderte Cloud-Lösungen, die Effizienz und Skalierbarkeit vorantreiben. Versiert in Python, Java, C++ (ROS) und Cloud-DevOps-Praktiken. Leitete Entwicklung unternehmensweiter Datenplattformen, die täglich Millionen von Sensordatenpunkten verarbeiten und schnelle ADAS-Iterationszyklen durch datengetriebene Workflows und automatisierte ML-Pipelines ermöglichen.',
       'download-resume': 'Lebenslauf herunterladen',
       
       // Experience section
-      'experience-title': 'Erfahrung',
+      'experience-title': 'ERFAHRUNG',
       'experience-lotustech-title': 'Senior Algorithm Engineer',
       'experience-lotustech-description': 'Architektiert und verwaltet eine cloud-native SaaS-Plattform auf AWS zur Unterstützung der ADAS-Datenverarbeitung und datenschließender Kreisläufe für autonome Automobilsysteme. Überwachte Compliance, Datenlebenszyklus, Infrastrukturzuverlässigkeit und Leistungsoptimierung für ADAS-Workloads in hybriden Cloud-Architekturen. Baute Kubernetes-basierte Datenplattformen auf, die 10M+ tägliche Sensordatenpunkte mit MSK, Lambda, S3 und Redshift verarbeiten und automatisierte ML-Workflows für ADAS-Modelltraining implementieren. Führt Geschäftsentwicklungsinitiativen mit externen Automobilkunden durch—Sammlung von Anforderungen, Gestaltung technischer Vorschläge und Lieferung von POCs zur Projektgewinnung und Partnerschaftserweiterung.',
       'experience-aptiv-title': 'Senior Algorithm Engineer',
@@ -61,14 +61,14 @@ window.SharedData = {
       'experience-auro-description': 'Entwicklung eines selbstfahrenden Shuttles bei Auro Robotics, Implementierung von ROS-basierten Pfadplanern mit GPS und LiDAR. Optimierung der Navigation durch Simulationen, was Anerkennung am YC Demo Day und eine Investition von $2,1M einbrachte.',
       
       // Work section
-      'work-title': 'Alle Arbeiten',
+      'work-title': 'ALLE ARBEITEN',
       'work-autonomous': 'Autonomes Fahren',
       'work-startup': 'Startup-Erfahrung',
       'work-robotic': 'Robotikforschung',
       'work-bigdata': 'Big Data!',
       
       // Connect section
-      'connect-title': 'Lass Uns Verbinden',
+      'connect-title': 'LASS UNS VERBINDEN',
       'connect-mail-label': 'E-Mail:',
       'connect-location-label': 'Standort:',
       'connect-location': 'Frankfurt, Deutschland',
@@ -87,7 +87,7 @@ window.SharedData = {
     },
     {
       href: '/works/startup-experience.html',
-      img: '/assets/img/yc2015.jpg',
+      img: '/assets/img/samaltman.jpg',
       hoverImg: '/assets/img/auro.jpg',
       alt: 'Startup Experience',
       titleKey: 'work-startup'
@@ -118,7 +118,7 @@ window.SharedData = {
     },
     {
       titleKey: 'experience-aptiv-title',
-      years: '2019 – 2022',
+      years: '2019 –2022',
       company: 'Aptiv',
       descriptionKey: 'experience-aptiv-description'
     },

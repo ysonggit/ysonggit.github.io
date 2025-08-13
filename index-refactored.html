@@ -1,0 +1,72 @@
+<!-- 
+  Yang Song Portfolio Website
+  Refactored version using shared components
+  GitHub: https://github.com/ysonggit/ysonggit.github.io
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yang Song - Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Yang Song, Ph.D.</h1>
+      <div class="nav">
+        <a href="#work" data-i18n="nav-work">Work</a>
+        <a href="#info" data-i18n="nav-info">Info</a>
+        <a href="#connect" data-i18n="nav-connect">Connect</a>
+        <div id="language-selector-placeholder"></div>
+      </div>
+    </div>
+
+    <div class="intro-section" id="info">
+      <div class="intro-text">
+        <h2 data-i18n="info-title">INFO</h2>
+        <p data-i18n="info-description">
+          Senior Algorithm Engineer @LotusTech specializing in cloud infrastructure, data pipeline engineering, and ADAS development...
+        </p>
+        <a href="https://ysonggit.github.io/resume/" target="_blank" rel="noopener noreferrer" class="resume-btn" data-i18n="download-resume">Download Resume</a>
+      </div>
+      <div class="intro-image">
+        <img src="/assets/img/lotus_bike.jpg" alt="Joey Bon with Lotus x Hope bicycle">
+      </div>
+    </div>
+
+    <div id="experience-section-placeholder"></div>
+    <div id="work-section-placeholder"></div>
+    <div id="connect-section-placeholder"></div>
+  </div>
+
+  <!-- Shared JavaScript files -->
+  <script src="/js/shared-data.js"></script>
+  <script src="/js/shared-components.js"></script>
+  <script src="/js/shared-init.js"></script>
+  <script src="/js/scripts.js"></script>
+  
+  <script>
+    // Initialize shared components
+    document.addEventListener('DOMContentLoaded', function() {
+      // Insert language selector
+      document.getElementById('language-selector-placeholder').innerHTML = SharedComponents.generateLanguageSelector();
+      
+      // Insert experience section
+      document.getElementById('experience-section-placeholder').innerHTML = SharedComponents.generateExperienceSection();
+      
+      // Insert work section
+      document.getElementById('work-section-placeholder').innerHTML = SharedComponents.generateWorkSection();
+      
+      // Insert connect section
+      document.getElementById('connect-section-placeholder').innerHTML = SharedComponents.generateConnectSection();
+      
+      // Initialize all shared functionality
+      SharedInit.initializeAll();
+    });
+  </script>
+</body>
+</html>

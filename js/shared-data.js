@@ -80,8 +80,8 @@ window.SharedData = {
   workGallery: [
     {
       href: '/works/autonomous-driving.html',
-      img: '/assets/img/iaa.jpg',
-      hoverImg: '/assets/img/techAD.jpg',
+      img: '/assets/img/techAD.jpg',
+      hoverImg: '/assets/img/iaa_aws.jpg',
       alt: 'Autonomous Driving',
       titleKey: 'work-autonomous'
     },

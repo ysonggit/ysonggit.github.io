@@ -29,7 +29,7 @@ window.SharedComponents = {
         <div class="work-gallery">
           <a href="/works/autonomous-driving.html" class="work-item-link">
             <div class="work-item">
-              <img src="/assets/img/iaa.jpg" alt="Autonomous driving technology at IAA conference - ADAS and cloud computing solutions" data-hover="/assets/img/techAD.jpg" class="hover-image">
+              <img src="/assets/img/techAD.jpg" alt="Autonomous driving technology at IAA conference - ADAS and cloud computing solutions" data-hover="/assets/img/iaa_aws.jpg" class="hover-image">
               <p data-i18n="work-autonomous">Autonomous Driving</p>
             </div>
           </a>

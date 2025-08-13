@@ -1,12 +1,15 @@
+<!-- 
+  Yang Song Portfolio Website
+  Developed with assistance from ChatGPT/OpenAI
+  GitHub: https://github.com/ysonggit/ysonggit.github.io
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autonomous Driving - Yang Song</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500;700&display=swap">
+  <title>Yang Song - Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap">
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -16,7 +19,7 @@
       <h1>Yang Song, Ph.D.</h1>
       <div class="nav">
         <a href="#work" data-i18n="nav-work">Work</a>
-        <a href="/" data-i18n="nav-info">Info</a>
+        <a href="#info" data-i18n="nav-info">Info</a>
         <a href="#connect" data-i18n="nav-connect">Connect</a>
         <div class="language-selector">
           <span class="flag-icon" id="current-flag">🇬🇧</span>
@@ -30,29 +33,19 @@
 
     <div class="intro-section" id="info">
       <div class="intro-text">
-        <h2 data-i18n="info-title">AUTONOMOUS DRIVING</h2>
+        <h2 data-i18n="info-title">INFO</h2>
         <p data-i18n="info-description">
-          Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive cloud infrastructure and data pipeline solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, real-time data processing pipelines, and scalable ML training infrastructure that have been validated in global production vehicles.
+          Senior Algorithm Engineer @LotusTech specializing in cloud infrastructure, data pipeline engineering, and ADAS development. Expert in building scalable cloud-native architectures for autonomous driving systems, with deep experience in AWS services (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, and real-time data processing pipelines. My expertise spans distributed systems, AI infra, data toolchains, compliance frameworks (e.g., data governance, GDPR), and project management -- all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.
         </p>
-        
-        <div class="speaking-highlight">
-          <h3 data-i18n="speaking-title">🎤 TechAD Europe 2025 Speaker</h3>
-          <p data-i18n="speaking-description">
-            Presented groundbreaking work on the <strong>Lotus Robotics Toolchain</strong> at TechAD Europe 2025, showcasing our comprehensive end-to-end solution for ADAS development. Demonstrated how our RoboLogger data collection device and RoboGalaxy SAAS platform addresses critical data bottlenecks in autonomous driving development.
-          </p>
-          <p data-i18n="speaking-details">
-            The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.
-          </p>
-        </div>
+        <a href="https://ysonggit.github.io/resume/" target="_blank" rel="noopener noreferrer" class="resume-btn" data-i18n="download-resume">Download Resume</a>
       </div>
       <div class="intro-image">
-        <img src="/assets/img/iaa_aws.jpg" alt="Autonomous Driving" class="stacked-image">
-        <img src="/assets/img/techAD.jpg" alt="TechAD Conference" class="stacked-image">
+        <img src="/assets/img/lotus_bike.jpg" alt="Joey Bon with Lotus x Hope bicycle">
       </div>
     </div>
 
     <div class="experience-section">
-      <h2 data-i18n="experience-title">Experience</h2>
+      <h2 data-i18n="experience-title">EXPERIENCE</h2>
       <table class="experience-table">
         <tr>
           <th data-i18n="experience-lotustech-title">Senior Algorithm Engineer</th>
@@ -102,7 +95,7 @@
     </div>
 
     <div class="work-section" id="work">
-      <h2 data-i18n="work-title">All Work</h2>
+      <h2 data-i18n="work-title">ALL WORK</h2>
       <div class="work-gallery">
         <a href="/works/autonomous-driving.html" class="work-item-link">
           <div class="work-item">
@@ -112,7 +105,7 @@
         </a>
         <a href="/works/startup-experience.html" class="work-item-link">
           <div class="work-item">
-            <img src="/assets/img/yc2015.jpg" alt="Startup Experience" data-hover="/assets/img/auro.jpg" class="hover-image">
+            <img src="/assets/img/samaltman.jpg" alt="Startup Experience" data-hover="/assets/img/auro.jpg" class="hover-image">
             <p data-i18n="work-startup">Startup Experience</p>
           </div>
         </a>
@@ -137,7 +130,7 @@
       </div>
       <div class="connect-content">
         <div class="connect-title">
-          <h2 data-i18n="connect-title">Let's Connect</h2>
+          <h2 data-i18n="connect-title">LET'S CONNECT</h2>
           <div class="social-links-static">
             <div class="social-links">
               <a href="https://www.linkedin.com/in/song24/" target="_blank" class="social-icon">
@@ -178,20 +171,18 @@
         'nav-work': 'Work',
         'nav-info': 'Info',
         'nav-connect': 'Connect',
-        'info-title': 'Autonomous Driving',
-        'info-description': 'Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive data solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures, real-time data pipelines, and scalable processing systems that have been validated in global production vehicles.',
-        'speaking-title': '🎤 TechAD Europe 2025 Speaker',
-        'speaking-description': 'Presented groundbreaking work on the Lotus Robotics Toolchain at TechAD Europe 2025, showcasing our comprehensive end-to-end solution for ADAS development. Demonstrated how our RoboLogger data collection device and RoboGalaxy SAAS platform addresses critical data bottlenecks in autonomous driving development.',
-        'speaking-details': 'The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.',
+        'info-title': 'INFO',
+        'info-description': 'Senior Algorithm Engineer @LotusTech specializing in cloud infrastructure, data pipeline engineering, and ADAS development. Expert in building scalable cloud-native architectures for autonomous driving systems, with deep experience in AWS services (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, and real-time data processing pipelines. My expertise spans distributed systems, AI infra, data toolchains, compliance frameworks (e.g., data governance, GDPR), and project management -- all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.',
+        'download-resume': 'Download Resume',
         'experience-title': 'EXPERIENCE',
         'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Led ADAS cloud architecture for Lotus Eletre and Emeya, building scalable AWS-based data platform to do data management, labeling and processing with Kubernets, Java, Python, MSK, Glue, S3, Lambda, SQS and Redshift. Ensured data compliance and slashed AWS costs by 50% through serverless design. Manage collaborative data projects with external partners (Momenta, Wayve) for data-driven autonomous driving developments.',
+        'experience-lotustech-description': 'Architected and manage a cloud-native SaaS platform on AWS supporting ADAS data processing and data-closed loops for autonomous automotive systems. Oversaw compliance, data lifecycle, infrastructure reliability, and performance optimization for ADAS workloads across hybrid cloud architectures. Built Kubernetes-based data platforms that process 10M+ daily sensor data points using MSK, Lambda, S3, and Redshift, implementing automated ML workflows for ADAS model training. Drive business development initiatives with external automotive clients—gathering requirements, shaping technical proposals, and delivering POCs to win projects and expand partnerships.',
         'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Developed radar processing algorithms for Motional\'s Robotaxi, enhancing MRR library with Python and C++. Led lane change prediction function development for BMW and PSA\'s ADAS projects, building robust data pipelines. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
+        'experience-aptiv-description': 'Led radar processing algorithms for Motional's Robotaxi, enhancing sensor fusion libraries with Python, C++, and in-house cloud-based toolchains. Led POC development of lane change prediction and ADAS features for BMW and PSA clients. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
         'experience-groupon-title': 'Software Engineer',
-        'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+.',
+        'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+. Designed and implemented scalable data processing architectures using Apache Spark, Kafka, and cloud-based data warehouses for real-time analytics and customer insights.',
         'experience-auro-title': 'Robotics Engineer Intern',
-        'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment.',
+        'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.',
         'work-title': 'ALL WORK',
         'work-autonomous': 'Autonomous Driving',
         'work-startup': 'Startup Experience',
@@ -207,16 +198,14 @@
         'nav-work': 'Arbeit',
         'nav-info': 'Info',
         'nav-connect': 'Kontakt',
-        'info-title': 'Autonomes Fahren',
-        'info-description': 'Leitung der Entwicklung fortschrittlicher Fahrerassistenzsysteme (ADAS) im Lotus Tech Innovation Centre, Architektur umfassender Datenlösungen zur Beseitigung kritischer Engpässe in der Entwicklung autonomer Fahrsysteme. Aufbau der Lotus Robotics Toolchain mit RoboLogger Datenerfassungsgeräten und RoboGalaxy SAAS-Plattform, Entwicklung transparenter "Whitebox"-Lösungen für globale Automobilpartner. Spezialisiert auf cloud-native AWS-Architekturen, Echtzeit-Datenpipelines und skalierbare Verarbeitungssysteme, die in globalen Produktionsfahrzeugen validiert wurden.',
-        'speaking-title': '🎤 TechAD Europe 2025 Referent',
-        'speaking-description': 'Präsentierte bahnbrechende Arbeit zur Lotus Robotics Toolchain auf der TechAD Europe 2025 und zeigte unsere umfassende End-to-End-Lösung für die ADAS-Entwicklung. Demonstrierte, wie unser RoboLogger Datenerfassungsgerät und die RoboGalaxy SAAS-Plattform kritische Datenengpässe in der Entwicklung autonomer Fahrsysteme adressieren.',
-        'speaking-details': 'Die Session behandelte cloud-native Architektur, anpassbare "Whitebox"-Datenverarbeitungsansätze und wie unsere transparenten Lösungen AV-Entwicklungszyklen beschleunigen und gleichzeitig globale Datenkonformität gewährleisten. Unsere Toolchain, bereits in globalen Produktionsfahrzeugen validiert, befähigt Automotive-Engineering-Teams, ihr ADAS-Potenzial durch datengetriebene Strategien zu entfesseln.',
+        'info-title': 'INFO',
+        'info-description': 'Senior Algorithm Engineer @LotusTech, spezialisiert auf Cloud-Infrastruktur, Datenverarbeitungs-Engineering und ADAS-Entwicklung. Experte im Aufbau skalierbarer cloud-nativer Architekturen für autonome Fahrsysteme, mit umfassender Erfahrung in AWS-Services (ECS, Lambda, S3, MSK, Redshift), Kubernetes-Orchestrierung und Echtzeit-Datenverarbeitungspipelines. Meine Expertise umfasst verteilte Systeme, KI-Infrastruktur, Daten-Toolchains, Compliance-Frameworks (z.B. Data Governance, GDPR) und Projektmanagement -- alles entscheidend für skalierbare KI- und autonome Fahranwendungen. Leidenschaftlich darin, Geschäftsanforderungen mit technischen Innovationen zu verbinden, liefere ich maßgeschneiderte Cloud-Lösungen, die Effizienz und Skalierbarkeit vorantreiben. Versiert in Python, Java, C++ (ROS) und Cloud-DevOps-Praktiken. Leitete Entwicklung unternehmensweiter Datenplattformen, die täglich Millionen von Sensordatenpunkten verarbeiten und schnelle ADAS-Iterationszyklen durch datengetriebene Workflows und automatisierte ML-Pipelines ermöglichen.',
+        'download-resume': 'Lebenslauf herunterladen',
         'experience-title': 'ERFAHRUNG',
         'experience-lotustech-title': 'Senior Algorithm Engineer',
-        'experience-lotustech-description': 'Leitung der ADAS-Cloud-Architektur für Lotus Eletre und Emeya, Aufbau einer skalierbaren AWS-basierten Datenplattform für Datenmanagement, -kennzeichnung und -verarbeitung mit Kubernetes, Java, Python, MSK, Glue, S3, Lambda, SQS und Redshift. Sicherstellung der Datenkonformität und Reduzierung der AWS-Kosten um 50% durch serverloses Design. Management von kollaborativen Datenprojekten mit externen Partnern (Momenta, Wayve) für datengetriebene Entwicklungen im autonomen Fahren.',
+        'experience-lotustech-description': 'Architektiert und verwaltet eine cloud-native SaaS-Plattform auf AWS zur Unterstützung der ADAS-Datenverarbeitung und datenschließender Kreisläufe für autonome Automobilsysteme. Überwachte Compliance, Datenlebenszyklus, Infrastrukturzuverlässigkeit und Leistungsoptimierung für ADAS-Workloads in hybriden Cloud-Architekturen. Baute Kubernetes-basierte Datenplattformen auf, die 10M+ tägliche Sensordatenpunkte mit MSK, Lambda, S3 und Redshift verarbeiten und automatisierte ML-Workflows für ADAS-Modelltraining implementieren. Führt Geschäftsentwicklungsinitiativen mit externen Automobilkunden durch—Sammlung von Anforderungen, Gestaltung technischer Vorschläge und Lieferung von POCs zur Projektgewinnung und Partnerschaftserweiterung.',
         'experience-aptiv-title': 'Senior Algorithm Engineer',
-        'experience-aptiv-description': 'Entwicklung von Radarverarbeitungsalgorithmen für Motional\'s Robotaxi, Verbesserung der MRR-Bibliothek mit Python und C++. Leitung der Entwicklung der Spurwechselvorhersagefunktion für BMW- und PSA-ADAS-Projekte, Aufbau robuster Datenpipelines. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
+        'experience-aptiv-description': 'Leitete Radarverarbeitungsalgorithmen für Motional's Robotaxi, Verbesserung von Sensorfusions-Bibliotheken mit Python, C++ und internen cloud-basierten Toolchains. Leitete POC-Entwicklung von Spurwechselvorhersage und ADAS-Features für BMW- und PSA-Kunden. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
         'experience-groupon-title': 'Software Engineer',
         'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
         'experience-auro-title': 'Robotics Engineer Intern',
@@ -258,4 +247,4 @@
     });
   </script>
 </body>
-</html>
+</html><!-- Force rebuild Fri Aug  8 10:30:00 CEST 2025 -->
