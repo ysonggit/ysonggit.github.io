@@ -24,6 +24,9 @@ window.SharedData = {
       'experience-auro-title': 'Robotics Engineer Intern',
       'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.',
       
+      // Partners section
+      'partners-title': 'Partners',
+      
       // Work section
       'work-title': 'All Work',
       'work-autonomous': 'Autonomous Driving',
@@ -59,6 +62,9 @@ window.SharedData = {
       'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
       'experience-auro-title': 'Robotics Engineer Intern',
       'experience-auro-description': 'Entwicklung eines selbstfahrenden Shuttles bei Auro Robotics, Implementierung von ROS-basierten Pfadplanern mit GPS und LiDAR. Optimierung der Navigation durch Simulationen, was Anerkennung am YC Demo Day und eine Investition von $2,1M einbrachte.',
+      
+      // Partners section
+      'partners-title': 'Partner',
       
       // Work section
       'work-title': 'Alle Arbeiten',

@@ -195,6 +195,58 @@ body {
   line-height: 1.6;
   color: #555;
 }
+.partners-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.partners-section h2 {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.partner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  transition: transform 0.2s ease;
+  height: 80px;
+}
+
+.partner-item:hover {
+  transform: scale(1.05);
+}
+
+.partner-logo {
+  max-width: 120px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo[alt="AWS"] {
+  max-width: 80px;
+  max-height: 35px;
+}
+
+.partner-item:hover .partner-logo {
+  transform: scale(1.05);
+}
+
 .work-section {
   margin-top: 40px;
 }
@@ -473,6 +525,38 @@ body {
     margin: 8px 0 0;
   }
   
+  /* Partners section mobile optimization */
+  .partners-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .partners-section h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .partner-item {
+    height: 70px;
+    padding: 10px;
+  }
+  
+  .partner-logo {
+    max-width: 100px;
+    max-height: 45px;
+  }
+  
+  .partner-logo[alt="AWS"] {
+    max-width: 70px;
+    max-height: 30px;
+  }
+  
   /* Connect section mobile optimization */
   .connect-section {
     margin-top: 30px;
@@ -580,5 +664,26 @@ body {
     height: 16px;
     line-height: 16px;
     font-size: 12px;
+  }
+  
+  /* Partners section very small mobile optimization */
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .partner-item {
+    height: 60px;
+    padding: 8px;
+  }
+  
+  .partner-logo {
+    max-width: 80px;
+    max-height: 35px;
+  }
+  
+  .partner-logo[alt="AWS"] {
+    max-width: 60px;
+    max-height: 25px;
   }
 }
