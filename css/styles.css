@@ -219,19 +219,43 @@ body {
 .partner-item {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 15px;
   transition: transform 0.2s ease;
-  height: 80px;
+  min-height: 80px;
 }
 
-.partner-item a {
+.partner-link {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
   width: 100%;
-  height: 100%;
   text-decoration: none;
+  color: inherit;
+}
+
+.partner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.partner-name {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.partner-use-case {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #666;
 }
 
 .partner-item:hover {
@@ -250,6 +274,7 @@ body {
 .partner-logo[alt="AWS"] {
   max-width: 80px;
   max-height: 35px;
+  margin-bottom: 12px;
 }
 
 .partner-item:hover .partner-logo {
@@ -552,18 +577,31 @@ body {
   }
   
   .partner-item {
-    height: 70px;
+    min-height: 60px;
     padding: 10px;
   }
   
+  .partner-link {
+    gap: 8px;
+  }
+  
   .partner-logo {
-    max-width: 100px;
-    max-height: 45px;
+    max-width: 70px;
+    max-height: 35px;
   }
   
   .partner-logo[alt="AWS"] {
-    max-width: 70px;
-    max-height: 30px;
+    max-width: 55px;
+    max-height: 25px;
+    margin-bottom: 8px;
+  }
+  
+  .partner-name {
+    font-size: 11px;
+  }
+  
+  .partner-use-case {
+    font-size: 9px;
   }
   
   /* Connect section mobile optimization */
@@ -682,17 +720,30 @@ body {
   }
   
   .partner-item {
-    height: 60px;
+    min-height: 50px;
     padding: 8px;
   }
   
+  .partner-link {
+    gap: 6px;
+  }
+  
   .partner-logo {
-    max-width: 80px;
-    max-height: 35px;
+    max-width: 50px;
+    max-height: 25px;
   }
   
   .partner-logo[alt="AWS"] {
-    max-width: 60px;
-    max-height: 25px;
+    max-width: 40px;
+    max-height: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .partner-name {
+    font-size: 10px;
+  }
+  
+  .partner-use-case {
+    font-size: 8px;
   }
 }
