@@ -225,6 +225,15 @@ body {
   height: 80px;
 }
 
+.partner-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
 .partner-item:hover {
   transform: scale(1.05);
 }
