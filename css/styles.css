@@ -281,6 +281,49 @@ body {
   transform: scale(1.05);
 }
 
+/* Competencies Section */
+.competencies-section {
+  margin: 40px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.competencies-section h2 {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 20px;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.competencies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  flex: 1;
+}
+
+.competency-item {
+  background: #e8e8e8;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.competency-item:hover {
+  background: #d0d0d0;
+}
+
 .work-section {
   margin-top: 40px;
 }
@@ -541,6 +584,27 @@ body {
     font-size: 10px;
     line-height: 20px;
     padding: 5px 0;
+  }
+  
+  /* Competencies section mobile optimization */
+  .competencies-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .competencies-section h2 {
+    font-size: 16px;
+    line-height: 20px;
+    min-width: auto;
+  }
+  
+  .competencies-grid {
+    gap: 8px;
+  }
+  
+  .competency-item {
+    padding: 6px 12px;
+    font-size: 11px;
   }
   
   /* Work section mobile optimization */
