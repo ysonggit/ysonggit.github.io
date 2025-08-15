@@ -11,7 +11,6 @@ window.SharedData = {
       // Info section (for index page)
       'info-title': 'Info',
       'info-description': 'Senior Algorithm Engineer @LotusTech specializing in AWS cloud infrastructure, data closed-loop engineering, and ADAS development for autonomous driving systems. I build scalable cloud-native architectures with deep experience in AWS services, Kubernetes orchestration, and real-time V2X data processing pipelines. My expertise spans distributed systems, AI infrastructure, data engineering toolchains, compliance frameworks (data governance, GDPR), and agile project management—all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud architecture solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.',
-      'download-resume': 'Download Resume',
       
       // Experience section
       'experience-title': 'Experience',
@@ -50,7 +49,6 @@ window.SharedData = {
       // Info section (for index page)
       'info-title': 'Info',
       'info-description': 'Senior Algorithm Engineer @LotusTech, spezialisiert auf AWS Cloud-Infrastruktur, geschlossene Datenschleifen-Engineering und ADAS-Entwicklung für autonome Fahrsysteme. Ich baue skalierbare cloud-native Architekturen mit umfassender Erfahrung in AWS-Services, Kubernetes-Orchestrierung und Echtzeit-V2X-Datenverarbeitungspipelines. Meine Expertise umfasst verteilte Systeme, KI-Infrastruktur, Daten-Engineering-Toolchains, Compliance-Frameworks (Data Governance, GDPR) und agiles Projektmanagement—alles entscheidend für skalierbare KI- und autonome Fahranwendungen. Leidenschaftlich darin, Geschäftsanforderungen mit technischen Innovationen zu verbinden, liefere ich maßgeschneiderte Cloud-Architekturlösungen, die Effizienz und Skalierbarkeit vorantreiben. Versiert in Python, Java, C++ (ROS) und Cloud-DevOps-Praktiken. Leitete Entwicklung unternehmensweiter Datenplattformen, die täglich Millionen von Sensordatenpunkten verarbeiten und schnelle ADAS-Iterationszyklen durch datengetriebene Workflows und automatisierte ML-Pipelines ermöglichen.',
-      'download-resume': 'Lebenslauf herunterladen',
       
       // Experience section
       'experience-title': 'Erfahrung',

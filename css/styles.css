@@ -127,21 +127,6 @@ body {
 .stacked-image:last-child {
   margin-bottom: 0;
 }
-.resume-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: 1px solid #333;
-  border-radius: 20px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.resume-btn:hover {
-  background-color: #000; /* Black background on hover */
-  color: #fff; /* White text on hover */
-}
 .experience-section h2 {
   font-family: "Spline Sans Mono", monospace;
   font-weight: 500;
@@ -804,13 +789,6 @@ body {
     height: 14px;
   }
   
-  /* Resume button mobile optimization */
-  .resume-btn {
-    margin-top: 15px;
-    padding: 8px 16px;
-    font-size: 11px;
-    border-radius: 16px;
-  }
 }
 
 /* Additional mobile optimization for very small screens */
