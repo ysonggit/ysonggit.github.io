@@ -32,17 +32,19 @@
       <div class="intro-text">
         <h2 data-i18n="info-title">AUTONOMOUS DRIVING</h2>
         <p data-i18n="info-description">
-          Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive cloud infrastructure and data pipeline solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, real-time data processing pipelines, and scalable ML training infrastructure that have been validated in global production vehicles.
+          I have led cloud infrastructure management across AWS, and private clouds, utilizing Terraform for Infrastructure as Code (IaC) and DevOps practices to build scalable, resilient systems. This includes optimizing compute, storage, networking, and security for big data workloads, ensuring high availability and compliance in regulated automotive settings.
         </p>
         
-        <div class="speaking-highlight">
-          <h3 data-i18n="speaking-title">🎤 TechAD Europe 2025 Speaker</h3>
-          <p data-i18n="speaking-description">
-            Presented groundbreaking work on the <strong>Lotus Robotics Toolchain</strong> at TechAD Europe 2025, showcasing our comprehensive end-to-end solution for ADAS development. Demonstrated how our RoboLogger data collection device and RoboGalaxy SAAS platform addresses critical data bottlenecks in autonomous driving development.
-          </p>
-          <p data-i18n="speaking-details">
-            The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.
-          </p>
+        <div class="content-section">
+          <h3>Autonomous Driving Toolchain Development</h3>
+          <p>I led the deployment of the cloud-based toolchain for data-driven autonomous vehicle development on AWS Kubernetes clusters, integrating with S3 and private cloud storage for secure, privacy-compliant storage of converted vehicle data (ROS format). This platform manages multi-modal sensor data from LiDAR, cameras, and radar through end-to-end workflows, including collection, anonymization, processing, ML model training, ADAS function analysis, and planning & control algorithm simulation, while supporting efficient scenario extraction (RAG-based) and edge case prioritization to accelerate algorithm improvements. I ensured traceability, data quality governance, and adherence to automotive standards like E-NCAP. The secure pipelines enables rapid iteration on safety-critical features—optimized for cost-efficiency based on GPU utilization.</p>
+          <p><strong>🎤 TechAD Europe 2025 Speaker</strong><br>
+          Presented groundbreaking work on autonomous driving toolchain development at TechAD Europe 2025 in Berlin</p>
+        </div>
+        
+        <div class="content-section">
+          <h3>SaaS Platform Migration & Fleet Management</h3>
+          <p>I led the migration of a SaaS platform for real-time consumer fleet data collection from Alibaba Cloud to AWS, re-architecting Kubernetes-based Java microservices with Nacos for service discovery. It features IoT Core with MQTT5 for telemetry ingestion, bidirectional communication with 2-way mTLS auth, Lambda for decoding, S3 for storage, and Glue/Redshift for analytics, processing streams like periodic signals, EDR uploads for AEB/SRS events, and syslog data. I implemented ingestion pipelines for hourly vehicle data cross-cloud synchronization, secure S3 uploads via temporary STS credentials and AKSK tokens, and real-time streaming through MSK (Kafka) and Kinesis Firehose for data analysis service.</p>
         </div>
       </div>
       <div class="intro-image">
@@ -181,17 +183,11 @@
     const pageTranslations = {
       en: {
         'info-title': 'Autonomous Driving',
-        'info-description': 'Led the development of advanced driver-assistance systems (ADAS) at Lotus Tech Innovation Centre, architecting comprehensive cloud infrastructure and data pipeline solutions that address critical bottlenecks in autonomous driving development. Built the Lotus Robotics Toolchain featuring RoboLogger data collection devices and RoboGalaxy SAAS platform, creating transparent "whitebox" solutions for global automotive partners. Specialized in cloud-native AWS architectures (ECS, Lambda, S3, MSK, Redshift), Kubernetes orchestration, real-time data processing pipelines, and scalable ML training infrastructure that have been validated in global production vehicles.',
-        'speaking-title': '🎤 TechAD Europe 2025 Speaker',
-        'speaking-description': 'Presented groundbreaking work on the Lotus Robotics Toolchain at TechAD Europe 2025, showcasing our comprehensive end-to-end solution for ADAS development. Demonstrated how our RoboLogger data collection device and RoboGalaxy SAAS platform addresses critical data bottlenecks in autonomous driving development.',
-        'speaking-details': 'The session covered cloud-native architecture, customizable "whitebox" data processing approaches, and how our transparent solutions accelerate AV development cycles while ensuring global data compliance. Our toolchain, already validated in global production vehicles, empowers automotive engineering teams to unlock their ADAS potential through data-driven strategies.'
+        'info-description': 'I have led cloud infrastructure management across AWS, and private clouds, utilizing Terraform for Infrastructure as Code (IaC) and DevOps practices to build scalable, resilient systems. This includes optimizing compute, storage, networking, and security for big data workloads, ensuring high availability and compliance in regulated automotive settings.',
       },
       de: {
         'info-title': 'Autonomes Fahren',
-        'info-description': 'Leitung der Entwicklung fortschrittlicher Fahrerassistenzsysteme (ADAS) im Lotus Tech Innovation Centre, Architektur umfassender Cloud-Infrastruktur und Datenpipeline-Lösungen zur Beseitigung kritischer Engpässe in der Entwicklung autonomer Fahrsysteme. Aufbau der Lotus Robotics Toolchain mit RoboLogger Datenerfassungsgeräten und RoboGalaxy SAAS-Plattform, Entwicklung transparenter "Whitebox"-Lösungen für globale Automobilpartner. Spezialisiert auf cloud-native AWS-Architekturen (ECS, Lambda, S3, MSK, Redshift), Kubernetes-Orchestrierung, Echtzeit-Datenpipelines und skalierbare ML-Trainingsinfrastruktur, die in globalen Produktionsfahrzeugen validiert wurden.',
-        'speaking-title': '🎤 TechAD Europe 2025 Referent',
-        'speaking-description': 'Präsentierte bahnbrechende Arbeit zur Lotus Robotics Toolchain auf der TechAD Europe 2025 und zeigte unsere umfassende End-to-End-Lösung für die ADAS-Entwicklung. Demonstrierte, wie unser RoboLogger Datenerfassungsgerät und die RoboGalaxy SAAS-Plattform kritische Datenengpässe in der Entwicklung autonomer Fahrsysteme adressieren.',
-        'speaking-details': 'Die Session behandelte cloud-native Architektur, anpassbare "Whitebox"-Datenverarbeitungsansätze und wie unsere transparenten Lösungen AV-Entwicklungszyklen beschleunigen und gleichzeitig globale Datenkonformität gewährleisten. Unsere Toolchain, bereits in globalen Produktionsfahrzeugen validiert, befähigt Automotive-Engineering-Teams, ihr ADAS-Potenzial durch datengetriebene Strategien zu entfesseln.'
+        'info-description': 'Ich habe Cloud-Infrastruktur-Management über AWS und private Clouds geleitet, unter Verwendung von Terraform für Infrastructure as Code (IaC) und DevOps-Praktiken zum Aufbau skalierbarer, widerstandsfähiger Systeme. Dies umfasst die Optimierung von Computing, Speicher, Netzwerk und Sicherheit für Big-Data-Arbeitslasten, wobei hohe Verfügbarkeit und Compliance in regulierten Automotive-Umgebungen gewährleistet werden.',
       }
     };
 
