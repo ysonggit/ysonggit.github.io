@@ -10,7 +10,7 @@ A professional portfolio website showcasing Yang Song's experience in autonomous
 - **Dual Image Layout**: Stacked images on subpages matching hover effects
 - **Professional Sections**: 
   - Autonomous Driving experience (featuring TechAD Europe 2025 speaking engagement)
-  - Robotic Research publications
+  - Robotics Research publications
   - Startup Experience (Auro Robotics with Y Combinator details)
   - Big Data engineering work
 

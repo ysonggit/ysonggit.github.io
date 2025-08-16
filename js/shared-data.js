@@ -30,7 +30,7 @@ window.SharedData = {
       'work-title': 'All Work',
       'work-autonomous': 'Autonomous Driving',
       'work-startup': 'Startup Experience',
-      'work-robotic': 'Robotic Research',
+      'work-robotic': 'Robotics Research',
       'work-bigdata': 'Big Data!',
       
       // Connect section
@@ -100,7 +100,7 @@ window.SharedData = {
       href: '/works/robotic-research.html',
       img: '/assets/img/robotic_research.jpg',
       hoverImg: '/assets/img/hexagon.gif',
-      alt: 'Robotic Research',
+      alt: 'Robotics Research',
       titleKey: 'work-robotic'
     },
     {
