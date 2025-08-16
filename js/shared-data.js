@@ -99,7 +99,7 @@ window.SharedData = {
     {
       href: '/works/robotic-research.html',
       img: '/assets/img/robotic_research.jpg',
-      hoverImg: '/assets/img/nao_robot.jpg',
+      hoverImg: '/assets/img/hexagon.gif',
       alt: 'Robotic Research',
       titleKey: 'work-robotic'
     },
