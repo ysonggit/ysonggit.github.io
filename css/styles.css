@@ -730,7 +730,7 @@ body {
     margin: 8px 0 0;
   }
   
-  /* Partners section mobile optimization */
+  /* Project Partners section mobile optimization */
   .partners-section {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -877,7 +877,7 @@ body {
     font-size: 12px;
   }
   
-  /* Partners section very small mobile optimization */
+  /* Project Partners section very small mobile optimization */
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;

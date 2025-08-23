@@ -24,7 +24,7 @@ window.SharedData = {
       'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.',
       
       // Partners section
-      'partners-title': 'Partners',
+      'partners-title': 'Project Partners',
       
       // Work section
       'work-title': 'All Work',
