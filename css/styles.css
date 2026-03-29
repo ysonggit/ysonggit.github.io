@@ -456,7 +456,7 @@ body {
 }
 .work-gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Set to 4 columns */
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 .work-item img {
