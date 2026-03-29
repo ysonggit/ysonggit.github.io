@@ -32,7 +32,7 @@ window.SharedData = {
       'work-startup': 'Startup Experience',
       'work-robotic': 'Robotics Research',
       'work-bigdata': 'Big Data!',
-      'work-ai': 'AI Solutions & Enterprise Cloud',
+      'work-ai': 'AI Solutions & Cloud',
 
       // Experience (Alibaba Cloud)
       'experience-alibaba-title': 'Senior Solutions Architect',
@@ -75,7 +75,7 @@ window.SharedData = {
       'work-startup': 'Startup-Erfahrung',
       'work-robotic': 'Robotikforschung',
       'work-bigdata': 'Big Data!',
-      'work-ai': 'KI-Lösungen & Enterprise Cloud',
+      'work-ai': 'KI-Lösungen & Cloud',
 
       // Experience (Alibaba Cloud)
       'experience-alibaba-title': 'Senior Solutions Architect',
