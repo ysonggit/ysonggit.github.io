@@ -337,6 +337,37 @@ body {
   margin: 20px 0;
 }
 
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tech-tag {
+  font-family: 'Spline Sans Mono', 'Courier New', monospace;
+  font-size: 11px;
+  padding: 4px 10px;
+  border: 1px solid #080708;
+  border-radius: 2px;
+  background: rgba(255, 236, 0, 0.15);
+  color: #080708;
+  white-space: nowrap;
+}
+
+.r171-highlight {
+  border-left: 3px solid #080708;
+  padding-left: 16px;
+  background: rgba(255, 236, 0, 0.12);
+  border-radius: 0 4px 4px 0;
+  padding: 12px 16px;
+}
+
+.r171-highlight a {
+  color: #080708;
+  font-weight: 500;
+}
+
 .content-section .image-with-caption {
   max-width: 600px;
   margin: 0;

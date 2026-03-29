@@ -32,7 +32,12 @@ window.SharedData = {
       'work-startup': 'Startup Experience',
       'work-robotic': 'Robotics Research',
       'work-bigdata': 'Big Data!',
-      
+      'work-ai': 'AI Solutions & Enterprise Cloud',
+
+      // Experience (Alibaba Cloud)
+      'experience-alibaba-title': 'Senior Solutions Architect',
+      'experience-alibaba-description': 'Designing and delivering AI and cloud solutions for automotive, IoT, and enterprise clients across Europe. Leading GenAI architecture engagements—RAG pipelines, model evaluation frameworks, and Model-as-a-Service deployments on Alibaba Cloud. Driving pre-sales cycles end-to-end: solution discovery, technical proposals, POC delivery, and partner ecosystem development. Collaborating with Alibaba Cloud\'s global AI teams to bring LLM and multi-cloud capabilities to European enterprise customers.',
+
       // Connect section
       'connect-title': "Let's Connect",
       'connect-mail-label': 'Mail:',
@@ -70,7 +75,12 @@ window.SharedData = {
       'work-startup': 'Startup-Erfahrung',
       'work-robotic': 'Robotikforschung',
       'work-bigdata': 'Big Data!',
-      
+      'work-ai': 'KI-Lösungen & Enterprise Cloud',
+
+      // Experience (Alibaba Cloud)
+      'experience-alibaba-title': 'Senior Solutions Architect',
+      'experience-alibaba-description': 'Entwurf und Lieferung von KI- und Cloud-Lösungen für Automotive-, IoT- und Enterprise-Kunden in Europa. Leitung von GenAI-Architektur-Engagements—RAG-Pipelines, Modell-Evaluierungs-Frameworks und Model-as-a-Service-Deployments auf Alibaba Cloud. Steuerung von Pre-Sales-Zyklen von Anfang bis Ende: Lösungsfindung, technische Angebote, POC-Lieferung und Entwicklung des Partner-Ökosystems.',
+
       // Connect section
       'connect-title': 'Lass Uns Verbinden',
       'connect-mail-label': 'E-Mail:',
@@ -82,6 +92,13 @@ window.SharedData = {
 
   // Work gallery items
   workGallery: [
+    {
+      href: '/works/ai-solutions.html',
+      img: '/assets/img/iaa_aws.jpg',
+      hoverImg: '/assets/img/londoneye.jpg',
+      alt: 'AI Solutions & Enterprise Cloud',
+      titleKey: 'work-ai'
+    },
     {
       href: '/works/autonomous-driving.html',
       img: '/assets/img/techAD.jpg',
@@ -115,8 +132,14 @@ window.SharedData = {
   // Experience data
   experience: [
     {
+      titleKey: 'experience-alibaba-title',
+      years: '2026 – Present',
+      company: 'Alibaba Cloud',
+      descriptionKey: 'experience-alibaba-description'
+    },
+    {
       titleKey: 'experience-lotustech-title',
-      years: '2022 – Current',
+      years: '2022 – 2026',
       company: 'Lotus Tech',
       descriptionKey: 'experience-lotustech-description'
     },
