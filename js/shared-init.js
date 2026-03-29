@@ -201,6 +201,14 @@ window.SharedInit = {
   // Initialize all shared functionality
   initializeAll: function() {
     const runInit = () => {
+      // Render experience tables dynamically from SharedData
+      if (window.SharedComponents && SharedComponents.renderExperienceSection) {
+        document.querySelectorAll('.experience-section').forEach(function(section) {
+          if (!section.querySelector('.experience-table')) {
+            section.innerHTML += SharedComponents.renderExperienceSection();
+          }
+        });
+      }
       this.initializeLanguage();
       this.initializeExperienceToggles();
       this.initializeWorkGallery();

@@ -10,14 +10,14 @@ window.SharedData = {
       
       // Info section (for index page)
       'info-title': 'Info',
-      'info-description': 'Senior Algorithm Engineer @LotusTech specializing in AWS cloud infrastructure, data closed-loop engineering, and ADAS development for autonomous driving systems. I build scalable cloud-native architectures with deep experience in AWS services, Kubernetes orchestration, and real-time V2X data processing pipelines. My expertise spans distributed systems, AI infrastructure, data engineering toolchains, compliance frameworks (data governance, GDPR), and agile project management—all crucial for scalable AI and autonomous driving applications. Passionate about bridging business needs with technical innovations, I deliver tailored cloud architecture solutions that drive efficiency and scalability. Proficient in Python, Java, C++ (ROS), and cloud DevOps practices. Led development of enterprise-grade data platforms that process millions of sensor data points daily, enabling rapid ADAS iteration cycles through data-driven workflows and automated ML pipelines.',
+      'info-description': 'Senior Solutions Architect at Alibaba Cloud (EU), specializing in GenAI and enterprise cloud solutions for European automotive and AI-native startup verticals. I help organizations design, prototype, and deploy AI applications—from LLM integration and RAG architectures to production-grade ML pipelines—while navigating complex technical, regulatory, and commercial requirements. Previously the cloud and data platform architect at Lotus Tech, where my infrastructure work directly supported the Lotus Eletre in becoming the 2nd vehicle globally to achieve UN R171.01 certification—the world\'s first harmonized regulation for Level 2 ADAS. With 10+ years spanning autonomous driving, cloud architecture, and data platforms, I bring deep technical expertise (Python, Java, C++, Kubernetes, Terraform, AWS, multi-cloud) combined with pre-sales consulting skills across enterprise OEM and technology partner engagements. Ph.D. in Computer Science. Conference speaker (TechAD Europe 2025). Y Combinator alumni.',
       
       // Experience section
       'experience-title': 'Experience',
       'experience-lotustech-title': 'Senior Algorithm Engineer',
-      'experience-lotustech-description': 'Architected and manage a cloud-native SaaS platform on AWS supporting ADAS data processing and data-closed loops for autonomous automotive systems. Oversaw compliance, data lifecycle, infrastructure reliability, and performance optimization for ADAS workloads across hybrid cloud architectures. Built Kubernetes-based data platforms that process 10M+ daily sensor data points using MSK, Lambda, S3, and Redshift, implementing automated ML workflows for ADAS model training. Drive business development initiatives with external automotive clients—gathering requirements, shaping technical proposals, and delivering POCs to win projects and expand partnerships.',
+      'experience-lotustech-description': 'Built and managed the cloud and data platform infrastructure that directly supported Lotus Tech in becoming the 2nd automaker globally to achieve UN R171.01 (DCAS) certification—the world\'s first harmonized regulation for Level 2 ADAS. Architected cloud-native SaaS platforms on AWS for the ADAS data-closed-loop: multi-modal sensor data ingestion (LiDAR, camera, radar), automated ML model training, RAG-based scenario extraction for edge case prioritization, and compliance with E-NCAP and GDPR. Led cross-cloud SaaS platform migration (Alibaba Cloud → AWS), re-architecting Kubernetes microservices, IoT telemetry pipelines, and real-time analytics. Built data platforms processing 10M+ daily sensor data points. Drove business development with OEM clients (Alpine, Momenta, Wayve). Speaker at TechAD Europe 2025; exhibitor at ADAS Expo 2025 and IAA 2023.',
       'experience-aptiv-title': 'Senior Algorithm Engineer',
-      'experience-aptiv-description': 'Led radar processing algorithms for Motional\'s Robotaxi, enhancing sensor fusion libraries with Python, C++, and in-house cloud-based toolchains. Led POC development of lane change prediction and ADAS features for BMW and Stellantis clients. Delivered error-handling APIs with ROS, ensuring ASPICE-compliant solutions.',
+      'experience-aptiv-description': 'Led radar perception for Motional\'s Robotaxi, enhancing sensor fusion with Python, C++, and cloud-based toolchains. Delivered ADAS feature POCs for BMW and Stellantis, translating customer requirements into technical solutions. Developed ASPICE-compliant error-handling APIs for safety-critical systems.',
       'experience-groupon-title': 'Software Engineer',
       'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+. Designed and implemented scalable data processing architectures using Apache Spark, Kafka, and cloud-based data warehouses for real-time analytics and customer insights.',
       'experience-auro-title': 'Robotics Engineer Intern',
@@ -36,7 +36,7 @@ window.SharedData = {
 
       // Experience (Alibaba Cloud)
       'experience-alibaba-title': 'Senior Solutions Architect',
-      'experience-alibaba-description': 'Designing and delivering AI and cloud solutions for automotive, IoT, and enterprise clients across Europe. Leading GenAI architecture engagements—RAG pipelines, model evaluation frameworks, and Model-as-a-Service deployments on Alibaba Cloud. Driving pre-sales cycles end-to-end: solution discovery, technical proposals, POC delivery, and partner ecosystem development. Collaborating with Alibaba Cloud\'s global AI teams to bring LLM and multi-cloud capabilities to European enterprise customers.',
+      'experience-alibaba-description': 'Pre-sales Solutions Architect for European automotive OEMs and AI-native startups. Lead end-to-end customer engagements—from technical discovery and architecture design through POC delivery and competitive displacement. Design GenAI solutions leveraging Qwen/WAN model families, Model Studio, and PAI, including RAG architectures, model evaluation frameworks, and Model-as-a-Service offerings. Build technical partner ecosystem through integration cookbooks, co-selling strategies, and joint go-to-market motions. Advise on hybrid and multi-cloud migration strategies for enterprise customers transitioning between hyperscalers. Represent Alibaba Cloud at Hannover Messe with partner showcases demonstrating European industrial AI ecosystem capabilities.',
 
       // Connect section
       'connect-title': "Let's Connect",
@@ -94,8 +94,8 @@ window.SharedData = {
   workGallery: [
     {
       href: '/works/ai-solutions.html',
-      img: '/assets/img/iaa_aws.jpg',
-      hoverImg: '/assets/img/londoneye.jpg',
+      img: '/assets/img/alibaba.jpg',
+      hoverImg: null,
       alt: 'AI Solutions & Enterprise Cloud',
       titleKey: 'work-ai'
     },
@@ -157,8 +157,8 @@ window.SharedData = {
     },
     {
       titleKey: 'experience-auro-title',
-      years: '2015 – 2015',
-      company: 'Auro Robotics',
+      years: '2015',
+      company: 'Auro Robotics (YC S15)',
       descriptionKey: 'experience-auro-description'
     }
   ],
