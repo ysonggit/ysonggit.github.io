@@ -31,17 +31,21 @@
 
     // ── Collect paragraphs ────────────────────────────────────────────
     var paragraphs = []
-    var h2    = introText.querySelector('h2')
-    var mainP = introText.querySelector('p[data-i18n]')
-    if (mainP && mainP.textContent.trim()) {
-      paragraphs.push({ title: h2 ? h2.textContent.trim() : '', text: mainP.textContent.trim() })
-    }
-    introText.querySelectorAll('.content-section').forEach(function (cs) {
-      var h3    = cs.querySelector('h3')
-      var parts = []
-      cs.querySelectorAll('p').forEach(function (p) { parts.push(p.textContent.trim()) })
-      var txt = parts.join(' ')
-      if (txt) paragraphs.push({ title: h3 ? h3.textContent.trim() : '', text: txt })
+    var h2 = introText.querySelector('h2')
+    var firstP = true
+    introText.querySelectorAll('p[data-i18n]').forEach(function (p) {
+      var text = p.textContent.trim()
+      if (!text) return
+      var title = ''
+      if (firstP) {
+        title  = h2 ? h2.textContent.trim() : ''
+        firstP = false
+      } else {
+        var cs = p.closest('.content-section')
+        var h3 = cs ? cs.querySelector('h3') : null
+        title  = h3 ? h3.textContent.trim() : ''
+      }
+      paragraphs.push({ title: title, text: text })
     })
     if (!paragraphs.length) return
 
