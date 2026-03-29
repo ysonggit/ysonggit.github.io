@@ -10,7 +10,7 @@ window.SharedData = {
       
       // Info section (for index page)
       'info-title': 'Info',
-      'info-description': 'Senior Solutions Architect at Alibaba Cloud (EU), specializing in GenAI and enterprise cloud solutions for European automotive and AI-native startup verticals. I help organizations design, prototype, and deploy AI applications—from LLM integration and RAG architectures to production-grade ML pipelines—while navigating complex technical, regulatory, and commercial requirements. Previously the cloud and data platform architect at Lotus Tech, where my infrastructure work directly supported the Lotus Eletre in becoming the 2nd vehicle globally to achieve UN R171.01 certification—the world\'s first harmonized regulation for Level 2 ADAS. With 10+ years spanning autonomous driving, cloud architecture, and data platforms, I bring deep technical expertise (Python, Java, C++, Kubernetes, Terraform, AWS, multi-cloud) combined with pre-sales consulting skills across enterprise OEM and technology partner engagements. Ph.D. in Computer Science. Conference speaker (TechAD Europe 2025). Y Combinator alumni.',
+      'info-description': 'Solutions Architect specializing in enterprise GenAI — helping organizations design, evaluate, and safely deploy large language models into production. I architect end-to-end LLM solutions in Python: RAG pipelines, model evaluation frameworks, and responsible AI guardrails that translate frontier model capabilities into measurable business value. Currently at Alibaba Cloud (EU), driving GenAI adoption across automotive OEMs and AI-native startups through pre-sales engineering, technical discovery, and hands-on POC delivery. Previously built the cloud and data platform at Lotus Tech that directly enabled UN R171.01 certification — the world\'s first harmonized Level 2 ADAS regulation. 10+ years spanning LLM/GenAI, autonomous systems, cloud architecture (AWS, Kubernetes, Terraform), and data engineering. Ph.D. in Computer Science. Speaker at TechAD Europe 2025. Y Combinator alumni.',
       
       // Experience section
       'experience-title': 'Experience',
@@ -31,12 +31,12 @@ window.SharedData = {
       'work-autonomous': 'Autonomous Driving',
       'work-startup': 'Startup Experience',
       'work-robotic': 'Robotics Research',
-      'work-bigdata': 'Big Data!',
+      'work-bigdata': 'Data Engineering & Platforms',
       'work-ai': 'AI Solutions & Cloud',
 
       // Experience (Alibaba Cloud)
       'experience-alibaba-title': 'Senior Solutions Architect',
-      'experience-alibaba-description': 'Pre-sales Solutions Architect for European automotive OEMs and AI-native startups. Lead end-to-end customer engagements—from technical discovery and architecture design through POC delivery and competitive displacement. Design GenAI solutions leveraging Qwen/WAN model families, Model Studio, and PAI, including RAG architectures, model evaluation frameworks, and Model-as-a-Service offerings. Build technical partner ecosystem through integration cookbooks, co-selling strategies, and joint go-to-market motions. Advise on hybrid and multi-cloud migration strategies for enterprise customers transitioning between hyperscalers. Represent Alibaba Cloud at Hannover Messe with partner showcases demonstrating European industrial AI ecosystem capabilities.',
+      'experience-alibaba-description': 'Pre-sales Solutions Architect driving GenAI adoption across European automotive OEMs and AI-native startups. Lead end-to-end customer engagements across 10+ enterprise accounts — from technical discovery and architecture design through POC delivery and competitive displacement. Design and evaluate GenAI solutions leveraging Qwen/WAN model families, Model Studio, and PAI: RAG architectures, LLM evaluation frameworks, responsible AI guardrails, and Model-as-a-Service offerings. Build technical partner ecosystem through integration cookbooks and joint go-to-market motions. Represented Alibaba Cloud at Hannover Messe 2025 with live partner AI showcases.',
 
       // Connect section
       'connect-title': "Let's Connect",
@@ -53,7 +53,7 @@ window.SharedData = {
       
       // Info section (for index page)
       'info-title': 'Info',
-      'info-description': 'Senior Algorithm Engineer @LotusTech, spezialisiert auf AWS Cloud-Infrastruktur, geschlossene Datenschleifen-Engineering und ADAS-Entwicklung für autonome Fahrsysteme. Ich baue skalierbare cloud-native Architekturen mit umfassender Erfahrung in AWS-Services, Kubernetes-Orchestrierung und Echtzeit-V2X-Datenverarbeitungspipelines. Meine Expertise umfasst verteilte Systeme, KI-Infrastruktur, Daten-Engineering-Toolchains, Compliance-Frameworks (Data Governance, GDPR) und agiles Projektmanagement—alles entscheidend für skalierbare KI- und autonome Fahranwendungen. Leidenschaftlich darin, Geschäftsanforderungen mit technischen Innovationen zu verbinden, liefere ich maßgeschneiderte Cloud-Architekturlösungen, die Effizienz und Skalierbarkeit vorantreiben. Versiert in Python, Java, C++ (ROS) und Cloud-DevOps-Praktiken. Leitete Entwicklung unternehmensweiter Datenplattformen, die täglich Millionen von Sensordatenpunkten verarbeiten und schnelle ADAS-Iterationszyklen durch datengetriebene Workflows und automatisierte ML-Pipelines ermöglichen.',
+      'info-description': 'Solutions Architect mit Spezialisierung auf Enterprise GenAI — ich helfe Organisationen dabei, Large Language Models sicher in die Produktion zu überführen. Ich entwerfe End-to-End LLM-Lösungen in Python: RAG-Pipelines, Modell-Evaluierungs-Frameworks und verantwortungsvolle KI-Leitplanken, die modernste Modell-Fähigkeiten in messbaren Geschäftswert übersetzen. Derzeit bei Alibaba Cloud (EU), wo ich GenAI-Adoption bei Automotive-OEMs und KI-nativen Startups vorantreibe. Zuvor baute ich die Cloud- und Datenplattform bei Lotus Tech auf, die die UN R171.01-Zertifizierung — die weltweit erste Level-2-ADAS-Regulierung — direkt ermöglichte. 10+ Jahre Erfahrung in LLM/GenAI, autonomen Systemen, Cloud-Architektur (AWS, Kubernetes, Terraform) und Daten-Engineering. Dr. der Informatik. Speaker auf der TechAD Europe 2025. Y Combinator Alumni.',
       
       // Experience section
       'experience-title': 'Erfahrung',
@@ -74,7 +74,7 @@ window.SharedData = {
       'work-autonomous': 'Autonomes Fahren',
       'work-startup': 'Startup-Erfahrung',
       'work-robotic': 'Robotikforschung',
-      'work-bigdata': 'Big Data!',
+      'work-bigdata': 'Data Engineering & Platforms',
       'work-ai': 'KI-Lösungen & Cloud',
 
       // Experience (Alibaba Cloud)

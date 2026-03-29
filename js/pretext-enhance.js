@@ -234,6 +234,10 @@
       hlTargetY = hlY
       lastDwell = performance.now()
 
+      // Sync canvas text with SharedData (HTML hardcoded text may be stale)
+      var currentLang = document.documentElement.lang || 'en'
+      applyLanguage(currentLang)
+
       requestAnimationFrame(loop)
 
       // ── Re-render canvas when language changes ────────────────────────
