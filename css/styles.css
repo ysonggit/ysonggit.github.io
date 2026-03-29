@@ -87,6 +87,24 @@ body {
   justify-content: space-between;
   margin-bottom: 40px;
 }
+
+/* Canvas-based pretext text rendering with reading highlight */
+.intro-section.clawd-enhanced {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.clawd-text-col {
+  width: 60%;
+}
+.clawd-canvas-wrap {
+  width: 100%;
+  position: relative;
+}
+.clawd-canvas-wrap canvas {
+  display: block;
+  width: 100%;
+}
 .intro-text {
   width: 60%;
   font-family: 'Spline Sans Mono', 'Courier New', monospace;
