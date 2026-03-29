@@ -89,6 +89,8 @@ window.SharedInit = {
       }
       // Update the html lang attribute
       document.documentElement.lang = lang;
+      // Notify canvas renderers and other listeners
+      document.dispatchEvent(new CustomEvent('languagechange', { detail: { lang: lang } }));
     }
 
     // Set default language to English

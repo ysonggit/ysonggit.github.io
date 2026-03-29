@@ -11,8 +11,6 @@
   var FONT          = FONT_SIZE + 'px "Spline Sans Mono","Courier New",monospace'
   var FONT_BOLD     = '600 ' + FONT_SIZE + 'px "Spline Sans Mono","Courier New",monospace'
   var TEXT_Y_OFF    = (LINE_HEIGHT - FONT_SIZE) / 2
-  var COLUMNS       = 1
-  var COLUMN_GAP    = 0
   var PARA_GAP      = 14
   var BG_COLOR      = '#f5f5f5'
   var TEXT_COLOR    = 'rgb(8, 8, 33)'
@@ -29,23 +27,27 @@
     var introImage = section.querySelector('.intro-image')
     if (!introText || !introImage) return
 
-    // ── Collect paragraphs ────────────────────────────────────────────
+    // ── Collect paragraphs (store i18n keys for language switching) ───
     var paragraphs = []
     var h2 = introText.querySelector('h2')
+    var h2Key = h2 ? h2.getAttribute('data-i18n') : ''
     var firstP = true
     introText.querySelectorAll('p[data-i18n]').forEach(function (p) {
       var text = p.textContent.trim()
       if (!text) return
       var title = ''
+      var titleKey = ''
       if (firstP) {
-        title  = h2 ? h2.textContent.trim() : ''
-        firstP = false
+        title    = h2 ? h2.textContent.trim() : ''
+        titleKey = h2Key || ''
+        firstP   = false
       } else {
         var cs = p.closest('.content-section')
         var h3 = cs ? cs.querySelector('h3') : null
-        title  = h3 ? h3.textContent.trim() : ''
+        title    = h3 ? h3.textContent.trim() : ''
+        titleKey = h3 ? (h3.getAttribute('data-i18n') || '') : ''
       }
-      paragraphs.push({ title: title, text: text })
+      paragraphs.push({ titleKey: titleKey, textKey: p.getAttribute('data-i18n'), title: title, text: text })
     })
     if (!paragraphs.length) return
 
@@ -75,7 +77,29 @@
     var lastDwell  = 0       // timestamp when we last advanced to a new line
     var pausing    = false   // true during end-of-text pause before loop
 
-    // ── Layout all lines (no obstacle) ───────────────────────────────
+    // ── Apply translations for a given language ───────────────────────
+    function applyLanguage(lang) {
+      var trans = window.SharedData && SharedData.translations && SharedData.translations[lang]
+      if (!trans) return
+      paragraphs.forEach(function (pg) {
+        if (pg.textKey && trans[pg.textKey])   pg.text  = trans[pg.textKey]
+        if (pg.titleKey && trans[pg.titleKey]) pg.title = trans[pg.titleKey]
+      })
+      preps = paragraphs.map(function (p) {
+        return P.prepareWithSegments(p.text, FONT)
+      })
+      laidLines = layoutLines()
+      var lastLine = laidLines[laidLines.length - 1]
+      canvasH = lastLine ? lastLine.y + LINE_HEIGHT + 24 : 240
+      // Reset animation to top
+      hlIdx     = 0
+      hlY       = laidLines.length > 0 ? laidLines[0].y : 0
+      hlTargetY = hlY
+      lastDwell = performance.now()
+      pausing   = false
+    }
+
+    // ── Layout all lines ─────────────────────────────────────────────
     function layoutLines() {
       var colW = cvW
       var y    = 0
@@ -211,6 +235,11 @@
       lastDwell = performance.now()
 
       requestAnimationFrame(loop)
+
+      // ── Re-render canvas when language changes ────────────────────────
+      document.addEventListener('languagechange', function (e) {
+        applyLanguage(e.detail.lang)
+      })
     })
   }
 

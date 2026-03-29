@@ -503,6 +503,11 @@ body {
   display: block;
   max-width: 100%;
 }
+.connect-banner img.footer-cropped {
+  aspect-ratio: 7629 / 2477;
+  object-fit: cover;
+  object-position: center;
+}
 .connect-content {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
