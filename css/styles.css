@@ -355,6 +355,20 @@ body {
   white-space: nowrap;
 }
 
+.r171-announcement {
+  border-left: 3px solid #080708;
+  background: rgba(255, 236, 0, 0.12);
+  border-radius: 0 4px 4px 0;
+  padding: 10px 16px;
+  margin-bottom: 24px;
+}
+.r171-announcement p {
+  margin: 0;
+}
+.r171-announcement a {
+  color: #080708;
+  font-weight: 500;
+}
 .r171-highlight {
   border-left: 3px solid #080708;
   padding-left: 16px;
