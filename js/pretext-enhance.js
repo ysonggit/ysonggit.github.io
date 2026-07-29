@@ -1,4 +1,4 @@
-// Canvas-based text rendering with a yellow reading-highlight that sweeps line by line.
+// Canvas-based text rendering.
 (function () {
   'use strict'
 
@@ -15,11 +15,6 @@
   var BG_COLOR      = '#f5f5f5'
   var TEXT_COLOR    = 'rgb(8, 8, 33)'
   var TITLE_COLOR   = '#080708'
-  var HL_COLOR      = 'rgba(255, 236, 0, 0.42)'   // yellow marker
-  var HL_RADIUS     = 3                             // rounded corners (px)
-  var LINE_DWELL_MS = 1400                          // time spent on each line
-  var SLIDE_SPEED   = 0.18                          // lerp factor per frame (smoothness)
-  var PAUSE_AT_END  = 1800                          // pause (ms) before looping
   // ─────────────────────────────────────────────────────────────────────
 
   function enhanceIntroSection(section) {
@@ -61,6 +56,9 @@
     introText.innerHTML = ''
     introText.classList.add('clawd-text-col')
     section.classList.add('clawd-enhanced')
+    // The hero keeps its heading as real DOM above the canvas; the language
+    // toggle updates it in place via its data-i18n key.
+    if (section.classList.contains('hero') && h2) introText.appendChild(h2)
     wrap.appendChild(cv)
     introText.appendChild(wrap)
 
@@ -69,13 +67,6 @@
     var canvasH  = 0
     var preps    = null
     var laidLines = []       // all laid-out lines: { text, x, y, pi, first }
-
-    // Highlight animation state
-    var hlIdx      = 0       // which line is currently highlighted
-    var hlY        = 0       // animated y position (canvas coords, lerps toward target)
-    var hlTargetY  = 0       // target y for smooth glide
-    var lastDwell  = 0       // timestamp when we last advanced to a new line
-    var pausing    = false   // true during end-of-text pause before loop
 
     // ── Apply translations for a given language ───────────────────────
     function applyLanguage(lang) {
@@ -91,12 +82,6 @@
       laidLines = layoutLines()
       var lastLine = laidLines[laidLines.length - 1]
       canvasH = lastLine ? lastLine.y + LINE_HEIGHT + 24 : 240
-      // Reset animation to top
-      hlIdx     = 0
-      hlY       = laidLines.length > 0 ? laidLines[0].y : 0
-      hlTargetY = hlY
-      lastDwell = performance.now()
-      pausing   = false
     }
 
     // ── Layout all lines ─────────────────────────────────────────────
@@ -121,35 +106,9 @@
     }
 
     // ── Draw one frame ────────────────────────────────────────────────
-    function draw(now) {
+    function draw() {
       var dpr = window.devicePixelRatio || 1
       var CH  = canvasH
-
-      // Advance highlight index based on dwell time
-      if (!pausing) {
-        if (now - lastDwell >= LINE_DWELL_MS) {
-          if (hlIdx < laidLines.length - 1) {
-            hlIdx++
-            hlTargetY = laidLines[hlIdx].y
-            lastDwell = now
-          } else {
-            // reached last line — pause then loop
-            pausing = true
-            lastDwell = now
-          }
-        }
-      } else {
-        if (now - lastDwell >= PAUSE_AT_END) {
-          hlIdx     = 0
-          hlY       = laidLines.length > 0 ? laidLines[0].y : 0
-          hlTargetY = hlY
-          lastDwell = now
-          pausing   = false
-        }
-      }
-
-      // Smooth glide toward target
-      hlY += (hlTargetY - hlY) * SLIDE_SPEED
 
       // Resize canvas
       cv.width        = cvW * dpr
@@ -162,17 +121,6 @@
       ctx.clearRect(0, 0, cvW, CH)
       ctx.fillStyle = BG_COLOR
       ctx.fillRect(0, 0, cvW, CH)
-
-      // Draw yellow highlight behind text
-      ctx.fillStyle = HL_COLOR
-      var hy = Math.round(hlY)
-      if (ctx.roundRect) {
-        ctx.beginPath()
-        ctx.roundRect(0, hy, cvW, LINE_HEIGHT, HL_RADIUS)
-        ctx.fill()
-      } else {
-        ctx.fillRect(0, hy, cvW, LINE_HEIGHT)
-      }
 
       // Draw text
       ctx.textBaseline = 'top'
@@ -197,12 +145,6 @@
       }
     }
 
-    // ── Animation loop ────────────────────────────────────────────────
-    function loop(now) {
-      draw(now)
-      requestAnimationFrame(loop)
-    }
-
     // ── Resize ────────────────────────────────────────────────────────
     window.addEventListener('resize', function () {
       cvW       = wrap.offsetWidth
@@ -211,10 +153,7 @@
       var lastLine = laidLines[laidLines.length - 1]
       canvasH = lastLine ? lastLine.y + LINE_HEIGHT + 24 : 240
       cv.style.height = canvasH + 'px'
-      // clamp highlight index
-      if (hlIdx >= laidLines.length) hlIdx = laidLines.length - 1
-      hlTargetY = laidLines[hlIdx] ? laidLines[hlIdx].y : 0
-      hlY = hlTargetY
+      draw()
     })
 
     // ── Init ─────────────────────────────────────────────────────────
@@ -229,20 +168,16 @@
       var lastLine = laidLines[laidLines.length - 1]
       canvasH = lastLine ? lastLine.y + LINE_HEIGHT + 24 : 240
 
-      hlIdx     = 0
-      hlY       = laidLines.length > 0 ? laidLines[0].y : 0
-      hlTargetY = hlY
-      lastDwell = performance.now()
-
       // Sync canvas text with SharedData (HTML hardcoded text may be stale)
       var currentLang = document.documentElement.lang || 'en'
       applyLanguage(currentLang)
 
-      requestAnimationFrame(loop)
+      draw()
 
       // ── Re-render canvas when language changes ────────────────────────
       document.addEventListener('languagechange', function (e) {
         applyLanguage(e.detail.lang)
+        draw()
       })
     })
   }

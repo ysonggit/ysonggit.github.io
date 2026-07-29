@@ -88,7 +88,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* Canvas-based pretext text rendering with reading highlight */
+/* Canvas-based pretext text rendering */
 .intro-section.clawd-enhanced {
   display: flex;
   justify-content: space-between;
@@ -125,6 +125,12 @@ body {
   color: #080708;
   text-transform: none;
   margin-bottom: 20px;
+}
+.intro-section.hero .intro-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 24px;
 }
 .intro-text p {
   line-height: 28px;
@@ -667,7 +673,13 @@ body {
     line-height: 28px;
     margin-bottom: 15px;
   }
-  
+
+  .intro-section.hero .intro-text h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
+
   .intro-text p {
     font-size: 11px;
     line-height: 24px;

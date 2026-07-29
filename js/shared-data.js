@@ -9,8 +9,8 @@ window.SharedData = {
       'nav-connect': 'Connect',
       
       // Info section (for index page)
-      'info-title': 'Info',
-      'info-description': 'Solutions Architect specializing in enterprise GenAI — helping organizations design, evaluate, and safely deploy large language models into production. I architect end-to-end LLM solutions in Python: RAG pipelines, model evaluation frameworks, and responsible AI guardrails that translate frontier model capabilities into measurable business value. Currently at Alibaba Cloud (EU), driving GenAI adoption across automotive OEMs and AI-native startups through pre-sales engineering, technical discovery, and hands-on POC delivery. Previously built the cloud and data platform at Lotus Tech that directly enabled UN R171.01 certification — the world\'s first harmonized Level 2 ADAS regulation. 10+ years spanning LLM/GenAI, autonomous systems, cloud architecture (AWS, Kubernetes, Terraform), and data engineering. Ph.D. in Computer Science. Speaker at TechAD Europe 2025. Y Combinator alumni.',
+      'info-title': 'Roboticist building intelligent autonomous systems.',
+      'info-description': 'I\'ve spent the last decade teaching machines to operate in the physical world — from provably correct multi-robot coordination (IROS, ICRA), to a Y Combinator self-driving shuttle, to radar perception for Motional\'s robotaxi, to the cloud data platform behind the Lotus Eletre, the second vehicle worldwide certified under UN R171.01, the first harmonized regulation for Level 2 ADAS. Today I work on the layer embodied intelligence is missing: the data, simulation, and AI infrastructure that let robots learn from the real world. Ph.D. in Computer Science (multi-robot systems). Speaker at TechAD Europe 2025. Y Combinator alumni.',
       
       // Experience section
       'experience-title': 'Experience',
@@ -52,8 +52,8 @@ window.SharedData = {
       'nav-connect': 'Kontakt',
       
       // Info section (for index page)
-      'info-title': 'Info',
-      'info-description': 'Solutions Architect mit Spezialisierung auf Enterprise GenAI — ich helfe Organisationen dabei, Large Language Models sicher in die Produktion zu überführen. Ich entwerfe End-to-End LLM-Lösungen in Python: RAG-Pipelines, Modell-Evaluierungs-Frameworks und verantwortungsvolle KI-Leitplanken, die modernste Modell-Fähigkeiten in messbaren Geschäftswert übersetzen. Derzeit bei Alibaba Cloud (EU), wo ich GenAI-Adoption bei Automotive-OEMs und KI-nativen Startups vorantreibe. Zuvor baute ich die Cloud- und Datenplattform bei Lotus Tech auf, die die UN R171.01-Zertifizierung — die weltweit erste Level-2-ADAS-Regulierung — direkt ermöglichte. 10+ Jahre Erfahrung in LLM/GenAI, autonomen Systemen, Cloud-Architektur (AWS, Kubernetes, Terraform) und Daten-Engineering. Dr. der Informatik. Speaker auf der TechAD Europe 2025. Y Combinator Alumni.',
+      'info-title': 'Robotiker — ich baue intelligente autonome Systeme.',
+      'info-description': 'Seit über einem Jahrzehnt bringe ich Maschinen bei, sich in der physischen Welt zurechtzufinden — von beweisbar korrekter Multi-Roboter-Koordination (IROS, ICRA) über ein selbstfahrendes Y-Combinator-Shuttle und Radar-Perzeption für Motionals Robotaxi bis zur Cloud-Datenplattform hinter dem Lotus Eletre, dem weltweit zweiten Fahrzeug mit UN-R171.01-Zertifizierung — der ersten harmonisierten Regulierung für Level-2-ADAS. Heute arbeite ich an der Schicht, die verkörperter Intelligenz noch fehlt: der Daten-, Simulations- und KI-Infrastruktur, mit der Roboter aus der realen Welt lernen. Dr. der Informatik (Multi-Roboter-Systeme). Speaker auf der TechAD Europe 2025. Y Combinator Alumni.',
       
       // Experience section
       'experience-title': 'Erfahrung',
@@ -93,18 +93,11 @@ window.SharedData = {
   // Work gallery items
   workGallery: [
     {
-      href: '/works/ai-solutions.html',
-      img: '/assets/img/alibaba.jpg',
-      hoverImg: null,
-      alt: 'AI Solutions & Enterprise Cloud',
-      titleKey: 'work-ai'
-    },
-    {
-      href: '/works/autonomous-driving.html',
-      img: '/assets/img/techAD.jpg',
-      hoverImg: '/assets/img/iaa_aws.jpg',
-      alt: 'Autonomous Driving',
-      titleKey: 'work-autonomous'
+      href: '/works/robotic-research.html',
+      img: '/assets/img/robotic_research.jpg',
+      hoverImg: '/assets/img/hexagon.gif',
+      alt: 'Robotics Research',
+      titleKey: 'work-robotic'
     },
     {
       href: '/works/startup-experience.html',
@@ -114,11 +107,11 @@ window.SharedData = {
       titleKey: 'work-startup'
     },
     {
-      href: '/works/robotic-research.html',
-      img: '/assets/img/robotic_research.jpg',
-      hoverImg: '/assets/img/hexagon.gif',
-      alt: 'Robotics Research',
-      titleKey: 'work-robotic'
+      href: '/works/autonomous-driving.html',
+      img: '/assets/img/techAD.jpg',
+      hoverImg: '/assets/img/iaa_aws.jpg',
+      alt: 'Autonomous Driving',
+      titleKey: 'work-autonomous'
     },
     {
       href: '/works/big-data.html',
@@ -126,6 +119,13 @@ window.SharedData = {
       hoverImg: null,
       alt: 'Big Data!',
       titleKey: 'work-bigdata'
+    },
+    {
+      href: '/works/ai-solutions.html',
+      img: '/assets/img/alibaba.jpg',
+      hoverImg: null,
+      alt: 'AI Solutions & Enterprise Cloud',
+      titleKey: 'work-ai'
     }
   ],
 
