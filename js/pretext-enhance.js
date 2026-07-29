@@ -56,9 +56,6 @@
     introText.innerHTML = ''
     introText.classList.add('clawd-text-col')
     section.classList.add('clawd-enhanced')
-    // The hero keeps its heading as real DOM above the canvas; the language
-    // toggle updates it in place via its data-i18n key.
-    if (section.classList.contains('hero') && h2) introText.appendChild(h2)
     wrap.appendChild(cv)
     introText.appendChild(wrap)
 

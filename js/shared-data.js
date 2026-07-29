@@ -9,7 +9,7 @@ window.SharedData = {
       'nav-connect': 'Connect',
       
       // Info section (for index page)
-      'info-title': 'Roboticist building intelligent autonomous systems.',
+      'info-title': 'Info',
       'info-description': 'I\'ve spent the last decade teaching machines to operate in the physical world — from provably correct multi-robot coordination (IROS, ICRA), to a Y Combinator self-driving shuttle, to radar perception for Motional\'s robotaxi, to the cloud data platform behind the Lotus Eletre, the second vehicle worldwide certified under UN R171.01, the first harmonized regulation for Level 2 ADAS. Today I work on the layer embodied intelligence is missing: the data, simulation, and AI infrastructure that let robots learn from the real world. Ph.D. in Computer Science (multi-robot systems). Speaker at TechAD Europe 2025. Y Combinator alumni.',
       
       // Experience section
@@ -52,7 +52,7 @@ window.SharedData = {
       'nav-connect': 'Kontakt',
       
       // Info section (for index page)
-      'info-title': 'Robotiker — ich baue intelligente autonome Systeme.',
+      'info-title': 'Info',
       'info-description': 'Seit über einem Jahrzehnt bringe ich Maschinen bei, sich in der physischen Welt zurechtzufinden — von beweisbar korrekter Multi-Roboter-Koordination (IROS, ICRA) über ein selbstfahrendes Y-Combinator-Shuttle und Radar-Perzeption für Motionals Robotaxi bis zur Cloud-Datenplattform hinter dem Lotus Eletre, dem weltweit zweiten Fahrzeug mit UN-R171.01-Zertifizierung — der ersten harmonisierten Regulierung für Level-2-ADAS. Heute arbeite ich an der Schicht, die verkörperter Intelligenz noch fehlt: der Daten-, Simulations- und KI-Infrastruktur, mit der Roboter aus der realen Welt lernen. Dr. der Informatik (Multi-Roboter-Systeme). Speaker auf der TechAD Europe 2025. Y Combinator Alumni.',
       
       // Experience section
