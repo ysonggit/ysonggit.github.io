@@ -133,25 +133,25 @@ window.SharedData = {
   experience: [
     {
       titleKey: 'experience-alibaba-title',
-      years: '2026 – Present',
+      years: '2026 Feb – 2026 Jul',
       company: 'Alibaba Cloud',
       descriptionKey: 'experience-alibaba-description'
     },
     {
       titleKey: 'experience-lotustech-title',
-      years: '2022 – 2026',
+      years: '2022 Apr – 2026 Jan',
       company: 'Lotus Tech',
       descriptionKey: 'experience-lotustech-description'
     },
     {
       titleKey: 'experience-aptiv-title',
-      years: '2019 – 2022',
+      years: '2019 Aug – 2022 Mar',
       company: 'Aptiv',
       descriptionKey: 'experience-aptiv-description'
     },
     {
       titleKey: 'experience-groupon-title',
-      years: '2016 – 2019',
+      years: '2016 Feb – 2019 May',
       company: 'Groupon',
       descriptionKey: 'experience-groupon-description'
     },
