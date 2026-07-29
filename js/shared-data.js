@@ -20,7 +20,7 @@ window.SharedData = {
       'experience-aptiv-description': 'Led radar perception for Motional\'s Robotaxi, enhancing sensor fusion with Python, C++, and cloud-based toolchains. Delivered ADAS feature POCs for BMW and Stellantis, translating customer requirements into technical solutions. Developed ASPICE-compliant error-handling APIs for safety-critical systems.',
       'experience-groupon-title': 'Software Engineer',
       'experience-groupon-description': 'Built REST APIs in Java and Scala, enabling 6M+ daily customer notifications and GDPR compliance for EMEA. Migrated Hive to Spark, boosting performance 10x and cutting data pipeline runtime by 50%+. Designed and implemented scalable data processing architectures using Apache Spark, Kafka, and cloud-based data warehouses for real-time analytics and customer insights.',
-      'experience-auro-title': 'Robotics Engineer Intern',
+      'experience-auro-title': 'Robotics Engineer',
       'experience-auro-description': 'Engineered a self-driving shuttle at Auro Robotics, implementing ROS-based path planners with GPS and LiDAR. Developed cloud-based simulation and testing infrastructure for autonomous navigation algorithms. Optimized navigation through simulations, earning YC Demo Day spotlight and $2.1M investment. Built scalable data collection and processing pipelines for sensor fusion and path planning optimization.',
       
       // Partners section
@@ -63,7 +63,7 @@ window.SharedData = {
       'experience-aptiv-description': 'Leitete Radarverarbeitungsalgorithmen für Motional\'s Robotaxi, Verbesserung von Sensorfusions-Bibliotheken mit Python, C++ und internen cloud-basierten Toolchains. Leitete POC-Entwicklung von Spurwechselvorhersage und ADAS-Features für BMW- und Stellantis-Kunden. Bereitstellung von Fehlerbehandlungs-APIs mit ROS, die ASPICE-konforme Lösungen gewährleisten.',
       'experience-groupon-title': 'Software Engineer',
       'experience-groupon-description': 'Entwicklung von REST-APIs in Java und Scala, die 6M+ tägliche Kundenbenachrichtigungen und GDPR-Konformität für EMEA ermöglichten. Migration von Hive zu Spark, was die Leistung um das 10-fache steigerte und die Laufzeit der Datenpipeline um über 50% reduzierte.',
-      'experience-auro-title': 'Robotics Engineer Intern',
+      'experience-auro-title': 'Robotics Engineer',
       'experience-auro-description': 'Entwicklung eines selbstfahrenden Shuttles bei Auro Robotics, Implementierung von ROS-basierten Pfadplanern mit GPS und LiDAR. Optimierung der Navigation durch Simulationen, was Anerkennung am YC Demo Day und eine Investition von $2,1M einbrachte.',
       
       // Partners section
